@@ -13,16 +13,16 @@ RK3588 Mainline Kernel support
 
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         |
+| PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         | https://lore.kernel.org/all/20230109172723.60304-1-sebastian.reichel@collabora.com/
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
-| cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            |         |
+| cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     | EVB1 supported in sre's branch
 | PCIe                     | [T39901](https://phabricator.collabora.com/T39901) |          |            |            |         | https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    |            | 6.3-rc1 |
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | USB 3                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | USB-C                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 |
-| SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | ready    | ready      |            |         | waiting for rk806 mainline support
+| SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | ready    | ready      |            |         | Rock 5A supported in sre's branch, waiting for rk806 upstream support
 | SDIO                     |                                                    |          |            |            |         |
 | SATA                     |                                                    |          |            |            |         |
 | Display Controller       |                                                    |          |            |            |         |
@@ -46,10 +46,13 @@ RK3588 Mainline Kernel support
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | ADC                      |                                                    |          |            |            |         |
-| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     |
+| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | EVB1 supported in sre's branch
 | Watchdog                 |                                                    |          | n/a        | n/a        | n/a     |
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         |
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - CSI Camera support    |                                                    |          |            |            |         |
 |  - HDMI Input            |                                                    |          |            |            |         |
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) |          |            |            |         |
+
+Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
+ * https://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-misc.git/log/?h=rk3588
