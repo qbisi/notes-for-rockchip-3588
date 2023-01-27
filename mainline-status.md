@@ -29,6 +29,7 @@ RK3588 Mainline Kernel support
 | - HDMI Output            | [T36469](https://phabricator.collabora.com/T36469) |          |            |            |         |
 | - HDMI Audio             |                                                    |          |            |            |         |
 | - DSI Output support     |                                                    |          |            |            |         |
+| - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
 | M2 E                     |                                                    |          |            |            |         |
 | M2 M                     |                                                    |          |            |            |         |
 | Headphone Jack Playback  |                                                    |          |            |            |         |
