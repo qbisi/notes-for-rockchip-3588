@@ -13,7 +13,7 @@ RK3588 Mainline Kernel support
 
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         | https://lore.kernel.org/all/20230109172723.60304-1-sebastian.reichel@collabora.com/
+| PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         | https://lore.kernel.org/all/20230127181244.160887-1-sebastian.reichel@collabora.com/
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     | EVB1 supported in sre's branch
 | PCIe                     | [T39901](https://phabricator.collabora.com/T39901) |          |            |            |         | https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/
