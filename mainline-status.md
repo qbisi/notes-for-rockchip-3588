@@ -26,7 +26,7 @@ RK3588 Mainline Kernel support
 | USB 3                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         | https://github.com/neggles/linux-quartz64/issues/1
 | USB-C                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 |
-| SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | ready    | ready      |            |         | Rock 5A supported in sre's branch, waiting for rk806 upstream support
+| SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | pending  | ready      | ready      |         | [SoC support](https://lore.kernel.org/all/20230213152740.359055-1-lucas.tanure@collabora.com/), Rock Pi 5A/B support is working in local integration branch, but depends on mainline rk806 support
 | SDIO                     |                                                    |          |            |            |         |
 | SATA                     |                                                    |          |            |            |         |
 | Display Controller       |                                                    |          |            |            |         |
