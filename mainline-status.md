@@ -1,17 +1,3 @@
-RK3588 Mainline U-Boot support
-==============================
-
-There are currently two patchsets adding rk3588 support. One is from Rockchip
-and is based on their downstream kernel headers and one is from Jagan Teki
-and based on the mainline headers:
-
- * [Rockchip](https://lists.denx.de/pipermail/u-boot/2023-January/506051.html)
- * [Jagan Teki](https://lists.denx.de/pipermail/u-boot/2023-January/506156.html)
-
-A patch adding the ROCK 5B in a minimal configuration by @ehristev was sent upstream:
-
- * [Board patch][https://lists.denx.de/pipermail/u-boot/2023-February/508039.html]
-
 RK3588 Mainline Kernel support
 ==============================
 
