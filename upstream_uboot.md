@@ -7,20 +7,6 @@ patches that Collabora has sent upstream. \
 The tree is available [here](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/u-boot) \
 Branches in this tree are described in the table below.
 
-In mainline, there are currently two patchsets adding rk3588 support. \
-One is from Rockchip and is based on their downstream kernel headers and one \
-is from Jagan Teki and based on the mainline headers:
-
- * [Rockchip](https://lists.denx.de/pipermail/u-boot/2023-January/506051.html)
- * [Jagan Teki RFC](https://lists.denx.de/pipermail/u-boot/2023-January/506156.html)
- * [Jagan Teki v1](https://lists.denx.de/pipermail/u-boot/2023-January/506784.html)
-
-The current patchset adding the ROCK 5B in a minimal configuration by @ehristev was sent upstream:
-
- * [RFC, *superseded*](https://lists.denx.de/pipermail/u-boot/2023-February/508039.html)
- * [PATCH v1](https://lists.denx.de/pipermail/u-boot/2023-February/509313.html)
-
-
 Current branches
 ==============================
 | Branch Name              | Status                                                                                     | What works ?                                     |
@@ -32,17 +18,20 @@ Current branches
 
 Current upstream status
 ==============================
-|                          | Phabricator                                    | Branch                | Status                |
-| ------------------------ | ---------------------------------------------- | --------------------- | --------------------- |
-| Getting the board upstream   | [T40365](https://phabricator.collabora.com/T40365) | 2023.04-rc2-rock5b | Initial patch for the board [sent](https://lists.denx.de/pipermail/u-boot/2023-February/508039.html) |
-| Booting from SD-Card     |                                                | 2023.04-rc2-rock5b | Workaround for faulty memory ranges in tree. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff. SD-Card not working in SPL without workaround from Jonas Karlman. Workaround cherry-picked in tree. |
-| USB host                 |  [TT40661](https://phabricator.collabora.com/T40661) | 2023.04-rc2-rock5b | INNO PHY is out of date, does not support rk3588, have to forward port from radxa uboot |
-| USB Ethernet Dongle      |                                                | | Not attempted as USB Host fails |
-| eMMC                     |                                                | | Not attempted at the moment, different IP from SD-Card |
-| Builtin network          |                                                | | Not attempted at the moment |
-| U-boot SPL               |                                                | 2023.04-rc2-rock5b | SPL works, it can load U-boot proper from the SD-Card, with workaround from Jonas Karlman on the SD clock. |
-
-
+|                          | Phabricator                                        | Branch                | Status                |
+| ------------------------ | -------------------------------------------------- | --------------------- | --------------------- |
+| Initial SoC support      | n/a                                                | 2023.04-rc2-rock5b    | [PATCHv1 from Jagan Teki](https://lists.denx.de/pipermail/u-boot/2023-January/506784.html) |
+| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.04-rc2-rock5b    | [PATCHv1 from @ehristev](https://lists.denx.de/pipermail/u-boot/2023-February/509313.html) |
+| Booting from SD-Card     |                                                    | 2023.04-rc2-rock5b    | Workaround for faulty memory ranges in tree. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff. SD-Card not working in SPL without workaround from Jonas Karlman. Workaround cherry-picked in tree. |
+| Booting from eMMC        |                                                    |                       | Not attempted at the moment, different IP from SD-Card |
+| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.04-rc2-rock5b    | INNO PHY is out of date, does not support rk3588, have to forward port from radxa uboot |
+| USB Ethernet Dongle      |                                                    |                       | Not attempted as USB Host fails |
+| SPI                      |                                                    |                       | Not attempted at the moment, required for PMIC |
+| PMIC                     |                                                    |                       | Not attempted at the moment |
+| USB PD Controller        |                                                    |                       | Not attempted at the moment |
+| PCIe v2 Host Controller  |                                                    |                       | Not attempted at the moment, required for built-in network |
+| Builtin network          |                                                    |                       | Not attempted at the moment |
+| U-boot SPL               |                                                    | 2023.04-rc2-rock5b    | SPL works, it can load U-boot proper from the SD-Card, with workaround from Jonas Karlman on the SD clock. |
 
 How to build U-boot for rock-5b in 2023.04-rc2-rock5b
 ==============================
