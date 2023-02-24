@@ -14,6 +14,7 @@ Current branches
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
 | 2023.04-rc1-rock5b       | *Obsoleted* branch based on 2023.04-rc1                                                    | Dropping to U-boot prompt.                       |
 | 2023.04-rc2-rock5b       | Working branch based on 2023.04-rc2                                                        | Dropping to U-boot prompt. SD-Card, Kernel boot from SD-Card                       |
+| eugen/wip                | WIP branch based on 2023.04-rc2-rock5b                                                     | Additional to `2023.04-rc2-rock5b`, it has working USB host, not cleaned up, WIP |
 
 
 Current upstream status
@@ -24,8 +25,8 @@ Current upstream status
 | Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.04-rc2-rock5b    | [PATCHv1 from @ehristev](https://lists.denx.de/pipermail/u-boot/2023-February/509313.html) |
 | Booting from SD-Card     |                                                    | 2023.04-rc2-rock5b    | Workaround for faulty memory ranges in tree. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff. SD-Card not working in SPL without workaround from Jonas Karlman. Workaround cherry-picked in tree. |
 | Booting from eMMC        |                                                    |                       | Not attempted at the moment, different IP from SD-Card |
-| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.04-rc2-rock5b    | INNO PHY is out of date, does not support rk3588, have to forward port from radxa uboot |
-| USB Ethernet Dongle      |                                                    |                       | Not attempted as USB Host fails |
+| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | eugen/wip             | INNO PHY is out of date, does not support rk3588, taken as-is from radxa uboot, still has to be forward ported. Pinctrl + GPIO drivers are out of date, have to be reworked for upstream. USB host works in a WIP state in this branch, can be tested. |
+| USB Ethernet Dongle      |                                                    | eugen/wip             | Works in a WIP state |
 | SPI                      |                                                    |                       | Not attempted at the moment, required for PMIC |
 | PMIC                     |                                                    |                       | Not attempted at the moment |
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
