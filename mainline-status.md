@@ -30,6 +30,7 @@ RK3588 Mainline Kernel support
 | GPIO                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  |            |            |         |
 | Pinmux                   | [T34481](https://phabricator.collabora.com/T34481) | 5.19-rc1 | n/a        | n/a        | n/a     |
 | Interrupts               | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  | n/a        | n/a        | n/a     |
+| GICv3 ITS support        | [T40845](https://phabricator.collabora.com/T40845) |          | n/a        | n/a        | n/a     | required for PCIe, needs support from Rockchip, see [discussion from this thread](https://yhbt.net/lore/all/874kg0q6lc.wl-maz@kernel.org/)
 | PWM                      | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  |            |            |         |
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  |            |            |         |
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  |            |            |         |
