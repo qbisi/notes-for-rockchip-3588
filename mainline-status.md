@@ -40,7 +40,7 @@ RK3588 Mainline Kernel support
 | ADC                      |                                                    |          |            |            |         |
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | EVB1 supported in sre's branch
 | Watchdog                 |                                                    |          | n/a        | n/a        | n/a     |
-| GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         |
+| GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - CSI Camera support    |                                                    |          |            |            |         |
 |  - HDMI Input            |                                                    |          |            |            |         |
