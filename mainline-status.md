@@ -47,4 +47,4 @@ RK3588 Mainline Kernel support
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) |          |            |            |         |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
- * https://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-misc.git/log/?h=rk3588
+ * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
