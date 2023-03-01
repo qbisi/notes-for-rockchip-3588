@@ -12,4 +12,5 @@ This is a small summary regarding the Rockchip rk3588 SoC and the associated boa
 
  * [Basic Radxa Rock-5B information](/rock5b-rk3588.md)
  * [Flashing the SPI flash memory on Rock-5B board](/flash_bootloader_spi.md)
+ * [Build and Flash Debian](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/debian-image-recipes)
  * [Automating Rock 5B maskrom boot mode](rock5b-maskrom-automation.md)
