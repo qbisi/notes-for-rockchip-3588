@@ -12,9 +12,7 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.04-rc1-rock5b       | *Obsoleted* branch based on 2023.04-rc1                                                    | Dropping to U-boot prompt.                       |
-| 2023.04-rc2-rock5b       | *Obsoleted* branch based on 2023.04-rc2                                                    | Dropping to U-boot prompt. SD-Card, Kernel boot from SD-Card                       |
-| 2023.04-rc3-rock5b       | WIP branch based on 2023.04-rc3                                                            | Dropping to U-boot prompt. SD-Card, Kernel boot from SD-Card, USB Host 2.0 (storage + Ethernet dongle) |
+| 2023.04-rc3-rock5b       | Working branch based on 2023.04-rc3                                                        | Dropping to U-boot prompt. SD-Card, Kernel boot from SD-Card, USB Host 2.0 (storage + Ethernet dongle) |
 
 
 Current upstream status
