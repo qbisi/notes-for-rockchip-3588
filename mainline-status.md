@@ -4,14 +4,16 @@ RK3588 Mainline Kernel support
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         | [PATCHv7](https://lore.kernel.org/all/20230307153617.643260-1-sebastian.reichel@collabora.com/)
+| I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a/     |            |            | n/a     |
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     | EVB1 supported in sre's branch
-| PCIe                     | [T39901](https://phabricator.collabora.com/T39901) |          |            |            |         | https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/ , https://lore.kernel.org/all/cover.1675498628.git.wqu@suse.com/
-| Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    |            | 6.3-rc1 |
+| PCIe3                    |                                                    |          |            |            |         | [driver PATCHv5](https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/) , [Rock5b RFCv1](https://lore.kernel.org/all/cover.1675498628.git.wqu@suse.com/)
+| PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230314135555.44162-1-lucas.tanure@collabora.com/)
+| Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | USB 3                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         | https://github.com/neggles/linux-quartz64/issues/1
 | USB-C                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
-| eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 |
+| eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | ready      | ready      |         | [SoC support](https://lore.kernel.org/all/20230213152740.359055-1-lucas.tanure@collabora.com/), Rock Pi 5A/B support is working in local integration branch, but depends on mainline rk806 support
 | SDIO                     |                                                    |          |            |            |         |
 | SATA                     |                                                    |          |            |            |         |
@@ -25,8 +27,8 @@ RK3588 Mainline Kernel support
 | Headphone Jack Playback  |                                                    |          |            |            |         |
 | Headphone Jack Record    |                                                    |          |            |            |         |
 | Real Time Clock (RTC)    |                                                    | n/a      |            |            | 6.3-rc1 |
-| HW crypto engine         |                                                    |          |            |            |         | https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/
-| UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 |
+| HW crypto engine         |                                                    |          |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/)
+| UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | GPIO                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  |            |            |         |
 | Pinmux                   | [T34481](https://phabricator.collabora.com/T34481) | 5.19-rc1 | n/a        | n/a        | n/a     |
 | Interrupts               | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  | n/a        | n/a        | n/a     |
@@ -39,7 +41,7 @@ RK3588 Mainline Kernel support
 | SPDIF                    |                                                    |          |            |            |         |
 | ADC                      |                                                    |          |            |            |         |
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | EVB1 supported in sre's branch, [PATCHv3](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/)
-| Watchdog                 |                                                    |          | n/a        | n/a        | n/a     |
+| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) |          | n/a        | n/a        | n/a     |
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - CSI Camera support    |                                                    |          |            |            |         |
