@@ -93,4 +93,61 @@ This is the U-boot proper with the ATF images, it must be written to the media \
 like this:
  > dd if=u-boot.itb of=/dev/mmcblk0 seek=16384
 
+How to create a blob containing DDR init and SPL for rockusb
+==============================
 
+## Prerequisites
+
+You will have to clone or download the rkbin Rockchip binary blob repository from [here](https://github.com/radxa/rkbin.git) \
+Assume you have a top dir and then \
+-. \
+├── rkbin \
+├── u-boot
+
+You will also need to install the rockusbrs crate from [here](https://github.com/collabora/rockchiprs)
+
+## Purpose
+
+Using the rockchip boot merger, we can create one bin file which will contain \
+two binaries: the DDR init blob, and our built SPL. \
+Then we can use rockusb protocol to load this binary to the target, \
+by first booting in Maskrom mode. \
+This way, via USB, we can load a bootloader without depending on any media. \
+The SPL will try to boot from any supported media after it's loaded.
+
+**Notice** : boot merger from rockchip is different. It will not work. \
+You require the boot merger from radxa repository.
+
+## Booting in maskrom
+Please refer to instructions [here](rock5b-maskrom-automation.md)
+
+## Create the binary
+
+ > ../rkbin/tools/boot_merger rock5b-rk3588.ini
+
+you should get this output:
+
+```
+********boot_merger ver 1.2********`
+Info:Pack loader ok.
+```
+
+and the obtained binary file is named `rock5b-rk3588.bin`
+
+## Load the binary
+
+ > rockusb download-boot rock5b-rk3588.bin
+
+you should get this output:
+
+```
+0 Name: UsbHead
+Done!... waiting 1ms
+1 Name: rk3588_ddr_lp4_2112M
+Done!... waiting 1ms
+0 Name: u-boot-spl
+Done!... waiting 0ms
+```
+
+There is no need to perform any additional steps, the software should run \
+immediately after it's loaded.
