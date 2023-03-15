@@ -24,8 +24,8 @@ RK3588 Mainline Kernel support
 | - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
 | M2 E                     |                                                    |          |            |            |         |
 | M2 M                     |                                                    |          |            |            |         |
-| Headphone Jack Playback  |                                                    |          |            |            |         |
-| Headphone Jack Record    |                                                    |          |            |            |         |
+| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
+| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
 | Real Time Clock (RTC)    |                                                    | n/a      |            |            | 6.3-rc1 |
 | HW crypto engine         |                                                    |          |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/)
 | UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
@@ -36,7 +36,7 @@ RK3588 Mainline Kernel support
 | PWM                      | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  |            |            |         |
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  |            |            |         |
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  |            |            |         |
-| I2S                      |                                                    | 6.2-rc1  |            |            |         | https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/
+| I2S                      |                                                    | 6.2-rc1  |            |            |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | ADC                      |                                                    |          |            |            |         |
