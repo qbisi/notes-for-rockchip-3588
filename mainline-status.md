@@ -15,19 +15,21 @@ RK3588 Mainline Kernel support
 | USB-C                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | ready      | ready      |         | [SoC support](https://lore.kernel.org/all/20230213152740.359055-1-lucas.tanure@collabora.com/), Rock Pi 5A/B support is working in local integration branch, but depends on mainline rk806 support
-| SDIO                     |                                                    |          |            |            |         |
-| SATA                     |                                                    |          |            |            |         |
+| SDIO                     | [T41465](https://phabricator.collabora.com/T41465) |          |            |            | n/a     |
+| SATA                     | [T41470](https://phabricator.collabora.com/T41470) |          | n/a        | n/a        |         |
+| Timer                    | [T41468](https://phabricator.collabora.com/T41468) |          |            |            |         |
 | Display Controller       |                                                    |          |            |            |         |
-| - HDMI Output            | [T36469](https://phabricator.collabora.com/T36469) |          |            |            |         |
-| - HDMI Audio             |                                                    |          |            |            |         |
-| - DSI Output support     |                                                    |          |            |            |         |
+| - HDMI                   | [T36469](https://phabricator.collabora.com/T36469) |          |            |            |         |
+|   - HDMI Audio           |                                                    |          |            |            |         |
+| - DSI                    |                                                    |          |            |            |         |
 | - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
-| M2 E                     |                                                    |          |            |            |         |
-| M2 M                     |                                                    |          |            |            |         |
+| M2 E                     |                                                    | n/a      |            |            | n/a     | requires SDIO, PCIe2, I2S, UART, I2C, USB3
+| M2 M                     |                                                    | n/a      | n/a        |            | n/a     | requires PCIe3
 | Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
 | Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
-| Real Time Clock (RTC)    |                                                    | n/a      |            |            | 6.3-rc1 |
+| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      |            |            | 6.3-rc1 |
 | HW crypto engine         |                                                    |          |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/)
+| Random Number Generator  |                                                    |          |            |            |         |
 | UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | GPIO                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  |            |            |         |
 | Pinmux                   | [T34481](https://phabricator.collabora.com/T34481) | 5.19-rc1 | n/a        | n/a        | n/a     |
@@ -39,12 +41,15 @@ RK3588 Mainline Kernel support
 | I2S                      |                                                    | 6.2-rc1  |            |            |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
-| ADC                      |                                                    |          |            |            |         |
-| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | EVB1 supported in sre's branch, [PATCHv3](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/)
+| SFC (Flash Controller)   |                                                    |          |            |            |         |
+| ADC                      | [T41456](https://phabricator.collabora.com/T41456) |          |            |            |         |
+| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/)
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) |          | n/a        | n/a        | n/a     |
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
-|  - CSI Camera support    |                                                    |          |            |            |         |
+|  - ISP                   |                                                    |          |            |            |         |
+|  - RKVDEC                |                                                    |          |            |            |         |
+|  - MIPI CSI              |                                                    |          |            |            |         |
 |  - HDMI Input            |                                                    |          |            |            |         |
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) |          |            |            |         |
 
