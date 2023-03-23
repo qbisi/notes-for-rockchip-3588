@@ -38,7 +38,7 @@ RK3588 Mainline Kernel support
 | PWM                      | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  |            |            |         |
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  |            |            |         |
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  |            |            |         |
-| I2S                      |                                                    | 6.2-rc1  |            |            |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
+| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  |            | sent       |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230321215624.78383-1-cristian.ciocaltea@collabora.com/)
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
