@@ -44,7 +44,7 @@ RK3588 Mainline Kernel support
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | ADC                      | [T41456](https://phabricator.collabora.com/T41456) |          |            |            |         |
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/)
-| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) |          | n/a        | n/a        | n/a     |
+| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) |          | n/a        | 6.3-rc5    | n/a     | [DONE](https://lore.kernel.org/lkml/20230328210048.195124-1-shreeya.patel@collabora.com/T/)
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - ISP                   |                                                    |          |            |            |         |
