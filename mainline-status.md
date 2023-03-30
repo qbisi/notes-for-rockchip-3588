@@ -10,9 +10,10 @@ RK3588 Mainline Kernel support
 | PCIe3                    |                                                    |          |            |            |         | [driver PATCHv5](https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/) , [Rock5b RFCv1](https://lore.kernel.org/all/cover.1675498628.git.wqu@suse.com/)
 | PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230314135555.44162-1-lucas.tanure@collabora.com/)
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
-| USB 2                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
-| USB 3                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         | https://github.com/neggles/linux-quartz64/issues/1
-| USB-C                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         |
+| USB 2                    | [T39908](https://phabricator.collabora.com/T39908) |          |            |            |         | 
+| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) |          |            |            |         | https://github.com/neggles/linux-quartz64/issues/1
+| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) |          |            |            |         |
+| USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      |            |            |         |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | ready      | ready      |         | [SoC support](https://lore.kernel.org/all/20230213152740.359055-1-lucas.tanure@collabora.com/), Rock Pi 5A/B support is working in local integration branch, but depends on mainline rk806 support
 | SDIO                     | [T41465](https://phabricator.collabora.com/T41465) |          |            |            | n/a     |
