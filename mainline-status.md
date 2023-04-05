@@ -7,7 +7,7 @@ RK3588 Mainline Kernel support
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | sent     |            | ready      | ready   | PHY for USB2 (also used by USB3) [PATCHv2](https://lore.kernel.org/all/20230403202307.120562-1-sebastian.reichel@collabora.com/)
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) |          |            |            |         | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      |            |            |         | [PATCHv7](https://lore.kernel.org/all/20230307153617.643260-1-sebastian.reichel@collabora.com/)
-| I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a/     |            |            | n/a     |
+| I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a/     |            | ready      | n/a     | [driver patch](https://lore.kernel.org/all/20230405194721.821536-1-cristian.ciocaltea@collabora.com/)
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     | EVB1 supported in sre's branch
 | PCIe3                    |                                                    |          |            |            |         | [driver PATCHv5](https://lore.kernel.org/all/5bec43fe-ff81-bc68-7b62-9e605b7e1f42@omnom.net/) , [Rock5b RFCv1](https://lore.kernel.org/all/cover.1675498628.git.wqu@suse.com/)
@@ -29,9 +29,9 @@ RK3588 Mainline Kernel support
 | - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
 | M2 E                     |                                                    | n/a      |            |            | n/a     | requires SDIO, PCIe2, I2S, UART, I2C, USB3
 | M2 M                     |                                                    | n/a      | n/a        |            | n/a     | requires PCIe3
-| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
-| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | sent       |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
-| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      |            |            | 6.3-rc1 |
+| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | 6.4-rc1    |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
+| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | 6.4-rc1    |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
+| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      |            | 6.4-rc1    | 6.3-rc1 |
 | HW crypto engine         |                                                    |          |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/)
 | Random Number Generator  |                                                    |          |            |            |         |
 | UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
@@ -40,15 +40,16 @@ RK3588 Mainline Kernel support
 | Interrupts               | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  | n/a        | n/a        | n/a     |
 | GICv3 ITS support        | [T40845](https://phabricator.collabora.com/T40845) |          | n/a        | n/a        | n/a     | required for PCIe, needs support from Rockchip, see [discussion from this thread](https://yhbt.net/lore/all/874kg0q6lc.wl-maz@kernel.org/)
 | PWM                      | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  |            |            |         |
+| PWM FAN                  |                                                    | n/a      |            | 6.4-rc1    | n/a     | [DT patch](https://lore.kernel.org/all/20230404173807.490520-1-cristian.ciocaltea@collabora.com/)
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  |            |            |         |
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  |            |            |         |
-| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  |            | sent       |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230321215624.78383-1-cristian.ciocaltea@collabora.com/)
+| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  |            | 6.4-rc1    |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230321215624.78383-1-cristian.ciocaltea@collabora.com/)
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | ADC                      | [T41456](https://phabricator.collabora.com/T41456) |          |            |            |         |
-| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) |          | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/)
-| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) |          | n/a        | 6.4-rc1    | n/a     | [DONE](https://lore.kernel.org/lkml/20230328210048.195124-1-shreeya.patel@collabora.com/T/)
+| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  |            |            |         | [driver patch](https://lore.kernel.org/all/20230308112253.15659-1-sebastian.reichel@collabora.com/), [DT patch](https://lore.kernel.org/all/20230404154429.51601-1-sebastian.reichel@collabora.com/)
+| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | [DONE](https://lore.kernel.org/lkml/20230328210048.195124-1-shreeya.patel@collabora.com/T/)
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - ISP                   |                                                    |          |            |            |         |
