@@ -12,30 +12,30 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.04-rc5-rock5b       | Working branch based on 2023.04-rc5                                                        | Dropping to U-boot prompt. SD-Card, Kernel boot from SD-Card, USB Host 2.0 (storage + Ethernet dongle). Can load SPL with rockusb, then load proper from SD-Card. SPI flash does not work correctly |
-| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.04-rc5-rock5b |
+| 2023.04-rock5b           | Working branch based on 2023.04 plus the next branch                                       | Dropping to U-boot prompt. SD-Card, SPI Flash, Kernel boot from SD-Card/network, USB Host 2.0 (storage + Ethernet dongle). Can load SPL with rockusb, then load proper from SD-Card or SPI flash. |
+| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.04-rock5b |
 
 
 Current upstream status
 ==============================
 |                          | Phabricator                                        | Branch                | Status                |
 | ------------------------ | -------------------------------------------------- | --------------------- | --------------------- |
-| Initial SoC support      | n/a                                                | 2023.04-rc5-rock5b    | included in upstream  |
-| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.04-rc5-rock5b    | included in upstream  |
-| Faulty memory ranges     |                                                    | 2023.04-rc5-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
-| Booting from SD-Card     |                                                    | 2023.04-rc5-rock5b    | Works |
-| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.04-rc5-rock5b    | Works |
+| Initial SoC support      | n/a                                                | 2023.04-rock5b    | included in upstream  |
+| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.04-rock5b    | included in upstream  |
+| Faulty memory ranges     |                                                    | 2023.04-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
+| Booting from SD-Card     |                                                    | 2023.04-rock5b    | Works |
+| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.04-rock5b    | Works |
 | Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) |                       | Not attempted at the moment, different IP from SD-Card |
-| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.04-rc5-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. [patch sent](https://lists.denx.de/pipermail/u-boot/2023-March/511274.html) |
-| USB Ethernet Dongle      |                                                    | 2023.04-rc5-rock5b    | Works with USB 2.0 support |
+| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.04-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. [patch sent](https://lists.denx.de/pipermail/u-boot/2023-March/511274.html) |
+| USB Ethernet Dongle      |                                                    | 2023.04-rock5b    | Works with USB 2.0 support |
 | SPI                      | [T41315](https://phabricator.collabora.com/T41315) |                       | Works. Can read/write/erase the SPI flash.|
 | PMIC                     |                                                    |                       | Not attempted at the moment |
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
 | PCIe v2 Host Controller  |                                                    |                       | Not attempted at the moment, required for built-in network |
 | Builtin network          |                                                    |                       | Not attempted at the moment |
-| U-boot SPL               |                                                    | 2023.04-rc5-rock5b    | SPL works, it can load U-boot proper from the SD-Card and SPI flash, even if loaded via rockusb |
+| U-boot SPL               |                                                    | 2023.04-rock5b    | SPL works, it can load U-boot proper from the SD-Card and SPI flash, even if loaded via rockusb |
 
-How to build U-boot for rock-5b in 2023.04-rc5-rock5b
+How to build U-boot for rock-5b in 2023.04-rock5b
 ==============================
 
 ## Prerequisites
