@@ -22,7 +22,15 @@ sustain this baud rate is required.
 
 **WARNING** if you connect a 5 V serial cable to this board, you risk to permanently damage it. Caution is advised.
 
+### Maskrom
 
+To put the board into maskrom mode, hold the maskrom button while applying power. Depending
+on the board revision, the button is in different places.
 
+For board revision `V1.42`:
 
+![Maskrom](img/rock5b-maskrom-v1.42.jpg)
 
+For board revision `V1.3`:
+
+![Maskrom](img/rock5b-maskrom-v1.3.jpg)
