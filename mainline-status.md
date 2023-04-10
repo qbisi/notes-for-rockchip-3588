@@ -31,7 +31,7 @@ RK3588 Mainline Kernel support
 | M2 M                     |                                                    | n/a      | n/a        |            | n/a     | requires PCIe3
 | Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | 6.4-rc1    |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
 | Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      |            | 6.4-rc1    |         | [PATCHv1](https://lore.kernel.org/lkml/20230315114806.3819515-1-cristian.ciocaltea@collabora.com/)
-| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      |            | 6.4-rc1    | 6.3-rc1 |
+| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      |            | 6.4-rc1    | 6.3-rc1 | [DONE](https://lore.kernel.org/lkml/168071663556.3186456.192019947395019850.b4-ty@sntech.de/T/)
 | HW crypto engine         |                                                    |          |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/)
 | Random Number Generator  |                                                    |          |            |            |         |
 | UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
