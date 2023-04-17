@@ -12,7 +12,7 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.04-rock5b           | Working branch based on 2023.04 plus the next branch                                       | Dropping to U-boot prompt. SD-Card, SPI Flash, Kernel boot from SD-Card/network, USB Host 2.0 (storage + Ethernet dongle). Can load SPL with rockusb, then load proper from SD-Card or SPI flash. |
+| 2023.04-rock5b           | Working branch based on 2023.04 plus the next branch                                       | Dropping to U-boot prompt. SD-Card, SPI Flash, Kernel boot from SD-Card/network, USB Host 2.0 (storage + Ethernet dongle), pciExpress (no networking yet). Can load SPL with rockusb, then load proper from SD-Card or SPI flash. |
 | rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.04-rock5b |
 
 
@@ -31,7 +31,7 @@ Current upstream status
 | SPI                      | [T41315](https://phabricator.collabora.com/T41315) |                       | Works. Can read/write/erase the SPI flash.|
 | PMIC                     |                                                    |                       | Not attempted at the moment |
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
-| PCIe v2 Host Controller  |                                                    |                       | Not attempted at the moment, required for built-in network |
+| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.04-rock5b        | Works, required for built-in network |
 | Builtin network          |                                                    |                       | Not attempted at the moment |
 | U-boot SPL               |                                                    | 2023.04-rock5b    | SPL works, it can load U-boot proper from the SD-Card and SPI flash, even if loaded via rockusb |
 
