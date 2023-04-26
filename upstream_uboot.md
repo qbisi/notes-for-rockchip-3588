@@ -156,7 +156,7 @@ and redo Step 4.
 Write the idbloader.img at sector 0:
 
 ```
- # sudo rkdeveloptool wl 0 idblock.bin
+ # sudo rkdeveloptool wl 0 idbloader.img
  Write LBA from file (100%)
 ```
 
