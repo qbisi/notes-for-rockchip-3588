@@ -12,30 +12,30 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.07-rc1-rock5b       | Working branch based on 2023.07-rc1                                                        | SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network, USB Host 2.0 (storage + Ethernet dongle), pciExpress, rtl8125b in 100 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash. |
-| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.07-rc1-rock5b |
+| 2023.07-rc2-rock5b       | Working branch based on 2023.07-rc2                                                        | SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network, USB Host 2.0 (storage + Ethernet dongle), pciExpress, rtl8125b in 100 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash. |
+| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.07-rc2-rock5b |
 
 
 Current upstream status
 ==============================
 |                          | Phabricator                                        | Branch                | Status                |
 | ------------------------ | -------------------------------------------------- | --------------------- | --------------------- |
-| Initial SoC support      | n/a                                                | 2023.07-rc1-rock5b    | included in upstream  |
-| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.07-rc1-rock5b    | included in upstream  |
-| Faulty memory ranges     |                                                    | 2023.07-rc1-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
-| Booting from SD-Card     |                                                    | 2023.07-rc1-rock5b    | Works |
-| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc1-rock5b    | Works |
-| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2023.07-rc1-rock5b    | Works |
-| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.07-rc1-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. |
-| USB Ethernet Dongle      |                                                    | 2023.07-rc1-rock5b    | Works with USB 2.0 support |
-| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc1-rock5b    | Works |
+| Initial SoC support      | n/a                                                | 2023.07-rc2-rock5b    | included in upstream  |
+| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.07-rc2-rock5b    | included in upstream  |
+| Faulty memory ranges     |                                                    | 2023.07-rc2-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
+| Booting from SD-Card     |                                                    | 2023.07-rc2-rock5b    | Works |
+| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc2-rock5b    | Works |
+| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2023.07-rc2-rock5b    | Works |
+| USB host                 | [T40661](https://phabricator.collabora.com/T40661) | 2023.07-rc2-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. |
+| USB Ethernet Dongle      |                                                    | 2023.07-rc2-rock5b    | Works with USB 2.0 support |
+| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc2-rock5b    | Works |
 | PMIC                     |                                                    |                       | Not attempted at the moment |
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
-| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc1-rock5b    | Works, required for built-in network |
-| Builtin network          | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc1-rock5b    | Works in 100 Mbps mode |
-| U-boot SPL               |                                                    | 2023.07-rc1-rock5b    | SPL works, it can load U-boot proper from the SD-Card and SPI flash, even if loaded via rockusb |
+| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc2-rock5b    | Works, required for built-in network |
+| Builtin network          | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc2-rock5b    | Works in 100 Mbps mode |
+| U-boot SPL               |                                                    | 2023.07-rc2-rock5b    | SPL works, it can load U-boot proper from the SD-Card and SPI flash, even if loaded via rockusb |
 
-How to build U-boot for rock-5b in 2023.07-rc1-rock5b
+How to build U-boot for rock-5b in 2023.07-rc2-rock5b
 ==============================
 
 ## Prerequisites
@@ -126,23 +126,29 @@ interacts with the SPI flash/eMMC.
 
 This file can be downloaded from [here](https://github.com/radxa/rkbin/blob/master/bin/rk35/rk3588_spl_loader_v1.08.111.bin)
 
+This file is also added with `git lfs` to our tree, and it's named \
+`rk3588_spl_loader_v1.08.111.bin`
+
 ### Step 2
 You will need rkdevelopment tool. \
 This tool will interact with the rk3588 SoC using USB in maskrom mode. \
 Debian users can install `rkdeveloptool` from the package repository. \
 A general guide is available here, follow Linux install: \
 https://wiki.radxa.com/Rock5/install/rockchip-flash-tools \
-After this step you should have four files and `rkdeveloptool` installed :
+After this step you should have five files and `rkdeveloptool` installed :
 
 ```
  -rw-r--r-- 1 eugen eugen  284672 Jan 31 16:05 idbloader.img
  -rw-r--r-- 1 eugen eugen  448960 Jan 31 16:05 rk3588_spl_loader_v1.08.111.bin
  -rw-r--r-- 1 eugen eugen 4194304 Jan 31 16:05 u-boot.itb
  -rw-rw-r-- 1 eugen eugen 9467904 Apr 28 16:59 u-boot-rockchip.bin
+ -rw-rw-r-- 1 eugen eugen 1506816 May 19 12:59 u-boot-rockchip-spi.bin
 ```
 
-u-boot-rockchip.bin is just a concatenation of idbloader.img and u-boot.itb \
-at the correct offsets so it can be written in one go.
+***u-boot-rockchip.bin*** is just a concatenation of idbloader.img and u-boot.itb \
+at the correct offsets so it can be written in one go, dedicated for eMMC device. \
+***u-boot-rockchip-spi.bin*** is a similar file for SPI flash.
+
 
 ### Step 3
 Hold the maskrom button pressed, then power up the board using USB type C \
@@ -170,19 +176,11 @@ Starting to erase flash...
 and redo Step 4.
 
 ### Step 6 for SPI flash only
-Write the idbloader.img at sector 0:
+Write the u-boot-rockchip-spi.bin at sector 0:
 ```
- # sudo rkdeveloptool wl 0 idbloader.img # SPI flash
+ # sudo rkdeveloptool wl 64 u-boot-rockchip.bin # SPI flash
  Write LBA from file (100%)
 ```
-Write the U-boot FIT at sector 0x400:
-```
- # sudo rkdeveloptool wl 0x400 u-boot.itb # SPI flash
- Write LBA from file (100%)
-```
-***Note:*** rkdeveloptool requires _sectors_ as argument, and one sector is \
-512 bytes. Hence 0x400 x 512 = 0x80000 bytes, which is the Uboot configuration \
-CONFIG_SYS_SPI_U_BOOT_OFFS
 
 ### Step 6 for eMMC only
 Write the u-boot-rockchip.bin at sector 64:
