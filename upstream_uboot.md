@@ -12,34 +12,36 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.07-rc3-rock5b       | Working branch based on 2023.07-rc3                                                        | SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network, USB Host 2.0/3.0 (storage + Ethernet dongle), USB 3.0 gadget on type C (one orientation only), pciExpress, rtl8125b in 100 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash. |
-| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.07-rc3-rock5b |
+| 2023.07-rc4-rock5b       | Working branch based on 2023.07-rc4                                                        | SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network/DFU, USB Host 2.0/3.0 (storage + Ethernet dongle), USB 3.0 gadget on type C (one orientation only in U-boot proper, both orientations in SPL), pciExpress, rtl8125b in 100 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash/DFU gadget. |
+| rk3588-rock5b            | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.07-rc4-rock5b |
 
 
 Current upstream status
 ==============================
 |                          | Phabricator                                        | Branch                | Status                |
 | ------------------------ | -------------------------------------------------- | --------------------- | --------------------- |
-| Initial SoC support      | n/a                                                | 2023.07-rc3-rock5b    | included in upstream  |
-| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.07-rc3-rock5b    | included in upstream  |
-| Faulty memory ranges     |                                                    | 2023.07-rc3-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
-| Booting from SD-Card     |                                                    | 2023.07-rc3-rock5b    | Works |
-| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc3-rock5b    | Works |
-| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2023.07-rc3-rock5b    | Works |
-| USB host 2.0             | [T40661](https://phabricator.collabora.com/T40661) | 2023.07-rc3-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. |
-| USB host 3.0             | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc3-rock5b    | USB 3.0 host works (DWC3 controller + USBDP PHY) |
-| USB gadget 3.0           | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc3-rock5b    | Works with one orientation in 2.0 mode at the type C controller |
-| USB type C               | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc3-rock5b    | type C stack and fusb driver requires porting, working at the moment in gadget mode in one orientation only |
-| USB Ethernet Dongle      |                                                    | 2023.07-rc3-rock5b    | Works with USB 2.0 support |
-| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc3-rock5b    | Works |
+| Initial SoC support      | n/a                                                | 2023.07-rc4-rock5b    | included in upstream  |
+| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2023.07-rc4-rock5b    | included in upstream  |
+| Faulty memory ranges     |                                                    | 2023.07-rc4-rock5b    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
+| Booting from SD-Card     |                                                    | 2023.07-rc4-rock5b    | Works |
+| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc4-rock5b    | Works |
+| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2023.07-rc4-rock5b    | Works |
+| USB host 2.0             | [T40661](https://phabricator.collabora.com/T40661) | 2023.07-rc4-rock5b    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. |
+| USB host 3.0             | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc4-rock5b    | USB 3.0 host works (DWC3 controller + USBDP PHY) |
+| USB gadget 3.0           | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc4-rock5b    | Works with one orientation in 2.0 mode at the type C controller |
+| USB gadget 3.0 in SPL    | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc4-rock5b    | Works with both orientations in 2.0 mode with DWC3 patches. DWC3 needs a resync to be able to upstream these [T43165](https://phabricator.collabora.com/T43165) |
+| USB type C               | [T42194](https://phabricator.collabora.com/T42194) | 2023.07-rc4-rock5b    | type C stack and fusb driver requires porting, working at the moment in gadget mode in one orientation only |
+| USB Ethernet Dongle      |                                                    | 2023.07-rc4-rock5b    | Works with USB 2.0 support |
+| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2023.07-rc4-rock5b    | Works |
 | PMIC                     |                                                    |                       | Not attempted at the moment |
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
-| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc3-rock5b    | Works, required for built-in network |
-| RTL8125B network(PCIe)   | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc3-rock5b    | Works in 100 Mbps mode |
+| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc4-rock5b    | Works, required for external RTL8125B network |
+| RTL8125B network(PCIe)   | [T41351](https://phabricator.collabora.com/T41351) | 2023.07-rc4-rock5b    | Works in 100 Mbps mode |
 | Builtin network          |                                                    |                       | Not attempted at the moment |
-| U-boot SPL               |                                                    | 2023.07-rc3-rock5b    | SPL works, it can load U-boot proper from the SD-Card/eMMC/SPI flash, even if loaded via rockusb |
+| U-boot SPL               |                                                    | 2023.07-rc4-rock5b    | SPL works, it can load U-boot proper from the SD-Card/eMMC/SPI flash, even if loaded via rockusb |
+| U-boot SPL DFU gadget    |                                                    | 2023.07-rc4-rock5b    | Works, when loaded with rockusb, it will start DFU gadget and can download u-boot proper via DFU |
 
-How to build U-boot for rock-5b in 2023.07-rc3-rock5b
+How to build U-boot for rock-5b in 2023.07-rc4-rock5b
 ==============================
 
 ## Prerequisites
@@ -219,7 +221,7 @@ two binaries: the DDR init blob, and our built SPL. \
 Then we can use rockusb protocol to load this binary to the target, \
 by first booting in Maskrom mode. \
 This way, via USB, we can load a bootloader without depending on any media. \
-The SPL will try to boot from any supported media after it's loaded.
+The SPL will try to load the image for U-boot proper with DFU after it starts.
 
 **Notice** : boot merger from rockchip is different. It will not work. \
 You require the boot merger from radxa repository.
@@ -257,3 +259,31 @@ Done!... waiting 0ms
 
 There is no need to perform any additional steps, the software should run \
 immediately after it's loaded.
+
+
+How to load u-boot proper (u-boot.itb) using DFU at SPL stage
+==============================
+
+Once you create the DDR blob + SPL and boot it, the SPL will attempt \
+to boot from DFU.
+
+On the host side, you need `dfu-util` package, which can be installed \
+directly from your distribution's package manager.
+
+When SPL starts, it will print out this message:
+ > Trying to boot from DFU
+
+At this moment on the host you can do:
+```
+ # dfu-util -l
+```
+
+You should see something similar with:
+ > Found DFU: [2207:350b] ver=0223, devnum=80, cfg=1, intf=0, path="6-2", alt=0, name="u-boot.itb", serial="UNKNOWN"
+
+Then, to load U-boot proper:
+```
+ # dfu-util -a 0 -D u-boot.itb -R
+```
+
+After this step, the downloaded U-boot proper should boot normally.
