@@ -184,7 +184,7 @@ and redo Step 4.
 ### Step 6 for SPI flash only
 Write the u-boot-rockchip-spi.bin at sector 0:
 ```
- # sudo rkdeveloptool wl 64 u-boot-rockchip.bin # SPI flash
+ # sudo rkdeveloptool wl 0 u-boot-rockchip-spi.bin # SPI flash
  Write LBA from file (100%)
 ```
 
