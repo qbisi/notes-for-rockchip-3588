@@ -17,15 +17,15 @@ review or blocked by a missing feature.
 
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  |            | ready      | ready   | PHY for PCIe2/USB3 host/SATA, [PATCH adding SoC DT entry](https://lore.kernel.org/lkml/20230608162238.50078-1-sebastian.reichel@collabora.com/T/#mb39f93365db12a68c5d988ee74529575f90b034d)
-| PHY SNPS PCIe3           |                                                    |          |            |            |         | The PCIe3 PHY driver is missing bifurcation support
+| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  |            | ready      | ready   | PHY for PCIe2/USB3 host/SATA
+| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | WIP        | ready   | The PCIe3 PHY driver is missing bifurcation support
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) |          |            |            | ready   | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
 | I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | Extra Regulator chip used by some RK3588 boards
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     |
-| PCIe3                    |                                                    | 6.1-rc1  |            |            |         | [Rock5b RFCv1](https://lore.kernel.org/all/cover.1675498628.git.wqu@suse.com/), needs 
+| PCIe3                    |                                                    | 6.1-rc1  | n/a        | WIP        | ready   | [PATCH adding SoC DT entry](https://lore.kernel.org/all/20230714175331.112923-1-sebastian.reichel@collabora.com/)
 | PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | ready    |            | ready      | ready   | Reqires GIC-ITS Quirk merged in v6.4 cycle
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
