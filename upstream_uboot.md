@@ -46,7 +46,7 @@ How to build U-boot for rock-5b in 2023.07-rc4-rock5b
 
 ## Prerequisites
 
-You will have to clone or download the rkbin Rockchip binary blob repository from [here](https://github.com/radxa/rkbin.git) \
+You will have to clone or download the rkbin Rockchip binary blob repository from [here](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/rkbin.git) \
 Assume you have a top dir and then \
 -. \
 ├── rkbin \
@@ -83,7 +83,27 @@ And then,
 Note that the building process and the binaries are the same, regardless \
 of the boot media you decide to use further on.
 
-## Writing binaries to SD-Card for booting from SD-Card
+## Building the rockchip loader binaries
+
+To later flash binaries on the board, you will need a special loader binary.
+
+To build this binary, follow the steps:
+
+ > cd ../rkbin/
+ > ./tools/boot_merger RKBOOT/RK3588MINIALL.ini
+
+you should get this output:
+
+```
+********boot_merger ver 1.2********`
+Info:Pack loader ok.
+```
+and the obtained binary file is named `rk3588_spl_loader_v1.08.111.bin`
+
+Writing binaries to SD-Card for booting from SD-Card
+==============================
+
+## Introduction
 
 This small tutorial is written for the case when you want to write the boot \
 media using your laptop, not when the target has booted into a previous Linux \
@@ -107,7 +127,8 @@ like this:
 ***Note*** that SPI flash booting takes precedence over SD-Card booting. \
 So you have to erase the SPI flash if it contains valid booting files.
 
-## Writing binaries to SPI flash/eMMC for booting from SPI flash/eMMC
+Writing binaries to SPI flash/eMMC for booting from SPI flash/eMMC
+==============================
 
 This small tutorial is written for the case when you want to write the boot \
 media using your laptop with flashing tools, not when the target has booted \
@@ -125,22 +146,24 @@ the eMMC add-on board.
 ***Note*** that considered the above, writing binaries on either the \
 SPI flash or eMMC is similar, differences are pointed below.
 
-### Step 1
-Once you build your artifacts, you will also need one separate file that \
-comes from radxa/rockchip, which is a tool that runs on the board and \
-interacts with the SPI flash/eMMC.
+## Prerequisites
+To flash the memories on the board, a special loader tool is required. \
+This can be either built from `rkbin` tree downloaded at the build stage, \
+as described in the build section, or it can be downloaded from our \
+CI artifacts page [here](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/u-boot/-/pipelines/latest?ref=rk3588-rock5b)
 
-This file can be downloaded from [here](https://github.com/radxa/rkbin/blob/master/bin/rk35/rk3588_spl_loader_v1.08.111.bin)
-
-This file is also added with `git lfs` to our tree, and it's named \
-`rk3588_spl_loader_v1.08.111.bin`
-
-### Step 2
-You will need rkdevelopment tool. \
+You will also need rkdevelopment tool. \
 This tool will interact with the rk3588 SoC using USB in maskrom mode. \
 Debian users can install `rkdeveloptool` from the package repository. \
 A general guide is available here, follow Linux install: \
 https://wiki.radxa.com/Rock5/install/rockchip-flash-tools \
+
+## Step 1
+Once you build your artifacts, and have the prerequisites, \
+you will use `rk3588_spl_loader_v1.08.111.bin` which is the loader that \
+and interacts with the SPI flash/eMMC.
+
+## Step 2
 After this step you should have five files and `rkdeveloptool` installed :
 
 ```
@@ -155,14 +178,13 @@ After this step you should have five files and `rkdeveloptool` installed :
 at the correct offsets so it can be written in one go, dedicated for eMMC device. \
 ***u-boot-rockchip-spi.bin*** is a similar file for SPI flash.
 
-
-### Step 3
+## Step 3
 Hold the maskrom button pressed, then power up the board using USB type C \
 cable connected to your laptop, and release the maskrom only after the board \
 powered up. \
 More information about how to enter maskrom mode is available [here](rock5b-maskrom-automation.md)
 
-### Step 4
+## Step 4
 This will download the dedicated flashing tool to the board itself:
 
 ```
@@ -170,7 +192,7 @@ This will download the dedicated flashing tool to the board itself:
  Downloading bootloader succeeded.
 ```
 
-### Step 5 for SPI flash only
+## Step 5 for SPI flash only
 This will erase the SPI flash: (works also for eMMC, but you may have \
 user partitions on eMMC, so ***don't do this unless you know what you are doing***)
 ```
@@ -181,21 +203,21 @@ Starting to erase flash...
 ***Note:*** After this step you need to reset the board again into maskrom mode. \
 and redo Step 4.
 
-### Step 6 for SPI flash only
+## Step 6 for SPI flash only
 Write the u-boot-rockchip-spi.bin at sector 0:
 ```
  # sudo rkdeveloptool wl 0 u-boot-rockchip-spi.bin # SPI flash
  Write LBA from file (100%)
 ```
 
-### Step 6 for eMMC only
+## Step 6 for eMMC only
 Write the u-boot-rockchip.bin at sector 64:
 ```
  # sudo rkdeveloptool wl 64 u-boot-rockchip.bin # eMMC
  Write LBA from file (100%)
 ```
 
-### Step 7
+## Step 7
 Reboot the board. \
 You are done, the board should boot from SPI flash/eMMC now. \
 ***Note*** that SPI flash/eMMC takes precedence over SD-Card. To boot again from \
