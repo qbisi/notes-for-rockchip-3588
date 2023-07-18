@@ -1,4 +1,6 @@
-# Easy flashing the bootloaders on Radxa Rock 5B board's SPI flash
+# :exclamation: :zap: :exclamation: :zap: This tutorial is obsoleted and it was created for the downstream U-boot by RADXA. Currently the upstream U-boot that we use has a complete tutorial on how to build and flash [here](/upstream_uboot.md)</font>
+
+# Easy flashing the bootloaders on Radxa Rock 5B board's SPI flash (obsoleted, for reference on RADXA's Uboot)
 
 This is a small summary regarding the Radxa Rock5b rk3588 SPI flashing.
 
