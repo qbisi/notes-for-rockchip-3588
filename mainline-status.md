@@ -23,14 +23,14 @@ review or blocked by a missing feature.
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      |            |            | ready   | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
 | I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | Extra Regulator chip used by some RK3588 boards
-| USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      |            |            |         |
+| USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        |            |         |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     |
 | PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | sent     | n/a        | ready      | ready   | [PATCH adding SoC DT entry](https://lore.kernel.org/all/20230717173512.65169-1-sebastian.reichel@collabora.com/)
 | PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | sent     |            | ready      | ready   | [PATCHv3 for SoC support](https://lore.kernel.org/all/20230717172651.64324-1-sebastian.reichel@collabora.com/)
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
-| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) |          |            |            |         | https://github.com/neggles/linux-quartz64/issues/1
-| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) |          |            |            |         |
+| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    |            |            | ready   | waiting for usbdp PHY
+| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | sent     |            | ready      | n/a     | [SoC support](https://lore.kernel.org/all/20230719174015.68153-1-sebastian.reichel@collabora.com/)
 | USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      |            |            |         |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | 6.6-rc1    | 6.5-rc1    | n/a     | DONE
