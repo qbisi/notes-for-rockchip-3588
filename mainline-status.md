@@ -17,21 +17,21 @@ review or blocked by a missing feature.
 
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  |            | ready      | ready   | PHY for PCIe2/USB3 host/SATA
+| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | ready      | ready      | ready   | PHY for PCIe2/USB3 host/SATA
 | PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | sent     | n/a        | ready      | ready   | The PCIe3 PHY driver is missing bifurcation support
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
-| PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      |            |            | ready   | PHY for USB3 Dual Role
+| PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      | ready      | ready      | ready   | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
 | I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | Extra Regulator chip used by some RK3588 boards
-| USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        |            |         |
-| cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) |          |            |            | WIP     |
+| USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        | ready      | ready   |
+| cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) | WIP      | WIP        | WIP        | WIP     |
 | PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | sent     | n/a        | ready      | ready   | [PATCH adding SoC DT entry](https://lore.kernel.org/all/20230717173512.65169-1-sebastian.reichel@collabora.com/)
 | PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | sent     |            | ready      | ready   | [PATCHv3 for SoC support](https://lore.kernel.org/all/20230717172651.64324-1-sebastian.reichel@collabora.com/)
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
-| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    |            |            | ready   | waiting for usbdp PHY
-| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | sent     |            | ready      | n/a     | [SoC support](https://lore.kernel.org/all/20230719174015.68153-1-sebastian.reichel@collabora.com/)
-| USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      |            |            |         |
+| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    | ready      | ready      | ready   | waiting for usbdp PHY
+| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | sent     | ready      | ready      | n/a     | [SoC support](https://lore.kernel.org/all/20230719174015.68153-1-sebastian.reichel@collabora.com/)
+| USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      | n/a        | ready      | ready   |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | 6.6-rc1    | 6.5-rc1    | n/a     | DONE
 | SDIO                     | [T41465](https://phabricator.collabora.com/T41465) | 6.5-rc1  |            |            | n/a     |
@@ -65,8 +65,8 @@ review or blocked by a missing feature.
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | DFI                      |                                                    | sent     | n/a        | n/a        | n/a     | [PATCH](https://lore.kernel.org/all/20230524083153.2046084-1-s.hauer@pengutronix.de/)
-| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    |         |
-| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  |            |            | ready   |
+| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | ready   |
+| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
