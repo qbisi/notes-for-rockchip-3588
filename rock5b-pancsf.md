@@ -33,7 +33,7 @@ $ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make olddefconfig
 ### Cross-compile kernel from x64:
 
 ```console
-$ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make -j28 KBUILD_IMAGE=arch/arm64/boot/Image bindeb-pkg
+$ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make -j$(nproc --ignore=2) KBUILD_IMAGE=arch/arm64/boot/Image bindeb-pkg
 ```
 
 ### Install kernel
