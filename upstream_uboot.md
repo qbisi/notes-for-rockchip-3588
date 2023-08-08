@@ -12,7 +12,7 @@ Current branches
 | Branch Name              | Status                                                                                     | What works ?                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
-| 2023.10-rc1-rk3588       | Working branch based on 2023.07-rc4                                                        | Rock-5B: SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network/DFU, USB Host 2.0/3.0 (storage + Ethernet dongle), USB 3.0 gadget on type C (one orientation only in U-boot proper, both orientations in SPL), pciExpress, rtl8125b in 100 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash/DFU gadget. Rock-5A: board boots from SD-Card. |
+| 2023.10-rc1-rk3588       | Working branch based on 2023.07-rc4                                                        | Rock-5B: SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network/DFU, USB Host 2.0/3.0 (storage + Ethernet dongle), USB 3.0 gadget on type C (one orientation only in U-boot proper, both orientations in SPL), pciExpress, rtl8125b in 100 Mbps mode, built-in network in 1000 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash/DFU gadget. Rock-5A: board boots from SD-Card. |
 | rk3588                   | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2023.10-rc1-rk3588 |
 
 
@@ -37,7 +37,7 @@ Current upstream status
 | USB PD Controller        |                                                    |                       | Not attempted at the moment |
 | PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2023.10-rc1-rk3588    | Works, required for external RTL8125B network |
 | RTL8125B network(PCIe)   | [T41351](https://phabricator.collabora.com/T41351) | 2023.10-rc1-rk3588    | Works in 100 Mbps mode |
-| Builtin network          | [T43981](https://phabricator.collabora.com/T43981) |                       | Work in progress |
+| Builtin network          | [T43981](https://phabricator.collabora.com/T43981) |                       | Works |
 | U-boot SPL               |                                                    | 2023.10-rc1-rk3588    | SPL works, it can load U-boot proper from the SD-Card/eMMC/SPI flash, even if loaded via rockusb |
 | U-boot SPL DFU gadget    |                                                    | 2023.10-rc1-rk3588    | Works, when loaded with rockusb, it will start DFU gadget and can download u-boot proper via DFU |
 
