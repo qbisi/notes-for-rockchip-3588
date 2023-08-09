@@ -84,6 +84,6 @@ cp -pnL /lib/firmware/mali_csffw.bin ${DESTDIR}/lib/firmware
 Then make sure the hook is executable, and update the initramfs:
 
 ```console
-$ chmod a+x /usr/share/initramfs-tools/hooks/pancsf-fw 
+$ chmod a+x /usr/share/initramfs-tools/hooks/mali_csffw 
 $ update-initramfs -u
 ```
