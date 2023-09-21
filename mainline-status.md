@@ -18,15 +18,15 @@ review or blocked by a missing feature.
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
 | PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | ready      | ready      | ready   | PHY for PCIe2/USB3 host/SATA
-| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | sent     | n/a        | ready      | ready   | The PCIe3 PHY driver is missing bifurcation support
+| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | ready      | ready   | The PCIe3 PHY driver is missing bifurcation support
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      | ready      | ready      | ready   | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
 | I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | Extra Regulator chip used by some RK3588 boards
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        | ready      | ready   |
 | cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) | WIP      | WIP        | WIP        | WIP     |
-| PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | sent     | n/a        | ready      | ready   | [PATCH adding SoC DT entry](https://lore.kernel.org/all/20230717173512.65169-1-sebastian.reichel@collabora.com/)
-| PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | sent     |            | ready      | ready   | [PATCHv3 for SoC support](https://lore.kernel.org/all/20230717172651.64324-1-sebastian.reichel@collabora.com/)
+| PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | sent       | sent    | [EVB1](https://lore.kernel.org/linux-rockchip/20230918141327.131108-1-sebastian.reichel@collabora.com/T/#t), [Rock 5B](https://lore.kernel.org/linux-rockchip/20230918141451.131247-1-sebastian.reichel@collabora.com/T/#t)
+| PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | 6.6-rc1  |            | sent       | sent    | [EVB1](https://lore.kernel.org/linux-rockchip/20230918141327.131108-1-sebastian.reichel@collabora.com/T/#t), [Rock 5B](https://lore.kernel.org/linux-rockchip/20230918141451.131247-1-sebastian.reichel@collabora.com/T/#t)
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    | ready      | ready      | ready   | waiting for usbdp PHY
