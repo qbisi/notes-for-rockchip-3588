@@ -24,7 +24,7 @@ review or blocked by a missing feature.
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
 | I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | Extra Regulator chip used by some RK3588 boards
 | USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        | ready      | ready   |
-| cpufreq                  | [T36830](https://phabricator.collabora.com/T36830) | WIP      | WIP        | WIP        | WIP     |
+| cpufreq                  | [T41636](https://phabricator.collabora.com/T41636) | WIP      | WIP        | WIP        | WIP     |
 | PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | sent       | sent    | [EVB1](https://lore.kernel.org/linux-rockchip/20230918141327.131108-1-sebastian.reichel@collabora.com/T/#t), [Rock 5B](https://lore.kernel.org/linux-rockchip/20230918141451.131247-1-sebastian.reichel@collabora.com/T/#t)
 | PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | 6.6-rc1  |            | sent       | sent    | [EVB1](https://lore.kernel.org/linux-rockchip/20230918141327.131108-1-sebastian.reichel@collabora.com/T/#t), [Rock 5B](https://lore.kernel.org/linux-rockchip/20230918141451.131247-1-sebastian.reichel@collabora.com/T/#t)
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
