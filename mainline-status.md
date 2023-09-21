@@ -18,7 +18,7 @@ review or blocked by a missing feature.
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
 | PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | ready      | ready      | ready   | PHY for PCIe2/USB3 host/SATA
-| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | ready      | ready   | The PCIe3 PHY driver is missing bifurcation support
+| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | sent       | sent    |
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      | ready      | ready      | ready   | PHY for USB3 Dual Role
 | PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | Power Management IC used by all known RK3588 boards
