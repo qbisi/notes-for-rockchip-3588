@@ -77,7 +77,7 @@ review or blocked by a missing feature.
 |  - HDMI Input            |                                                    |          | n/a        |            |         | WIP
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
-|  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | ready    | n/a        | n/a        | n/a     | 90% got merged in 6.5-rc1
+|  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | ready    | n/a        | n/a        | n/a     | 90% merged, pending patches: [DTS](https://lore.kernel.org/all/20231006065334.8117-1-benjamin.gaignard@collabora.com/), [DT binding fix](https://lore.kernel.org/all/20231005161107.269303-1-benjamin.gaignard@collabora.com/), [driver fix](https://lore.kernel.org/all/20231005145116.169411-1-benjamin.gaignard@collabora.com/)
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
