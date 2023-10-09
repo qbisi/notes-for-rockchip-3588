@@ -30,7 +30,7 @@ review or blocked by a missing feature.
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    | ready      | ready      | ready   | waiting for usbdp PHY
-| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | sent     | ready      | ready      | n/a     | [SoC support](https://lore.kernel.org/all/20230719174015.68153-1-sebastian.reichel@collabora.com/)
+| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | sent     | ready      | ready      | n/a     | [SoC support](https://lore.kernel.org/lkml/20231009172129.43568-1-sebastian.reichel@collabora.com/)
 | USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      | n/a        | ready      | ready   |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | 6.6-rc1    | 6.5-rc1    | n/a     | DONE
@@ -66,7 +66,7 @@ review or blocked by a missing feature.
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | DFI                      |                                                    | sent     | n/a        | n/a        | n/a     | [PATCH](https://lore.kernel.org/all/20230524083153.2046084-1-s.hauer@pengutronix.de/)
-| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | ready   |
+| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | sent    | [DT for EVB1](https://lore.kernel.org/linux-rockchip/20231005134357.37171-1-sebastian.reichel@collabora.com/)
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230809165330.2451699-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
