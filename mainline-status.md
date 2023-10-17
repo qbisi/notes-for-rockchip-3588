@@ -66,7 +66,7 @@ review or blocked by a missing feature.
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | DFI                      |                                                    | sent     | n/a        | n/a        | n/a     | [PATCH](https://lore.kernel.org/all/20230524083153.2046084-1-s.hauer@pengutronix.de/)
-| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | sent    | [DT for EVB1](https://lore.kernel.org/linux-rockchip/20231005134357.37171-1-sebastian.reichel@collabora.com/)
+| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | [DT for EVB1](https://lore.kernel.org/linux-rockchip/20231005134357.37171-1-sebastian.reichel@collabora.com/)
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230809165330.2451699-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
@@ -77,7 +77,7 @@ review or blocked by a missing feature.
 |  - HDMI Input            |                                                    |          | n/a        |            |         | WIP
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
-|  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | ready    | n/a        | n/a        | n/a     | 90% merged, pending patches: [DTS](https://lore.kernel.org/all/20231006065334.8117-1-benjamin.gaignard@collabora.com/), [DT binding fix](https://lore.kernel.org/all/20231005161107.269303-1-benjamin.gaignard@collabora.com/), [driver fix](https://lore.kernel.org/all/20231005145116.169411-1-benjamin.gaignard@collabora.com/)
+|  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | 90% merged, pending patches: [DTS](https://lore.kernel.org/all/20231006065334.8117-1-benjamin.gaignard@collabora.com/), [DT binding fix](https://lore.kernel.org/all/20231005161107.269303-1-benjamin.gaignard@collabora.com/), [driver fix](https://lore.kernel.org/all/20231005145116.169411-1-benjamin.gaignard@collabora.com/)
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
