@@ -65,7 +65,7 @@ review or blocked by a missing feature.
 | SPDIF                    |                                                    |          |            |            |         |
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
-| DFI                      |                                                    | sent     | n/a        | n/a        | n/a     | [PATCH](https://lore.kernel.org/all/20231018061714.3553817-1-s.hauer@pengutronix.de/), driver patches land in 6.7-rc1
+| DFI                      |                                                    | 6.7-rc1  | n/a        | n/a        | n/a     | DONE (DDR memory utilization for perf)
 | ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | [DT for EVB1](https://lore.kernel.org/linux-rockchip/20231005134357.37171-1-sebastian.reichel@collabora.com/)
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
