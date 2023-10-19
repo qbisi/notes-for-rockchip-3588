@@ -60,13 +60,13 @@ review or blocked by a missing feature.
 | PWM FAN                  |                                                    | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | DONE
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  | n/a        | n/a        | n/a     | DONE
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  | n/a        | n/a        | n/a     | DONE
-| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    |         | [driver patch (merged)](https://lore.kernel.org/all/20221025124132.399729-1-frattaroli.nicolas@gmail.com/), [DTS series](https://lore.kernel.org/lkml/20230321215624.78383-1-cristian.ciocaltea@collabora.com/)
+| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    |         | DONE (except for EVB1)
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | SFC (Flash Controller)   |                                                    |          |            |            |         |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | DFI                      |                                                    | 6.7-rc1  | n/a        | n/a        | n/a     | DONE (DDR memory utilization for perf)
-| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | [DT for EVB1](https://lore.kernel.org/linux-rockchip/20231005134357.37171-1-sebastian.reichel@collabora.com/)
+| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | DONE
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230809165330.2451699-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
