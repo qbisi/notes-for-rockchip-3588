@@ -74,7 +74,7 @@ review or blocked by a missing feature.
 |  - ISP                   |                                                    |          |            |            |         |
 |  - RKVDEC                |                                                    |          | n/a        | n/a        | n/a     |
 |  - MIPI CSI              |                                                    |          |            |            |         |
-|  - HDMI Input            |                                                    |          | n/a        |            |         | WIP
+|  - HDMI Input            | [T42207](https://phabricator.collabora.com/T42207) |          | n/a        |            |         | WIP
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
