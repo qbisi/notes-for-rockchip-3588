@@ -17,7 +17,7 @@ review or blocked by a missing feature.
 
 |                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
 | ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | ready      | ready      | ready   | DONE (except for enabling board-level USB3)
+| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | sent       | sent       | 6.7-rc1 | DONE (except for enabling board-level USB3)
 | PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | 6.7-rc1    | 6.7-rc1 | DONE
 | PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      | ready      | ready      | ready   | PHY for USB3 Dual Role
@@ -30,7 +30,7 @@ review or blocked by a missing feature.
 | Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE (Rock 5B does not use SoC ethernet. It has a PCIe network card instead)
 | USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
 | USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    | ready      | ready      | ready   | waiting for usbdp PHY
-| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | 6.7-rc1  | ready      | ready      | n/a     | [SoC support](https://lore.kernel.org/linux-usb/20231020150022.48725-1-sebastian.reichel@collabora.com/)
+| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | 6.7-rc1  | sent       | sent       | n/a     | [Rock 5 DT patches](https://lore.kernel.org/lkml/20231106155934.80838-1-sebastian.reichel@collabora.com/)
 | USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      | n/a        | ready      | ready   |
 | eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | 6.6-rc1    | 6.5-rc1    | n/a     | DONE
