@@ -39,7 +39,7 @@ review or blocked by a missing feature.
 | Timer                    | [T41468](https://phabricator.collabora.com/T41468) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | OTP                      | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | Display Controller       |                                                    |          |            |            |         |
-| - HDMI                   | [T36469](https://phabricator.collabora.com/T36469) |          |            |            |         | WIP
+| - HDMI                   | [T36469](https://phabricator.collabora.com/T36469) | WIP      |            | WIP        |         |
 |   - HDMI Audio           |                                                    |          |            |            |         |
 |   - HDCP                 |                                                    |          |            |            |         |
 | - DSI                    |                                                    |          |            |            |         |
@@ -74,8 +74,8 @@ review or blocked by a missing feature.
 |  - ISP                   |                                                    |          |            |            |         |
 |  - RKVDEC                |                                                    |          | n/a        | n/a        | n/a     |
 |  - MIPI CSI              |                                                    |          |            |            |         |
-|  - HDMI Input            | [T42207](https://phabricator.collabora.com/T42207) |          | n/a        |            |         | WIP
-|    - CEC                 | [T42207](https://phabricator.collabora.com/T42207) |          | n/a        | n/a        | n/a     | WIP
+|  - HDMI Input            | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | WIP        |         |
+|    - CEC                 | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
