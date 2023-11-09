@@ -63,7 +63,7 @@ review or blocked by a missing feature.
 | I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    | sent    |
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
-| SFC (Flash Controller)   |                                                    | 6.7-rc1  |            |            |         |
+| SFC (Flash Controller)   |                                                    | 6.7-rc1  |            |            | n/a     |
 | OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
 | DFI                      |                                                    | 6.7-rc1  | n/a        | n/a        | n/a     | DONE (DDR memory utilization for perf)
 | ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | DONE
