@@ -46,8 +46,8 @@ review or blocked by a missing feature.
 | - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
 | M2 E                     |                                                    | n/a      |            |            | n/a     | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1
 | M2 M                     |                                                    | n/a      | n/a        | 6.7-rc1    | n/a     | DONE
-| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    |         |
-| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    |         |
+| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    | sent    | [EVB1 DT](https://lore.kernel.org/all/20231109184453.108676-2-sebastian.reichel@collabora.com/)
+| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    | sent    |
 | Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      | n/a        | 6.4-rc1    | 6.3-rc1 | DONE
 | HW crypto engine         |                                                    | sent     | n/a        | n/a        | n/a     | [PATCHv1](https://lore.kernel.org/all/20231107155532.3747113-1-clabbe@baylibre.com/)
 | Random Number Generator  |                                                    |          |            |            |         |
@@ -60,7 +60,7 @@ review or blocked by a missing feature.
 | PWM FAN                  |                                                    | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | DONE
 | SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  | n/a        | n/a        | n/a     | DONE
 | I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  | n/a        | n/a        | n/a     | DONE
-| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    |         | DONE (except for EVB1)
+| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    | sent    |
 | CAN                      |                                                    |          |            |            |         |
 | SPDIF                    |                                                    |          |            |            |         |
 | SFC (Flash Controller)   |                                                    | 6.7-rc1  |            |            |         |
