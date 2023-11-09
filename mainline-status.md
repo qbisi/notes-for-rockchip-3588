@@ -49,7 +49,7 @@ review or blocked by a missing feature.
 | Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    |         |
 | Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    |         |
 | Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      | n/a        | 6.4-rc1    | 6.3-rc1 | DONE
-| HW crypto engine         |                                                    | sent     |            |            |         | [RFTv1](https://lore.kernel.org/all/20220927080048.3151911-1-clabbe@baylibre.com/), [dev branch](https://github.com/montjoie/linux/tree/crypto-rk3588-03-10-2023)
+| HW crypto engine         |                                                    | sent     | n/a        | n/a        | n/a     | [PATCHv1](https://lore.kernel.org/all/20231107155532.3747113-1-clabbe@baylibre.com/)
 | Random Number Generator  |                                                    |          |            |            |         |
 | UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
 | GPIO                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | n/a        | n/a        | n/a     | DONE
