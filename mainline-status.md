@@ -38,7 +38,7 @@ review or blocked by a missing feature.
 | SATA                     | [T41470](https://phabricator.collabora.com/T41470) | 6.5-rc1  | n/a        | n/a        | 6.6-rc1 | DONE
 | Timer                    | [T41468](https://phabricator.collabora.com/T41468) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | OTP                      | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
-| Display Controller       |                                                    |          |            |            |         |
+| Display Controller (vop) |                                                    |          |            |            |         | [PATCHv1](https://lore.kernel.org/all/20231114112534.1770731-1-andyshrk@163.com/)
 | - HDMI                   | [T36469](https://phabricator.collabora.com/T36469) | WIP      |            | WIP        |         |
 |   - HDMI Audio           |                                                    |          |            |            |         |
 |   - HDCP                 |                                                    |          |            |            |         |
