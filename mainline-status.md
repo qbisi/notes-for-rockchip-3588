@@ -69,7 +69,7 @@ review or blocked by a missing feature.
 | ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | DONE
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
-| GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [PATCHv2](https://lore.kernel.org/all/20230809165330.2451699-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
+| GPU                      | [T37258](https://phabricator.collabora.com/T37258) |          |            |            |         | [PATCHv3](https://lore.kernel.org/all/20231204173313.2098733-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - ISP                   |                                                    |          |            |            |         |
 |  - RKVDEC                |                                                    |          | n/a        | n/a        | n/a     |
