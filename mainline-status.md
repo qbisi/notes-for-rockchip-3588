@@ -72,12 +72,12 @@ review or blocked by a missing feature.
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) | WIP      |            |            |         | [PATCHv3](https://lore.kernel.org/all/20231204173313.2098733-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
 | Multimedia Codecs        |                                                    |          |            |            |         |
 |  - ISP                   |                                                    |          |            |            |         |
-|  - RKVDEC                |                                                    |          | n/a        | n/a        | n/a     |
 |  - MIPI CSI              |                                                    |          |            |            |         |
 |  - HDMI Input            | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | WIP        |         |
 |    - CEC                 | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
+|  - MPEG2/H264/VP8        |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv1](https://lore.kernel.org/all/20231227173911.3295410-1-liujianfeng1994@gmail.com/)
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
