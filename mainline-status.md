@@ -77,7 +77,7 @@ review or blocked by a missing feature.
 |    - CEC                 | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
 |    - Audio               |                                                    |          |            |            |         |
 |    - HDCP                |                                                    |          |            |            |         |
-|  - MPEG2/H264/VP8        |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv1](https://lore.kernel.org/all/20231227173911.3295410-1-liujianfeng1994@gmail.com/)
+|  - MPEG2/H264/VP8        |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv2](https://lore.kernel.org/all/20231228131617.3411561-1-liujianfeng1994@gmail.com/)
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
