@@ -82,3 +82,8 @@ review or blocked by a missing feature.
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
+
+RK3588 Improvements
+===================
+
+ * eMMC command queuing engine support: [PATCHv5 CQE](https://lore.kernel.org/all/20231231144619.758290-1-serghox@gmail.com/)
