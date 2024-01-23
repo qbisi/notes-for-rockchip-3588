@@ -13,20 +13,20 @@ output, nor Panfrost kernel driver).
 
 ## Compile and install kernel
 
-- Kernel tree: https://github.com/Googulator/linux-rk3588-midstream
-- Branch: pancsf-midstream
+- Kernel tree: https://gitlab.freedesktop.org/panfrost/linux/
+- Branch: panthor-v4+rk3588
 
 Setup based on Debian
 
 ```console
-$ git clone https://github.com/Googulator/linux-rk3588-midstream -b pancsf-midstream
-$ cd linux-rk3588-midstream
+$ git clone https://gitlab.freedesktop.org/panfrost/linux.git -b panthor-v4+rk3588
+$ cd linux
 ```
 
 ### Setup the kernel config:
 
 ```console
-$ cp arch/arm64/configs/rock-5b.config .config
+$ cp arch/arm64/configs/rk3588_panthor_debug_defconfig .config
 $ ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make olddefconfig
 ```
 
@@ -54,7 +54,7 @@ $ sudo dpkg -i linux-image-<VERSION>_arm64.deb
 
 The firmware can be found here: <https://gitlab.com/rk3588_linux/linux/libmali/-/blob/linux-5.10/firmware/g610/mali_csffw.bin>
 
-Place the file at `/lib/firmware/mali_csffw.bin` on the device.
+Place the file at `/lib/firmware/arm/mali/arch10.8/mali_csffw.bin` on the device.
 
 Set up a hook to copy it into the initramfsm, in `/usr/share/initramfs-tools/hooks/mali_csffw`:
 
@@ -77,8 +77,8 @@ prereqs)
 esac
 
 . /usr/share/initramfs-tools/hook-functions
-mkdir -p ${DESTDIR}/lib/firmware || true
-cp -pnL /lib/firmware/mali_csffw.bin ${DESTDIR}/lib/firmware
+mkdir -p ${DESTDIR}/lib/firmware/arm/mali/arch10.8 || true
+cp -pnL /lib/firmware/arm/mali/arch10.8/mali_csffw.bin ${DESTDIR}/lib/firmware/arm/mali/arch10.8
 ```
 
 Then make sure the hook is executable, and update the initramfs:
