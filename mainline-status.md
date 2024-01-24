@@ -70,15 +70,31 @@ review or blocked by a missing feature.
 | Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
 | Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
 | GPU                      | [T37258](https://phabricator.collabora.com/T37258) | WIP      |            |            |         | [PATCHv4](https://lore.kernel.org/all/20240122163047.1954733-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
-| Multimedia Codecs        |                                                    |          |            |            |         |
+| NPU                      |                                                    |          |            |            |         |
+| HDMI Input               | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | WIP        |         |
+|  - CEC                   | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
+|  - Audio                 |                                                    |          |            |            |         |
+|  - HDCP                  |                                                    |          |            |            |         |
+| Camera Support           |                                                    |          |            |            |         |
 |  - ISP                   |                                                    |          |            |            |         |
 |  - MIPI CSI              |                                                    |          |            |            |         |
-|  - HDMI Input            | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | WIP        |         |
-|    - CEC                 | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
-|    - Audio               |                                                    |          |            |            |         |
-|    - HDCP                |                                                    |          |            |            |         |
-|  - MPEG2/H264/VP8        |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
+| Media Encoder            |                                                    |          |            |            |         |
+|  - H.264                 |                                                    |          |            |            |         |
+|  - H.265                 |                                                    |          |            |            |         |
+|  - JPEG                  |                                                    |          |            |            |         |
+| Media Decoder            |                                                    |          |            |            |         |
 |  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
+|  - H.263                 |                                                    |          |            |            |         |
+|  - H.264                 |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
+|  - H.265                 |                                                    |          |            |            |         |
+|  - JPEG                  |                                                    |          |            |            |         |
+|  - MPEG-1                |                                                    |          |            |            |         |
+|  - MPEG-2                |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
+|  - MPEG-4                |                                                    |          |            |            |         |
+|  - MVC                   |                                                    |          |            |            |         |
+|  - VC1                   |                                                    |          |            |            |         |
+|  - VP8                   |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
+|  - VP9                   |                                                    |          |            |            |         |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
