@@ -15,86 +15,88 @@ review and "ready" for things available from our integration branch. Those
 are close to upstream quality and either close to being send upstream for
 review or blocked by a missing feature.
 
-|                          | Phabricator                                        | SoC      | Rock Pi 5A | Rock Pi 5B | EVB1    | Notes |
-| ------------------------ | -------------------------------------------------- | -------- | ---------- | ---------- | ------- | ----- |
-| PHY naneng combphy       | [T39901](https://phabricator.collabora.com/T39901) | 6.4-rc1  | 6.8-rc1    | 6.8-rc1    | 6.7-rc1 | DONE
-| PHY SNPS PCIe3           | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | 6.7-rc1    | 6.7-rc1 | DONE
-| PHY inno usb2            | [T39908](https://phabricator.collabora.com/T39908) | 6.6-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
-| PHY usbdp                | [T41615](https://phabricator.collabora.com/T41615) | WIP      | ready      | ready      | ready   | PHY for USB3 Dual Role
-| PMIC (rk806)             | [T36154](https://phabricator.collabora.com/T36154) | n/a      | 6.6-rc1    | 6.5-rc1    | 6.5-rc1 | DONE (Power Management IC used by all known RK3588 boards)
-| I2C Regulator (rk8602)   | [T41143](https://phabricator.collabora.com/T41143) | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | DONE (Extra Regulator chip used by some RK3588 boards)
-| USB-PD Controller        | [T40098](https://phabricator.collabora.com/T40098) | n/a      | n/a        | ready      | ready   |
-| cpufreq                  | [T41636](https://phabricator.collabora.com/T41636) | WIP      | WIP        | WIP        | WIP     |
-| PCIe3                    | [T43707](https://phabricator.collabora.com/T43707) | 6.6-rc1  | n/a        | 6.7-rc1    | 6.7-rc1 | DONE
-| PCIe2                    | [T39901](https://phabricator.collabora.com/T39901) | 6.6-rc1  |            | 6.7-rc1    | 6.7-rc1 | DONE
-| Ethernet                 | [T35212](https://phabricator.collabora.com/T35212) | 6.1-rc1  | 6.3-rc1    | n/a        | 6.3-rc1 | DONE
-| USB 2                    | [T39908](https://phabricator.collabora.com/T39908) | 6.5-rc1  | 6.6-rc1    | 6.6-rc1    | 6.6-rc1 | DONE
-| USB 3 DRD                | [T41615](https://phabricator.collabora.com/T41615) | ready    | ready      | ready      | ready   | waiting for usbdp PHY
-| USB 3 Host               | [T41616](https://phabricator.collabora.com/T41616) | 6.7-rc1  | 6.8-rc1    | 6.8-rc1    | n/a     | DONE
-| USB-C                    | [T41615](https://phabricator.collabora.com/T41615) | n/a      | n/a        | ready      | ready   |
-| eMMC                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
-| SD Card                  | [T39448](https://phabricator.collabora.com/T39448) | 6.4-rc1  | 6.6-rc1    | 6.5-rc1    | n/a     | DONE
-| SDIO                     | [T41465](https://phabricator.collabora.com/T41465) | 6.5-rc1  | n/a        | 6.7-rc1    | n/a     | DONE
-| SATA                     | [T41470](https://phabricator.collabora.com/T41470) | 6.5-rc1  | n/a        | n/a        | 6.6-rc1 | DONE
-| Timer                    | [T41468](https://phabricator.collabora.com/T41468) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
-| OTP                      | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
-| Display Controller (vop) |                                                    | 6.8-rc1  |            |            |         |
-| - HDMI                   | [T36469](https://phabricator.collabora.com/T36469) | WIP      |            | WIP        |         |
-|   - HDMI Audio           |                                                    |          |            |            |         |
-|   - HDCP                 |                                                    |          |            |            |         |
-| - DSI                    |                                                    |          |            |            |         |
-| - DP1.4 USB-C AltMode    |                                                    |          |            |            |         |
-| M2 E                     |                                                    | n/a      |            |            | n/a     | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1
-| M2 M                     |                                                    | n/a      | n/a        | 6.7-rc1    | n/a     | DONE
-| Headphone Jack Playback  | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    | 6.8-rc1 | DONE
-| Headphone Jack Record    | [T40849](https://phabricator.collabora.com/T40849) | n/a      | 6.6-rc1    | 6.4-rc1    | 6.8-rc1 | DONE
-| Real Time Clock (RTC)    | [T41459](https://phabricator.collabora.com/T41459) | n/a      | n/a        | 6.4-rc1    | 6.3-rc1 | DONE
-| HW crypto engine         |                                                    | sent     | n/a        | n/a        | n/a     | [PATCHv1](https://lore.kernel.org/all/20231107155532.3747113-1-clabbe@baylibre.com/)
-| Random Number Generator  |                                                    |          |            |            |         |
-| UART                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | 6.3-rc1    | 6.3-rc1    | 6.3-rc1 | DONE
-| GPIO                     | [T34481](https://phabricator.collabora.com/T34481) | 6.0-rc1  | n/a        | n/a        | n/a     | DONE
-| Pinmux                   | [T34481](https://phabricator.collabora.com/T34481) | 5.19-rc1 | n/a        | n/a        | n/a     | DONE
-| Interrupts               | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  | n/a        | n/a        | n/a     | DONE
-| GICv3 ITS support        | [T40845](https://phabricator.collabora.com/T40845) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
-| PWM                      | [T34481](https://phabricator.collabora.com/T34481) | 6.3-rc1  | n/a        | n/a        | n/a     | DONE
-| PWM FAN                  |                                                    | n/a      | 6.6-rc1    | 6.4-rc1    | n/a     | DONE
-| SPI                      | [T36154](https://phabricator.collabora.com/T36154) | 6.1-rc1  | n/a        | n/a        | n/a     | DONE
-| I2C                      | [T36154](https://phabricator.collabora.com/T36154) | 6.0-rc1  | n/a        | n/a        | n/a     | DONE
-| I2S                      | [T40849](https://phabricator.collabora.com/T40849) | 6.2-rc1  | 6.6-rc1    | 6.4-rc1    | 6.8-rc1 | DONE
-| CAN                      |                                                    |          |            |            |         | [WIP branch from Pengutronix](https://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next.git/log/?h=rockchip-canfd)
-| SPDIF                    |                                                    |          |            |            |         |
-| SFC (Flash Controller)   |                                                    | 6.7-rc1  |            |            | n/a     |
-| OTP Memory               | [T41964](https://phabricator.collabora.com/T41964) | 6.5-rc1  | n/a        | n/a        | n/a     | DONE
-| DFI                      |                                                    | 6.7-rc1  | n/a        | n/a        | n/a     | DONE (DDR memory utilization for perf)
-| ADC                      | [T41456](https://phabricator.collabora.com/T41456) | 6.5-rc1  | 6.6-rc1    | 6.5-rc1    | 6.7-rc1 | DONE
-| Thermal ADC              | [T36830](https://phabricator.collabora.com/T36830) | 6.4-rc1  | n/a        | n/a        | n/a     | pending patch to enable it at SoC level
-| Watchdog                 | [T41179](https://phabricator.collabora.com/T41179) | 6.4-rc1  | n/a        | n/a        | n/a     | DONE
-| GPU                      | [T37258](https://phabricator.collabora.com/T37258) | WIP      |            |            |         | [PATCHv4](https://lore.kernel.org/all/20240122163047.1954733-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html)
-| NPU                      |                                                    |          |            |            |         |
-| HDMI Input               | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | WIP        |         |
-|  - CEC                   | [T42207](https://phabricator.collabora.com/T42207) | WIP      | n/a        | n/a        | n/a     |
-|  - Audio                 |                                                    |          |            |            |         |
-|  - HDCP                  |                                                    |          |            |            |         |
-| Camera Support           |                                                    |          |            |            |         |
-|  - ISP                   |                                                    |          |            |            |         |
-|  - MIPI CSI              |                                                    |          |            |            |         |
-| Media Encoder            |                                                    |          |            |            |         |
-|  - H.264                 |                                                    |          |            |            |         |
-|  - H.265                 |                                                    |          |            |            |         |
-|  - JPEG                  |                                                    |          |            |            |         |
-| Media Decoder            |                                                    |          |            |            |         |
-|  - AV1                   | [T38796](https://phabricator.collabora.com/T38796) | 6.7-rc1  | n/a        | n/a        | n/a     | DONE
-|  - H.263                 |                                                    |          |            |            |         |
-|  - H.264                 |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
-|  - H.265                 |                                                    |          |            |            |         |
-|  - JPEG                  |                                                    |          |            |            |         |
-|  - MPEG-1                |                                                    |          |            |            |         |
-|  - MPEG-2                |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
-|  - MPEG-4                |                                                    |          |            |            |         |
-|  - MVC                   |                                                    |          |            |            |         |
-|  - VC1                   |                                                    |          |            |            |         |
-|  - VP8                   |                                                    | WIP      | n/a        | n/a        | n/a     | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/)
-|  - VP9                   |                                                    |          |            |            |         |
+|                          | Issue                                                                                   | SoC             | Rock Pi 5A    | Rock Pi 5B    | EVB1          | Notes |
+| ------------------------ | --------------------------------------------------------------------------------------- | --------------- | ------------- | ------------- | ------------- | ----- |
+| PHY naneng combphy       |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.8-rc1 +} | {+ 6.8-rc1 +} | {+ 6.7-rc1 +} | DONE  |
+| PHY SNPS PCIe3           |                                                                                         | {+ 6.6-rc1 +}   | `n/a`         | {+ 6.7-rc1 +} | {+ 6.7-rc1 +} | DONE  |
+| PHY inno usb2            |                                                                                         | {+ 6.6-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | DONE  |
+| PHY usbdp                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | WIP             | ready         | ready         | ready         | PHY for USB3 Dual Role |
+| PMIC (rk806)             |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.5-rc1 +} | {+ 6.5-rc1 +} | DONE  |
+| I2C Regulator (rk8602)   |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | `n/a`         | DONE  |
+| USB-PD Controller        | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`         | ready         | ready         |       |
+| cpufreq                  | [#7](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/7)   | WIP             | WIP           | WIP           | WIP           |       |
+| PCIe3                    |                                                                                         | {+ 6.6-rc1 +}   | `n/a`         | {+ 6.7-rc1 +} | {+ 6.7-rc1 +} | DONE  |
+| PCIe2                    |                                                                                         | {+ 6.6-rc1 +}   | {- TODO -}    | {+ 6.7-rc1 +} | {+ 6.7-rc1 +} | DONE  |
+| Ethernet                 |                                                                                         | {+ 6.1-rc1 +}   | {+ 6.3-rc1 +} | `n/a`         | {+ 6.3-rc1 +} | DONE  |
+| USB 2                    |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | DONE  |
+| USB 3 DRD                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | ready           | ready         | ready         | ready         | waiting for usbdp PHY |
+| USB 3 Host               |                                                                                         | {+ 6.7-rc1 +}   | {+ 6.8-rc1 +} | {+ 6.8-rc1 +} | `n/a`         | DONE  |
+| USB-C                    | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`         | ready         | ready         |       |
+| eMMC                     |                                                                                         | {+ 6.0-rc1 +}   | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | DONE  |
+| SD Card                  |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.5-rc1 +} | `n/a`         | DONE  |
+| SDIO                     |                                                                                         | {+ 6.5-rc1 +}   | `n/a`         | {+ 6.7-rc1 +} | `n/a`         | DONE  |
+| SATA                     |                                                                                         | {+ 6.5-rc1 +}   | `n/a`         | `n/a`         | {+ 6.6-rc1 +} | DONE  |
+| Timer                    |                                                                                         | {+ 6.4-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| OTP                      |                                                                                         | {+ 6.5-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| Display Controller (vop) |                                                                                         | {+ 6.8-rc1 +}   | {- TODO -}    | WIP           | WIP           |       |
+| - HDMI                   | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}    | WIP           | WIP           |       |
+|  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | sent            | {- TODO -}    | ready         | ready         | [PATCHv1](https://lore.kernel.org/linux-phy/724284f0-b387-4b81-9043-f73df6c9f697@collabora.com/) |
+|  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}    | WIP           | WIP           |       |
+|  -- HDMI Audio           |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  -- HDCP                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| - DSI                    |                                                                                         | {- TODO -}      | {- TODO -}    | {- TODO -}    | {- TODO -}    |       |
+| - DP1.4 USB-C AltMode    |                                                                                         | {- TODO -}      | `n/a`         | {- TODO -}    | {- TODO -}    |       |
+| M2 E                     |                                                                                         | `n/a`           | {- TODO -}    | partial       | `n/a`         | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
+| M2 M                     |                                                                                         | `n/a`           | `n/a`         | {+ 6.7-rc1 +} | `n/a`         | DONE  |
+| Headphone Jack Playback  |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | {+ 6.8-rc1 +} | DONE  |
+| Headphone Jack Record    |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | {+ 6.8-rc1 +} | DONE  |
+| Real Time Clock (RTC)    |                                                                                         | `n/a`           | `n/a`         | {+ 6.4-rc1 +} | {+ 6.3-rc1 +} | DONE  |
+| HW crypto engine         |                                                                                         | sent            | `n/a`         | `n/a`         | `n/a`         | [PATCHv1](https://lore.kernel.org/all/20231107155532.3747113-1-clabbe@baylibre.com/) |
+| Random Number Generator  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| UART                     |                                                                                         | {+ 6.0-rc1 +}   | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | DONE  |
+| GPIO                     |                                                                                         | {+ 6.0-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| Pinmux                   |                                                                                         | {+ 5.19-rc1 +}  | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| Interrupts               |                                                                                         | {+ 6.3-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| GICv3 ITS support        |                                                                                         | {+ 6.4-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| PWM                      |                                                                                         | {+ 6.3-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| PWM FAN                  |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | `n/a`         | DONE  |
+| SPI                      |                                                                                         | {+ 6.1-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| I2C                      |                                                                                         | {+ 6.0-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| I2S                      |                                                                                         | {+ 6.2-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | {+ 6.8-rc1 +} | DONE  |
+| CAN                      |                                                                                         | ?               | `n/a`         | `n/a`         | `n/a`         | [WIP branch from Pengutronix](https://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next.git/log/?h=rockchip-canfd) |
+| SPDIF                    |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| SFC (Flash Controller)   |                                                                                         | {+ 6.7-rc1 +}   | {- TODO -}    | {- TODO -}    | `n/a`         |       |
+| OTP Memory               |                                                                                         | {+ 6.5-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| DFI                      |                                                                                         | {+ 6.7-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE (DDR memory utilization for perf) |
+| ADC                      |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.5-rc1 +} | {+ 6.7-rc1 +} | DONE  |
+| Thermal ADC              |                                                                                         | {+ 6.4-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | pending patch to enable it at SoC level |
+| Watchdog                 |                                                                                         | {+ 6.4-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+| GPU                      |                                                                                         | sent            | {- TODO -}    | ready         | ready         | [PATCHv4](https://lore.kernel.org/all/20240122163047.1954733-1-boris.brezillon@collabora.com/), [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/pancsf-a-new-drm-driver-for-mali-csf-based-gpus.html) |
+| NPU                      |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| HDMI Input               | [#4](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/4)   | WIP             | `n/a`         | WIP           | {- TODO -}    |       |
+|  - CEC                   | [#4](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/4)   | WIP             | `n/a`         | `n/a`         | `n/a`         |       |
+|  - Audio                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - HDCP                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| Camera Support           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - ISP                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - MIPI CSI              |                                                                                         | {- TODO -}      | {- TODO -}    | {- TODO -}    | {- TODO -}    |       |
+| Media Encoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - H.264                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - H.265                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - JPEG                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+| Media Decoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - AV1                   |                                                                                         | {+ 6.7-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
+|  - H.263                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - H.264                 |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|  - H.265                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - JPEG                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - MPEG-1                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - MPEG-2                |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|  - MPEG-4                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - MVC                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VC1                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VP8                   |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|  - VP9                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
@@ -102,4 +104,5 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements
 ===================
 
+ * Improved linked clock gate support: [PATCHv7](https://lore.kernel.org/all/20231213185114.47565-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support: [PATCHv5 CQE](https://lore.kernel.org/all/20231231144619.758290-1-serghox@gmail.com/)
