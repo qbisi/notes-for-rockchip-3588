@@ -40,7 +40,7 @@ review or blocked by a missing feature.
 | OTP                      |                                                                                         | {+ 6.5-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
 | Display Controller (vop) |                                                                                         | {+ 6.8-rc1 +}   | {- TODO -}    | WIP           | WIP           |       |
 | - HDMI                   | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}    | WIP           | WIP           |       |
-|  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | sent            | {- TODO -}    | ready         | ready         | [PATCHv1](https://lore.kernel.org/linux-phy/724284f0-b387-4b81-9043-f73df6c9f697@collabora.com/) |
+|  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | sent            | {- TODO -}    | ready         | ready         | [PATCHv2](https://lore.kernel.org/linux-rockchip/20240205-phy-hdptx-v2-0-a7150814c047@collabora.com/) |
 |  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}    | WIP           | WIP           |       |
 |  -- HDMI Audio           |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |  -- HDCP                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
