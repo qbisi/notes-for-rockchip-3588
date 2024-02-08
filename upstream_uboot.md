@@ -64,6 +64,11 @@ to be passed to U-boot.
 You need the BL31 ATF, which must be built from the trusted-firmware-a repo, and needs \
 to be passed to U-boot.
 
+***Note*** that we found some issues with the TF-A BL31 versus the binary blob \
+available in `rkbin` repository. \
+The list can be consulted [here](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/trusted-firmware-a/-/issues) \
+The user can choose to use the BL31 from `rkbin` as desired.
+
 #### Building BL31
 
  > cd trusted-firmware-a
