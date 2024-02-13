@@ -81,22 +81,30 @@ review or blocked by a missing feature.
 |  - ISP                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |  - MIPI CSI              |                                                                                         | {- TODO -}      | {- TODO -}    | {- TODO -}    | {- TODO -}    |       |
 | Media Encoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
-|  - H.264                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - H.265                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - JPEG                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VEPU121               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VEPU580               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- H.265               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 | Media Decoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
-|  - AV1                   |                                                                                         | {+ 6.7-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
-|  - H.263                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - H.264                 |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
-|  - H.265                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - JPEG                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - MPEG-1                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - MPEG-2                |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
-|  - MPEG-4                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - MVC                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VC1                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VP8                   |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
-|  - VP9                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VDPU121               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- VC1                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- VP8                 |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|   -- MPEG-1              |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- MPEG-2              |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|   -- MPEG-4              |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
+|   -- H.263               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VDPU381               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- H.265               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- VP9                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- AVS2                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VDPU720               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
+|  - VDPU981               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|   -- AV1                 |                                                                                         | {+ 6.7-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
