@@ -52,11 +52,11 @@ $ sudo dpkg -i linux-image-<VERSION>_arm64.deb
 
 ## Install firmware on device:
 
-The firmware can be found here: <https://gitlab.com/rk3588_linux/linux/libmali/-/blob/linux-5.10/firmware/g610/mali_csffw.bin>
+The firmware can be found here: <https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/arm/mali/arch10.8/mali_csffw.bin>
 
 Place the file at `/lib/firmware/arm/mali/arch10.8/mali_csffw.bin` on the device.
 
-Set up a hook to copy it into the initramfsm, in `/usr/share/initramfs-tools/hooks/mali_csffw`:
+Set up a hook to copy it into the initramfs, in `/usr/share/initramfs-tools/hooks/mali_csffw`:
 
 ```shell
 #!/bin/sh
