@@ -77,18 +77,18 @@ review or blocked by a missing feature.
 |  - CEC                   | [#4](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/4)   | WIP             | `n/a`         | `n/a`         | `n/a`         |       |
 |  - Audio                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |  - HDCP                  |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-| Camera Support           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+| **Camera Support**       |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |  - ISP                   |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |  - MIPI CSI              |                                                                                         | {- TODO -}      | {- TODO -}    | {- TODO -}    | {- TODO -}    |       |
-| Media Encoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VEPU121               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+| **Media Encoder**        |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VEPU121**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VEPU580               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VEPU580**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- H.265               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-| Media Decoder            |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VDPU121               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+| **Media Decoder**        |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VDPU121**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- VC1                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- VP8                 |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
 |   -- MPEG-1              |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
@@ -96,14 +96,14 @@ review or blocked by a missing feature.
 |   -- MPEG-4              |                                                                                         | WIP             | `n/a`         | `n/a`         | `n/a`         | [PATCHv3](https://lore.kernel.org/all/20231231151112.3994194-1-liujianfeng1994@gmail.com/) |
 |   -- H.263               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VDPU381               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VDPU381**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- H.264               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- H.265               |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- VP9                 |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- AVS2                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VDPU720               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VDPU720**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`         | `n/a`         | `n/a`         |       |
-|  - VDPU981               |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
+|  - **VDPU981**           |                                                                                         | `n/a`           | `n/a`         | `n/a`         | `n/a`         |       |
 |   -- AV1                 |                                                                                         | {+ 6.7-rc1 +}   | `n/a`         | `n/a`         | `n/a`         | DONE  |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
