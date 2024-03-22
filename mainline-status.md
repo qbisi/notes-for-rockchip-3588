@@ -115,4 +115,4 @@ RK3588 Improvements
 ===================
 
  * Improved linked clock gate support: [PATCHv7](https://lore.kernel.org/all/20231213185114.47565-1-sebastian.reichel@collabora.com/)
- * eMMC command queuing engine support: [PATCHv5 CQE](https://lore.kernel.org/all/20231231144619.758290-1-serghox@gmail.com/)
+ * eMMC command queuing engine support: [PATCHv7 CQE](https://lore.kernel.org/all/20240319115932.4108904-1-serghox@gmail.com/)
