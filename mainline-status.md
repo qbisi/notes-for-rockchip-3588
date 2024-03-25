@@ -20,7 +20,7 @@ review or blocked by a missing feature.
 | PHY naneng combphy       |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.8-rc1 +} | {+ 6.8-rc1 +} | {+ 6.7-rc1 +} | DONE  |
 | PHY SNPS PCIe3           |                                                                                         | {+ 6.6-rc1 +}   | `n/a`         | {+ 6.7-rc1 +} | {+ 6.7-rc1 +} | DONE  |
 | PHY inno usb2            |                                                                                         | {+ 6.6-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | DONE  |
-| PHY usbdp                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | sent            | sent          | sent          | sent          | [PATCHv3](https://lore.kernel.org/all/20240216170514.75200-1-sebastian.reichel@collabora.com/) |
+| PHY usbdp                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | sent            | sent          | sent          | sent          | [PATCHv4](https://lore.kernel.org/all/20240325141653.84910-1-sebastian.reichel@collabora.com/) |
 | PMIC (rk806)             |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.5-rc1 +} | {+ 6.5-rc1 +} | DONE  |
 | I2C Regulator (rk8602)   |                                                                                         | `n/a`           | {+ 6.6-rc1 +} | {+ 6.4-rc1 +} | `n/a`         | DONE  |
 | USB-PD Controller        | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`         | ready         | ready         |       |
@@ -29,7 +29,7 @@ review or blocked by a missing feature.
 | PCIe2                    |                                                                                         | {+ 6.6-rc1 +}   | {- TODO -}    | {+ 6.7-rc1 +} | {+ 6.7-rc1 +} | DONE  |
 | Ethernet                 |                                                                                         | {+ 6.1-rc1 +}   | {+ 6.3-rc1 +} | `n/a`         | {+ 6.3-rc1 +} | DONE  |
 | USB 2                    |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | {+ 6.6-rc1 +} | DONE  |
-| USB 3 DRD                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | sent            | sent          | sent          | sent          | [PATCHv3](https://lore.kernel.org/all/20240216170514.75200-1-sebastian.reichel@collabora.com/) |
+| USB 3 DRD                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | sent            | sent          | sent          | sent          | [PATCHv4](https://lore.kernel.org/all/20240325141653.84910-1-sebastian.reichel@collabora.com/) |
 | USB 3 Host               |                                                                                         | {+ 6.7-rc1 +}   | {+ 6.8-rc1 +} | {+ 6.8-rc1 +} | `n/a`         | DONE  |
 | USB-C                    | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`         | ready         | sent          |       |
 | eMMC                     |                                                                                         | {+ 6.0-rc1 +}   | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | {+ 6.3-rc1 +} | DONE  |
