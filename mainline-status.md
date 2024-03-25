@@ -114,5 +114,5 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements
 ===================
 
- * Improved linked clock gate support: [PATCHv7](https://lore.kernel.org/all/20231213185114.47565-1-sebastian.reichel@collabora.com/)
+ * Improved linked clock gate support: [PATCHv9](https://lore.kernel.org/all/20240325193609.237182-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support: [PATCHv7 CQE](https://lore.kernel.org/all/20240319115932.4108904-1-serghox@gmail.com/)
