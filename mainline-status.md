@@ -31,7 +31,7 @@ review or blocked by a missing feature.
 | USB 2                    |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | DONE  |
 | USB 3 DRD                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | sent            | sent           | sent           | sent           | [PATCHv5](https://lore.kernel.org/all/20240408225109.128953-1-sebastian.reichel@collabora.com/) |
 | USB 3 Host               |                                                                                         | {+ 6.7-rc1 +}   | {+ 6.8-rc1 +}  | {+ 6.8-rc1 +}  | `n/a`          | DONE  |
-| USB-C                    | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`          | ready          | sent           |       |
+| USB-C (fusb302)          | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`          | WIP            | sent           |       |
 | eMMC                     |                                                                                         | {+ 6.0-rc1 +}   | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | DONE  |
 | SD Card                  |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | `n/a`          | DONE  |
 | SDIO                     |                                                                                         | {+ 6.5-rc1 +}   | `n/a`          | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
