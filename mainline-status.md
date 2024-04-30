@@ -43,7 +43,7 @@ review or blocked by a missing feature.
 |  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}     | WIP            | WIP            |       |
 |  -- HDMI Audio           |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                 |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
-| - DSI                    |                                                                                         | WIP             | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko |
+| - DSI                    |                                                                                         | WIP             | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
 | - DP1.4 USB-C AltMode    |                                                                                         | {- TODO -}      | `n/a`          | {- TODO -}     | {- TODO -}     |       |
 | M2 E                     |                                                                                         | `n/a`           | {- TODO -}     | partial        | `n/a`          | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
 | M2 M                     |                                                                                         | `n/a`           | `n/a`          | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
@@ -98,8 +98,8 @@ review or blocked by a missing feature.
 |   -- H.263               |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**           |                                                                                         | `n/a`           | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- H.264               |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- H.265               |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
+|   -- H.264               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | WIP by Andrzej Pietrasiewicz |
+|   -- H.265               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | WIP by Andrzej Pietrasiewicz |
 |   -- VP9                 |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- AVS2                |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**           |                                                                                         | `n/a`           | `n/a`          | `n/a`          | `n/a`          |       |
