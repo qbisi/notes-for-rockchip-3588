@@ -113,5 +113,6 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements
 ===================
 
+ * PCIe endpoint mode support: [PATCHv1](https://lore.kernel.org/all/20240424-rockchip-pcie-ep-v1-v1-0-b1a02ddad650@kernel.org/)
  * Improved linked clock gate support: [PATCHv9](https://lore.kernel.org/all/20240325193609.237182-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support: [PATCHv7 CQE](https://lore.kernel.org/all/20240319115932.4108904-1-serghox@gmail.com/)
