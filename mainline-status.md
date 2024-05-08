@@ -23,7 +23,7 @@ review or blocked by a missing feature.
 | PHY usbdp                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | {+ 6.10-rc1 +}  | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | PMIC (rk806)             |                                                                                         | `n/a`           | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.5-rc1 +}  | DONE  |
 | I2C Regulator (rk8602)   |                                                                                         | `n/a`           | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | `n/a`          | DONE  |
-| cpufreq                  | [#7](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/7)   | sent            | sent           | sent           | sent           | [PATCHv3 from Alexey Charkov](https://lore.kernel.org/all/20240229-rk-dts-additions-v3-0-6afe8473a631@gmail.com/) |
+| cpufreq                  | [#7](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/7)   | sent            | sent           | sent           | sent           | [PATCHv4 from Alexey Charkov](https://lore.kernel.org/linux-rockchip/20240506-rk-dts-additions-v4-0-271023ddfd40@gmail.com/) |
 | PCIe3                    |                                                                                         | {+ 6.6-rc1 +}   | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | PCIe2                    |                                                                                         | {+ 6.6-rc1 +}   | {- TODO -}     | {+ 6.7-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | Ethernet                 |                                                                                         | {+ 6.1-rc1 +}   | {+ 6.3-rc1 +}  | `n/a`          | {+ 6.3-rc1 +}  | DONE  |
@@ -44,6 +44,8 @@ review or blocked by a missing feature.
 |  -- HDMI Audio           |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                 |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 | - DSI                    |                                                                                         | WIP             | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
+|  -- DSI  PHY             |                                                                                         | sent            | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv1](https://lore.kernel.org/linux-phy/20240506124836.3621528-1-heiko@sntech.de/), [DC-PHY syscon PATCHv1](https://lore.kernel.org/linux-rockchip/f44c76ac-3dc1-45d6-b435-e5b77b708d6e@cherry.de/) |
+|  -- DSI  Bridge          |                                                                                         | WIP             | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode    |                                                                                         | {- TODO -}      | `n/a`          | {- TODO -}     | {- TODO -}     |       |
 | M2 E                     |                                                                                         | `n/a`           | {- TODO -}     | partial        | `n/a`          | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
 | M2 M                     |                                                                                         | `n/a`           | `n/a`          | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
@@ -68,7 +70,7 @@ review or blocked by a missing feature.
 | OTP Memory               |                                                                                         | {+ 6.5-rc1 +}   | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | DFI                      |                                                                                         | {+ 6.7-rc1 +}   | `n/a`          | `n/a`          | `n/a`          | DONE (DDR memory utilization for perf) |
 | ADC                      |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
-| Thermal ADC              |                                                                                         | {+ 6.4-rc1 +}   | `n/a`          | `n/a`          | `n/a`          | pending patch to enable it at SoC level |
+| Thermal ADC              |                                                                                         | {+ 6.4-rc1 +}   | sent           | sent           | sent           | [PATCHv4 from Alexey Charkov](https://lore.kernel.org/linux-rockchip/20240506-rk-dts-additions-v4-0-271023ddfd40@gmail.com/) |
 | Watchdog                 |                                                                                         | {+ 6.4-rc1 +}   | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                      |                                                                                         | {+ 6.10-rc1 +}  | {- TODO -}     | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/release-the-panthor.html)
 | NPU                      |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | being reverse engineered by Tomeu Vizoso: [blog post 1](https://blog.tomeuvizoso.net/2024/03/rockchip-npu-update-1-walk-in-park.html), [blog post 2](https://blog.tomeuvizoso.net/2024/03/rockchip-npu-update-2-mobilenetv1-is.html), [blog post 3](https://blog.tomeuvizoso.net/2024/04/rockchip-npu-update-3-real-time-object.html), [downstream kernel driver](https://github.com/friendlyarm/kernel-rockchip/commits/nanopi6-v6.1.y/drivers/rknpu) |
@@ -113,6 +115,6 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements
 ===================
 
- * PCIe endpoint mode support: [PATCHv1](https://lore.kernel.org/all/20240424-rockchip-pcie-ep-v1-v1-0-b1a02ddad650@kernel.org/)
+ * PCIe endpoint mode support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20240508-rockchip-pcie-ep-v1-v3-0-1748e202b084@kernel.org/)
  * Improved linked clock gate support: [PATCHv9](https://lore.kernel.org/all/20240325193609.237182-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support: [PATCHv7 CQE](https://lore.kernel.org/all/20240319115932.4108904-1-serghox@gmail.com/)
