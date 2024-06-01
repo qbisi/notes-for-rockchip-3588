@@ -40,7 +40,7 @@ review or blocked by a missing feature.
 | **Display Controller (VOP)** |                                                                                     | {+ 6.8-rc1 +}   | {- TODO -}     | WIP            | WIP            |       |
 | - HDMI                   | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}     | WIP            | WIP            |       |
 |  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | {+ 6.9-rc1 +}   | {- TODO -}     | ready          | ready          |       |
-|  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | {- TODO -}     | WIP            | WIP            |       |
+|  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | sent            | {- TODO -}     | WIP            | WIP            | [PATCHv1](https://lore.kernel.org/linux-rockchip/a5jlj5hncv2p7lxk6pbgynkqfovlg3lzz2muzrbrkd73afiopu@n5tmd4zfyeik/) |
 |  -- HDMI Audio           |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                 |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 | - DSI                    |                                                                                         | WIP             | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
