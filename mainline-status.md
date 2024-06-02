@@ -117,4 +117,4 @@ RK3588 Improvements
 
  * PCIe endpoint mode support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20240508-rockchip-pcie-ep-v1-v3-0-1748e202b084@kernel.org/)
  * Improved linked clock gate support: [PATCHv9](https://lore.kernel.org/all/20240325193609.237182-1-sebastian.reichel@collabora.com/)
- * eMMC command queuing engine support: [PATCHv7 CQE](https://lore.kernel.org/all/20240319115932.4108904-1-serghox@gmail.com/)
+ * eMMC command queuing engine support: [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
