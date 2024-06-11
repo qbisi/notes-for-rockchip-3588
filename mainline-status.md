@@ -100,8 +100,8 @@ review or blocked by a missing feature.
 |   -- H.263               |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**           |                                                                                         | `n/a`           | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- H.264               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | WIP by Andrzej Pietrasiewicz |
-|   -- H.265               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | WIP by Andrzej Pietrasiewicz |
+|   -- H.264               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | WIP by Detlev Casanova |
+|   -- H.265               |                                                                                         | WIP             | `n/a`          | `n/a`          | `n/a`          | Work starting soon(tm) |
 |   -- VP9                 |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- AVS2                |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**           |                                                                                         | `n/a`           | `n/a`          | `n/a`          | `n/a`          |       |
