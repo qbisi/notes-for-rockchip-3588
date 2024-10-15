@@ -13,35 +13,36 @@ Current branches
 | ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | RADXA+USB                | Contains downstream Uboot + USB fixes to have networking operational on USB dongle.        | Everything downstream + USB and Ethernet dongle. |
 | 2024.01-rk3588           | Working branch based on 2024.01                                                            | Rock-5B: SD-Card, eMMC, SPI Flash, Kernel boot from SD-Card/eMMC/network/DFU, USB Host 2.0/3.0 (storage + Ethernet dongle), USB 3.0 gadget on type C (one orientation only in U-boot proper, both orientations in SPL), pciExpress, rtl8125b in 100 Mbps mode, built-in network in 1000 Mbps mode. Can load SPL with rockusb, then load proper from SD-Card/eMMC/SPI flash/DFU gadget. Rock-5A: board boots from SD-Card. |
-| rk3588                   | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2024.01-rk3588 |
+| 2024.10-rk3588           | Working branch based on 2024.10                                                            | Upstream + TCPM + Fixed MAC address, missing DFU support from 2024.01 |
+| rk3588                   | Mirror of the latest upstream + work in progress development                               | Currently mirroring 2024.10-rk3588 |
 
 
 Current upstream status
 ==============================
 |                          | Phabricator                                        | Branch                | Status                |
 | ------------------------ | -------------------------------------------------- | --------------------- | --------------------- |
-| Initial SoC support      | n/a                                                | 2024.01-rk3588    | included in upstream  |
-| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2024.01-rk3588    | included in upstream  |
-| Faulty memory ranges     |                                                    | 2024.01-rk3588    | included in upstream. Memory ranges which are at fault are 0x3fc000000-0x3fc500000 and 0x3fff00000-0x3ffffffff |
-| Booting from SD-Card     |                                                    | 2024.01-rk3588    | Works |
-| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2024.01-rk3588    | Works |
-| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2024.01-rk3588    | Works |
-| USB host 2.0             | [T40661](https://phabricator.collabora.com/T40661) | 2024.01-rk3588    | INNO PHY has basic support (no tuning, no OTG) USB 2.0 host works. |
-| USB host 3.0             | [T42194](https://phabricator.collabora.com/T42194) | 2024.01-rk3588    | USB 3.0 host works (DWC3 controller + USBDP PHY) |
-| USB gadget 3.0           | [T42194](https://phabricator.collabora.com/T42194) | 2024.01-rk3588    | Works with one orientation in 2.0 mode at the type C controller |
-| USB gadget 3.0 in SPL    | [T42194](https://phabricator.collabora.com/T42194) | 2024.01-rk3588    | Works with both orientations in 2.0 mode with DWC3 patches. DWC3 needs a resync to be able to upstream these [T43165](https://phabricator.collabora.com/T43165) |
-| USB type C               | [T42194](https://phabricator.collabora.com/T42194) | 2024.01-rk3588    | type C stack and fusb driver requires porting, working at the moment in gadget mode in one orientation only |
-| USB Ethernet Dongle      |                                                    | 2024.01-rk3588    | Works with USB 2.0/3.0 support |
-| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2024.01-rk3588    | Works |
-| PMIC                     |                                                    |                   | Not attempted at the moment |
-| USB PD Controller        |                                                    |                   | Not attempted at the moment |
-| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2024.01-rk3588    | Works, required for external RTL8125B network |
-| RTL8125B network(PCIe)   | [T41351](https://phabricator.collabora.com/T41351) | 2024.01-rk3588    | Works in 100 Mbps mode |
-| Builtin network          | [T43981](https://phabricator.collabora.com/T43981) |                   | Works |
-| U-boot SPL               |                                                    | 2024.01-rk3588    | SPL works, it can load U-boot proper from the SD-Card/eMMC/SPI flash, even if loaded via rockusb |
-| U-boot SPL DFU gadget    |                                                    | 2024.01-rk3588    | Works, when loaded with rockusb, it will start DFU gadget and can download u-boot proper via DFU |
+| Initial SoC support      | n/a                                                | 2024.10-rk3588        | fully upstream        |
+| Initial Rock 5B support  | [T40365](https://phabricator.collabora.com/T40365) | 2024.10-rk3588        | fully upstream        |
+| Faulty memory ranges     |                                                    | 2024.10-rk3588        | fully upstream        |
+| Booting from SD-Card     |                                                    | 2024.10-rk3588        | fully upstream        |
+| Booting from SPI flash   | [T41315](https://phabricator.collabora.com/T41315) | 2024.10-rk3588        | fully upstream        |
+| Booting from eMMC        | [T41154](https://phabricator.collabora.com/T41154) | 2024.10-rk3588        | fully upstream        |
+| USB host 2.0             | [T40661](https://phabricator.collabora.com/T40661) | 2024.10-rk3588        | fully upstream        |
+| USB host 3.0             | [T42194](https://phabricator.collabora.com/T42194) | 2024.10-rk3588        | fully upstream        |
+| USB gadget 3.0           | [T42194](https://phabricator.collabora.com/T42194) | 2024.10-rk3588        | only in 2024.01       |
+| USB gadget 3.0 in SPL    | [T42194](https://phabricator.collabora.com/T42194) | 2024.10-rk3588        | only in 2024.01 [T43165](https://phabricator.collabora.com/T43165) |
+| USB type C               | [T42194](https://phabricator.collabora.com/T42194) | 2024.10-rk3588        | only in 2024.01       |
+| USB Ethernet Dongle      |                                                    | 2024.10-rk3588        | fully upstream        |
+| SPI                      | [T41315](https://phabricator.collabora.com/T41315) | 2024.10-rk3588        | fully upstream        |
+| PMIC                     |                                                    |                       | Not attempted at the moment |
+| USB PD Controller        |                                                    |                       | USB PD negotiation support |
+| PCIe v2 Host Controller  | [T41351](https://phabricator.collabora.com/T41351) | 2024.10-rk3588        | fully upstream        |
+| RTL8125B network(PCIe)   | [T41351](https://phabricator.collabora.com/T41351) | 2024.10-rk3588        | fully upstream (100 Mbit) |
+| Builtin network          | [T43981](https://phabricator.collabora.com/T43981) |                       | fully upstream        |
+| U-boot SPL               |                                                    | 2024.10-rk3588        | fully upstream        |
+| U-boot SPL DFU gadget    |                                                    | 2024.10-rk3588        | only in 2024.01       |
 
-How to build U-boot for rock-5b in 2024.01-rk3588
+How to build U-boot for rock-5b in 2024.10-rk3588
 ==============================
 
 ## Prerequisites
