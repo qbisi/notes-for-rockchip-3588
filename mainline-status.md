@@ -41,7 +41,7 @@ review or blocked by a missing feature.
 | - HDMI                   | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | WIP            | WIP            | WIP            |       |
 |  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | {+ 6.9-rc1 +}   | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | {+ 6.13-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
-|  -- HDMI 4K support      |                                                                                         | WIP             | WIP            | WIP            | WIP            | needs VOP changes to get clocks from HDMI PHY |
+|  -- HDMI 4K support      |                                                                                         | sent            | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/all/20241116-vop2-hdmi0-disp-modes-v1-0-2bca51db4898@collabora.com/) |
 |  -- HDMI 8K support      |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Second Port     |                                                                                         | {- TODO -}      | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- HDMI CEC             |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
