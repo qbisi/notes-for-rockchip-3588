@@ -23,14 +23,14 @@ review or blocked by a missing feature.
 | PHY usbdp                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | {+ 6.10-rc1 +}  | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | PMIC (rk806)             |                                                                                         | `n/a`           | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.5-rc1 +}  | DONE  |
 | I2C Regulator (rk8602)   |                                                                                         | `n/a`           | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | `n/a`          | DONE  |
-| cpufreq                  | [#7](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/7)   | {+ 6.11-rc1 +}  | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | [PATCHv5 from Alexey Charkov](https://lore.kernel.org/all/20240617-rk-dts-additions-v5-0-c1f5f3267f1e@gmail.com/) |
+| cpufreq                  | [#7](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/7)   | {+ 6.11-rc1 +}  | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | DONE  |
 | PCIe3                    |                                                                                         | {+ 6.6-rc1 +}   | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | PCIe2                    |                                                                                         | {+ 6.6-rc1 +}   | {- TODO -}     | {+ 6.7-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | Ethernet                 |                                                                                         | {+ 6.1-rc1 +}   | {+ 6.3-rc1 +}  | `n/a`          | {+ 6.3-rc1 +}  | DONE  |
 | USB 2                    |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | DONE  |
 | USB 3 DRD                | [#3](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/3)   | {+ 6.10-rc1 +}  | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | USB 3 Host               |                                                                                         | {+ 6.7-rc1 +}   | {+ 6.8-rc1 +}  | {+ 6.8-rc1 +}  | `n/a`          | DONE  |
-| USB-C (fusb302)          | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`          | WIP            | {+ 6.10-rc1 +} |       |
+| USB-C (fusb302)          | [#8](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/8)   | `n/a`           | `n/a`          | sent           | {+ 6.10-rc1 +} | [PATCHv1](https://lore.kernel.org/linux-rockchip/20241210163615.120594-1-sebastian.reichel@collabora.com/) |
 | eMMC                     |                                                                                         | {+ 6.0-rc1 +}   | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | DONE  |
 | SD Card                  |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | `n/a`          | DONE  |
 | SDIO                     |                                                                                         | {+ 6.5-rc1 +}   | `n/a`          | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
@@ -41,7 +41,7 @@ review or blocked by a missing feature.
 | - HDMI                   | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | WIP             | WIP            | WIP            | WIP            |       |
 |  -- HDMI PHY             | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | {+ 6.9-rc1 +}   | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Bridge          | [#5](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux/-/issues/5)   | {+ 6.13-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
-|  -- HDMI 4K support      |                                                                                         | sent            | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/all/20241116-vop2-hdmi0-disp-modes-v1-0-2bca51db4898@collabora.com/) |
+|  -- HDMI 4K support      |                                                                                         | sent            | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/all/20241211-vop2-hdmi0-disp-modes-v2-0-471cf5001e45@collabora.com/) |
 |  -- HDMI FRL support     |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support      |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Second Port     |                                                                                         | sent            | {- TODO -}     | sent           | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20241207-rk3588-hdmi1-v1-0-ca3a99b46a40@collabora.com/) |
@@ -79,7 +79,7 @@ review or blocked by a missing feature.
 | ADC                      |                                                                                         | {+ 6.5-rc1 +}   | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | Thermal ADC              |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | DONE  |
 | Watchdog                 |                                                                                         | {+ 6.4-rc1 +}   | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| GPU                      |                                                                                         | {+ 6.10-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | [Blog Post](https://www.collabora.com/news-and-blog/news-and-events/release-the-panthor.html)
+| GPU                      |                                                                                         | {+ 6.10-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | NPU                      |                                                                                         | sent            | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/all/20240612-6-10-rocket-v1-0-060e48eea250@tomeuvizoso.net/) |
 | ISP                      |                                                                                         | {- TODO -}      | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                     |                                                                                         | {+ 6.12-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20240831182424.758816-1-liujianfeng1994@gmail.com/) |
@@ -119,10 +119,15 @@ review or blocked by a missing feature.
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
 
-RK3588 Improvements
-===================
+RK3588 Improvements (pending)
+=============================
 
- * PCIe endpoint mode support: [PATCHv5](https://lore.kernel.org/all/20240607-rockchip-pcie-ep-v1-v5-0-0a042d6b0049@kernel.org/)
- * eMMC command queuing engine support: [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
- * Improved linked clock gate support: [PATCHv11](https://lore.kernel.org/linux-rockchip/20240919091129.83500-1-sebastian.reichel@collabora.com/)
- * GPU Power Domain fix: [PATCHv2](https://lore.kernel.org/linux-rockchip/20240919091834.83572-1-sebastian.reichel@collabora.com/)
+ * HDMI PHY color depth management: [PATCHv2](https://lore.kernel.org/linux-rockchip/20241212-phy-sam-hdptx-bpc-v2-0-57e672c7c7c4@collabora.com/)
+ * Improved linked clock gate support: [PATCHv12](https://lore.kernel.org/linux-rockchip/20241211165957.94922-1-sebastian.reichel@collabora.com/)
+ * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
+
+RK3588 Improvements (merged)
+============================
+
+ * eMMC command queuing engine support (6.11-rc1): [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
+ * PCIe endpoint mode support (6.11-rc1): [PATCHv5](https://lore.kernel.org/all/20240607-rockchip-pcie-ep-v1-v5-0-0a042d6b0049@kernel.org/)
