@@ -124,7 +124,6 @@ RK3588 Improvements (pending)
 =============================
 
  * HDMI PHY color depth management: [PATCHv2](https://lore.kernel.org/linux-rockchip/20241212-phy-sam-hdptx-bpc-v2-0-57e672c7c7c4@collabora.com/)
- * Improved linked clock gate support: [PATCHv12](https://lore.kernel.org/linux-rockchip/20241211165957.94922-1-sebastian.reichel@collabora.com/)
  * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
 
 RK3588 Improvements (merged)
@@ -132,3 +131,4 @@ RK3588 Improvements (merged)
 
  * eMMC command queuing engine support (6.11-rc1): [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
  * PCIe endpoint mode support (6.11-rc1): [PATCHv5](https://lore.kernel.org/all/20240607-rockchip-pcie-ep-v1-v5-0-0a042d6b0049@kernel.org/)
+ * Improved linked clock gate support: [PATCHv12](https://lore.kernel.org/linux-rockchip/20241211165957.94922-1-sebastian.reichel@collabora.com/)
