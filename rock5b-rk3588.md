@@ -16,9 +16,11 @@ Tested working setups (in U-Boot, TBD at higher consumption):
  * USB type C -> type C (from e.g. a laptop dockstation)
 
 ### Serial
-A FTDI serial 3v3 cable is required to connect to the serial. The pins are
+
+A 3.3V capable USB-to-serial cable is required to connect to the serial. The pins are
 pictured on the Radxa wiki. The baud rate is 1500000 so a cable that can
-sustain this baud rate is required.
+sustain this baud rate is required, e.g. FTDI, or CH340. CP210x-based ones or
+counterfeit CH340 ones will not be able to do this baudrate!
 
 **WARNING** if you connect a 5 V serial cable to this board, you risk to permanently damage it. Caution is advised.
 
