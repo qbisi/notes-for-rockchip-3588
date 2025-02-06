@@ -36,3 +36,15 @@ For board revision `V1.42`:
 For board revision `V1.3`:
 
 ![Maskrom](img/rock5b-maskrom-v1.3.jpg)
+
+The USB port used for flashing the board when it is in maskrom mode is the same
+as the power input port. If your computer/laptop isn't able to provide enough
+power from an USB port, you may need some sort of USB-C power-and-data splitter.
+
+You can verify the device is in maskrom mode through rockusb or rkdeveloptool:
+
+```
+$ rockusb list
+Available rockchip devices
+* Bus 007 Device 005: ID 2207:350b
+```
