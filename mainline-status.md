@@ -15,7 +15,7 @@ review and "ready" for things available from our integration branch. Those
 are close to upstream quality and either close to being send upstream for
 review or blocked by a missing feature.
 
-|                          | Issue                                                                                   | SoC             | Rock Pi 5A     | Rock Pi 5B     | EVB1           | Notes |
+|                          | Issue                                                                                   | SoC             | Rock 5A        | Rock 5B        | EVB1           | Notes |
 | ------------------------ | --------------------------------------------------------------------------------------- | --------------- | -------------- | -------------- | -------------- | ----- |
 | PHY naneng combphy       |                                                                                         | {+ 6.4-rc1 +}   | {+ 6.8-rc1 +}  | {+ 6.8-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
 | PHY SNPS PCIe3           |                                                                                         | {+ 6.6-rc1 +}   | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.7-rc1 +}  | DONE  |
