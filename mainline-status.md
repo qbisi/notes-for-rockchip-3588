@@ -45,7 +45,7 @@ review or blocked by a missing feature.
 |  -- HDMI 4K support          | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv3 for HDMI0](https://lore.kernel.org/linux-rockchip/20250204-vop2-hdmi0-disp-modes-v3-0-d71c6a196e58@collabora.com/), [PATCHv1 for HDMI1](https://lore.kernel.org/linux-rockchip/20250215-vop2-hdmi1-disp-modes-v1-0-81962a7151d6@collabora.com/) |
 |  -- HDMI FRL support         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-|  -- HDMI Audio               | sent           | {- TODO -}     | sent           | {- TODO -}     | [PATCHv6 for HDMI0](https://lore.kernel.org/linux-rockchip/20250214164528.534278-1-detlev.casanova@collabora.com/) |
+|  -- HDMI Audio               | sent           | {- TODO -}     | sent           | {- TODO -}     | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250217215641.372723-1-detlev.casanova@collabora.com/) |
 |  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
