@@ -52,7 +52,7 @@ review or blocked by a missing feature.
 | - eDP                        | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv9](https://lore.kernel.org/linux-rockchip/20250109032725.1102465-1-damon.ding@rock-chips.com/) |
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250205105157.580060-1-damon.ding@rock-chips.com/) |
 | - DSI                        | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
-|  -- DSI PHY                  | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv6](https://lore.kernel.org/linux-rockchip/20250213210554.1645755-1-heiko@sntech.de/) |
+|  -- DSI PHY                  | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv7](https://lore.kernel.org/linux-rockchip/20250219230303.2539733-1-heiko@sntech.de/) |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | [Bridge driver PATCHv4](https://lore.kernel.org/linux-rockchip/20241209231021.2180582-1-heiko@sntech.de/) |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     |       |
 | M2 E                         | `n/a`          | {- TODO -}     | partial        | `n/a`          | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
