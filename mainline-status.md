@@ -124,7 +124,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
- * HDMI PHY color depth management: [PATCHv2](https://lore.kernel.org/linux-rockchip/20241212-phy-sam-hdptx-bpc-v2-0-57e672c7c7c4@collabora.com/)
+ * HDMI PHY color depth management: [PATCHv3](https://lore.kernel.org/linux-rockchip/20250223-phy-sam-hdptx-bpc-v3-0-66a5c8e68327@collabora.com/)
  * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
  * AV1 4K support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250217-b4-hantro-av1-clock-rate-v2-1-e179fad52641@collabora.com/)
 
