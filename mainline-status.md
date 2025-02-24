@@ -49,8 +49,8 @@ review or blocked by a missing feature.
 |  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-| - eDP                        | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv9](https://lore.kernel.org/linux-rockchip/20250109032725.1102465-1-damon.ding@rock-chips.com/) |
-|  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250205105157.580060-1-damon.ding@rock-chips.com/) |
+| - eDP                        | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250224081325.96724-1-damon.ding@rock-chips.com/) |
+|  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | - DSI                        | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
 |  -- DSI PHY                  | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv7](https://lore.kernel.org/linux-rockchip/20250219230303.2539733-1-heiko@sntech.de/) |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | [Bridge driver PATCHv4](https://lore.kernel.org/linux-rockchip/20241209231021.2180582-1-heiko@sntech.de/) |
