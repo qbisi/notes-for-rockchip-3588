@@ -82,7 +82,7 @@ review or blocked by a missing feature.
 | Thermal ADC                  | {+ 6.4-rc1 +}  | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | DONE  |
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
-| NPU                          | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/all/20240612-6-10-rocket-v1-0-060e48eea250@tomeuvizoso.net/) |
+| NPU                          | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20250225-6-10-rocket-v2-0-d4dbcfafc141@tomeuvizoso.net/) |
 | ISP                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20240831182424.758816-1-liujianfeng1994@gmail.com/) |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
