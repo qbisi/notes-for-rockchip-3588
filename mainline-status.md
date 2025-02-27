@@ -95,17 +95,17 @@ review or blocked by a missing feature.
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VEPU121**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- H.264                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- JPEG                    | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/all/20240618183816.77597-1-sebastian.reichel@collabora.com/) |
+|   -- JPEG                    | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | missing multi-core support |
 |  - **VEPU580**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- H.265                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- H.264                   | WIP            | `n/a`          | `n/a`          | `n/a`          | [WIP by Michael Tretter (Pengutronix)](https://lore.kernel.org/linux-media/Z4e9wNxZjvnytXlL@pengutronix.de/) |
 | **Media Decoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU121**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- VC1                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- VP8                     | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/all/20240618183816.77597-1-sebastian.reichel@collabora.com/) |
+|   -- VP8                     | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- MPEG-1                  | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- MPEG-2                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/all/20240618183816.77597-1-sebastian.reichel@collabora.com/) |
-|   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/all/20240618183816.77597-1-sebastian.reichel@collabora.com/) |
+|   -- MPEG-2                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
+|   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
