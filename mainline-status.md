@@ -87,7 +87,7 @@ review or blocked by a missing feature.
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20240831182424.758816-1-liujianfeng1994@gmail.com/) |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 | HDMI Input                   | sent           | `n/a`          | sent           | {- TODO -}     | [PATCHv12](https://lore.kernel.org/linux-rockchip/20250227055025.766018-1-dmitry.osipenko@collabora.com/) |
-|  - CEC                       | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250218184439.28648-1-dmitry.osipenko@collabora.com/) |
+|  - CEC                       | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv12](https://lore.kernel.org/linux-rockchip/20250227055025.766018-1-dmitry.osipenko@collabora.com/) |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 | **Video Capture (VICAP)**    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | [PATCHv4 for RK3568](https://lore.kernel.org/linux-rockchip/20250219-v6-8-topic-rk3568-vicap-v4-0-e906600ae3b0@wolfvision.net/) |
