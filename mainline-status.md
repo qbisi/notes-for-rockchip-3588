@@ -41,11 +41,11 @@ review or blocked by a missing feature.
 | - HDMI                       | WIP            | WIP            | WIP            | WIP            |       |
 |  -- HDMI PHY                 | {+ 6.9-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Bridge              | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | DONE  |
-|  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | WIP            | [PATCHv2](https://lore.kernel.org/linux-rockchip/20241211-rk3588-hdmi1-v2-0-02cdca22ff68@collabora.com/) |
-|  -- HDMI 4K support          | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv3 for HDMI0](https://lore.kernel.org/linux-rockchip/20250204-vop2-hdmi0-disp-modes-v3-0-d71c6a196e58@collabora.com/), [PATCHv2 for HDMI1](https://lore.kernel.org/linux-rockchip/20250223-vop2-hdmi1-disp-modes-v2-0-f4cec5e06fbe@collabora.com/) |
+|  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.15-rc1 +} |       |
+|  -- HDMI 4K support          | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI FRL support         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-|  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | sent           | {- TODO -}     | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250217215641.372723-1-detlev.casanova@collabora.com/) |
+|  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {- TODO -}     |       |
 |  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
