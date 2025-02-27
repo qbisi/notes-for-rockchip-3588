@@ -53,7 +53,7 @@ review or blocked by a missing feature.
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | - DSI                        | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | WIP by Heiko Stübner |
 |  -- DSI PHY                  | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv7](https://lore.kernel.org/linux-rockchip/20250219230303.2539733-1-heiko@sntech.de/) |
-|  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | [Bridge driver PATCHv4](https://lore.kernel.org/linux-rockchip/20241209231021.2180582-1-heiko@sntech.de/) |
+|  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     |       |
 |  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20250223113036.74252-1-andyshrk@163.com/) |
 | M2 E                         | `n/a`          | {- TODO -}     | partial        | `n/a`          | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
@@ -62,7 +62,7 @@ review or blocked by a missing feature.
 | Headphone Jack Record        | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.8-rc1 +}  | DONE  |
 | Real Time Clock (RTC)        | `n/a`          | `n/a`          | {+ 6.4-rc1 +}  | {+ 6.3-rc1 +}  | DONE  |
 | HW crypto engine             | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/all/20231107155532.3747113-1-clabbe@baylibre.com/), [working tree from Corentin Labbe](https://github.com/montjoie/linux/commits/rk2-crypto-v1/) |
-| Random Number Generator      | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20250204-rk3588-trng-submission-v2-0-608172b6fd91@collabora.com/) |
+| Random Number Generator      | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | UART                         | {+ 6.0-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | DONE  |
 | GPIO                         | {+ 6.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | Pinmux                       | {+ 5.19-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
@@ -73,8 +73,8 @@ review or blocked by a missing feature.
 | SPI                          | {+ 6.1-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | I2C                          | {+ 6.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | I2S                          | {+ 6.2-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.8-rc1 +}  | DONE  |
-| CAN                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | [PATCHv5 for RK3568](https://lore.kernel.org/linux-rockchip/20240904-rockchip-canfd-v5-0-8ae22bcb27cc@pengutronix.de/) |
-| SPDIF                        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/linux-rockchip/20250120-rk3588-spdif-v1-0-1415f5871dc7@gmail.com/) |
+| CAN                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | RK356x has an upstream driver |
+| SPDIF                        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | SFC (Flash Controller)       | {+ 6.7-rc1 +}  | {- TODO -}     | {- TODO -}     | `n/a`          |       |
 | OTP Memory                   | {+ 6.5-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | DFI                          | {+ 6.7-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | DONE (DDR memory utilization for perf) |
@@ -84,7 +84,7 @@ review or blocked by a missing feature.
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | NPU                          | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20250225-6-10-rocket-v2-0-d4dbcfafc141@tomeuvizoso.net/) |
 | ISP                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-| RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20240831182424.758816-1-liujianfeng1994@gmail.com/) |
+| RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 | HDMI Input                   | sent           | `n/a`          | sent           | {- TODO -}     | [PATCHv12](https://lore.kernel.org/linux-rockchip/20250227055025.766018-1-dmitry.osipenko@collabora.com/) |
 |  - CEC                       | sent           | `n/a`          | `n/a`          | `n/a`          | [PATCHv12](https://lore.kernel.org/linux-rockchip/20250227055025.766018-1-dmitry.osipenko@collabora.com/) |
