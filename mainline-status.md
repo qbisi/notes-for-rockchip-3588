@@ -126,12 +126,12 @@ RK3588 Improvements (pending)
 
  * Improved USB-C Orientation handling: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250226103810.3746018-1-heiko@sntech.de/)
  * HDMI PHY color depth management: [PATCHv4](https://lore.kernel.org/linux-rockchip/20250304-phy-sam-hdptx-bpc-v4-0-8657847c13f7@collabora.com/)
- * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
  * AV1 4K support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250217-b4-hantro-av1-clock-rate-v2-1-e179fad52641@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
 
+ * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support (6.11-rc1): [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
  * PCIe endpoint mode support (6.11-rc1): [PATCHv5](https://lore.kernel.org/all/20240607-rockchip-pcie-ep-v1-v5-0-0a042d6b0049@kernel.org/)
  * Improved linked clock gate support: [PATCHv12](https://lore.kernel.org/linux-rockchip/20241211165957.94922-1-sebastian.reichel@collabora.com/)
