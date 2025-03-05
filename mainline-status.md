@@ -56,7 +56,7 @@ review or blocked by a missing feature.
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     |       |
 |  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20250223113036.74252-1-andyshrk@163.com/) |
-| M2 E                         | `n/a`          | {- TODO -}     | partial        | `n/a`          | requires SDIO, PCIe2, I2S, UART, I2C, USB3; Rock 5B has partial support in v6.7-rc1 |
+| M2 E                         | `n/a`          | {+ 6.12-rc1 +} | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
 | M2 M                         | `n/a`          | `n/a`          | {+ 6.7-rc1 +}  | `n/a`          | DONE  |
 | Headphone Jack Playback      | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.8-rc1 +}  | DONE  |
 | Headphone Jack Record        | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.8-rc1 +}  | DONE  |
