@@ -86,7 +86,7 @@ review or blocked by a missing feature.
 | ISP                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
-| HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | sent           | {- TODO -}     | [PATCHv14](https://lore.kernel.org/linux-rockchip/20250306072842.287142-1-dmitry.osipenko@collabora.com/) |
+| HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | sent           | {- TODO -}     | [PATCHv15](https://lore.kernel.org/linux-rockchip/20250307091857.646581-1-dmitry.osipenko@collabora.com/) |
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          |       |
