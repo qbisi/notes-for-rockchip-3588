@@ -81,15 +81,15 @@ review or blocked by a missing feature.
 | Thermal ADC                  | {+ 6.4-rc1 +}  | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {- TODO -}     | {+ 6.11-rc1 +} | DONE  |
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {- TODO -}     | {+ 6.10-rc1 +} | DONE  |
-| NPU                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20250225-6-10-rocket-v2-0-d4dbcfafc141@tomeuvizoso.net/) |
-| ISP                          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+| NPU                          | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv2](https://lore.kernel.org/linux-rockchip/20250225-6-10-rocket-v2-0-d4dbcfafc141@tomeuvizoso.net/) |
+| ISP                          | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {- TODO -}     | {- TODO -}     |       |
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-| **Video Capture (VICAP)**    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv5 for RK3568](https://lore.kernel.org/linux-rockchip/20250306-v6-8-topic-rk3568-vicap-v5-0-f02152534f3c@wolfvision.net/) |
+| **Video Capture (VICAP)**    | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv5 for RK3568](https://lore.kernel.org/linux-rockchip/20250306-v6-8-topic-rk3568-vicap-v5-0-f02152534f3c@wolfvision.net/) |
 |  - MIPI CSI                  | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VEPU121**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
