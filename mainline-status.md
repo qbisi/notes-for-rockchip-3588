@@ -52,7 +52,7 @@ review or blocked by a missing feature.
 | - eDP                        | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250310104114.2608063-1-damon.ding@rock-chips.com/) |
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | - DSI                        | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250226140942.3825223-1-heiko@sntech.de/) |
-|  -- DSI PHY                  | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [DC-PHY driver PATCHv8](https://lore.kernel.org/linux-rockchip/20250313134035.278133-1-heiko@sntech.de/) |
+|  -- DSI PHY                  | {+ 6.15-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20250223113036.74252-1-andyshrk@163.com/) |
