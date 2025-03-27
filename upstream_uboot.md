@@ -60,6 +60,9 @@ Assume you have a top dir and then \
 You need the Rockchip TPL (DDR init blob), which is in the rkbin repo, and needs \
 to be passed to U-boot.
 
+Unfortunately Rockchip as of 2025-03-27 has no plans to open source the DDR init blob:
+[Debian Bug #1050968](https://bugs.debian.org/1050968#30)
+
 ### BL31
 
 You need the BL31 ATF, which must be built from the trusted-firmware-a repo, and needs \
