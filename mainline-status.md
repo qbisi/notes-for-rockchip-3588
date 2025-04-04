@@ -55,7 +55,7 @@ review or blocked by a missing feature.
 |  -- DSI PHY                  | {+ 6.15-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
-|  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20250223113036.74252-1-andyshrk@163.com/) |
+|  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250403033748.245007-1-andyshrk@163.com/) |
 | M2 E                         | `n/a`          | {+ 6.12-rc1 +} | {+ 6.7-rc1 +}  | `n/a`          | `n/a`          | DONE  |
 | M2 M                         | `n/a`          | `n/a`          | {+ 6.7-rc1 +}  | {- TODO -}     | `n/a`          | DONE  |
 | Headphone Jack Playback      | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {- TODO -}     | {+ 6.8-rc1 +}  | DONE  |
