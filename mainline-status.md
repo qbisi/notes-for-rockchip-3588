@@ -51,7 +51,7 @@ review or blocked by a missing feature.
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | - eDP                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250310104114.2608063-1-damon.ding@rock-chips.com/) |
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| - DSI                        | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250226140942.3825223-1-heiko@sntech.de/) |
+| - DSI                        | {+ 6.16-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DSI PHY                  | {+ 6.15-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
