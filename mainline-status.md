@@ -46,7 +46,7 @@ review or blocked by a missing feature.
 |  -- HDMI FRL support         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
-|  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+|  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | waiting for [HDMI CEC helpers](https://lore.kernel.org/linux-kernel/20250517-drm-hdmi-connector-cec-v6-0-35651db6f19b@oss.qualcomm.com/) |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | - eDP                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250310104114.2608063-1-damon.ding@rock-chips.com/) |
