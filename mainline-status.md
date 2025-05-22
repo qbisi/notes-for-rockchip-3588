@@ -124,6 +124,7 @@ RK3588 Improvements (pending)
 =============================
 
  * HDMI YUV420 support infrastructure: [PATCHv4](https://lore.kernel.org/dri-devel/20250425-hdmi-conn-yuv-v4-0-5e55e2aaa3fa@collabora.com/)
+ * HDMI DDC drive strength: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250522020537.1884771-1-andyshrk@163.com/)
  * PCIe System PM support: [PATCHv2](https://lore.kernel.org/linux-rockchip/1744352048-178994-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe ASPM L0S capability: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744594051-209255-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv3](https://lore.kernel.org/all/20250509-b4-pci_dwc_reset_support-v3-1-37e96b4692e7@wdc.com/)
