@@ -42,8 +42,9 @@ review or blocked by a missing feature.
 |  -- HDMI PHY                 | {+ 6.9-rc1 +}  | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.16-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Bridge              | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.16-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.15-rc1 +} |       |
-|  -- HDMI 4K support          | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-|  -- HDMI FRL support         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+|  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
+|  -- HDMI 4K60 support        | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | needs scrambling support |
+|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
 |  -- HDMI CEC                 | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | waiting for [HDMI CEC helpers](https://lore.kernel.org/linux-kernel/20250517-drm-hdmi-connector-cec-v6-0-35651db6f19b@oss.qualcomm.com/) |
