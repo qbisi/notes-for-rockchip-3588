@@ -90,8 +90,8 @@ review or blocked by a missing feature.
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-| **Video Capture (VICAP)**    | wip            | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv7 for RK3568](https://lore.kernel.org/linux-rockchip/20240220-rk3568-vicap-v7-0-7581fd96a33a@collabora.com/) |
-|  - MIPI CSI                  | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
+| **Video Capture (VICAP)**    | WIP            | {- TODO -}     | WIP            | WIP            | {- TODO -}     | [PATCHv9 for RK3568](https://lore.kernel.org/lkml/20240220-rk3568-vicap-v9-0-ace1e5cc4a82@collabora.com/) |
+|  - MIPI CSI                  | WIP            | {- TODO -}     | WIP            | WIP            | {- TODO -}     |       |
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VEPU121**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- H.264                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
