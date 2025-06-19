@@ -117,6 +117,7 @@ review or blocked by a missing feature.
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU981**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- AV1                     | {+ 6.7-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
+|    - AV1 IOMMU               | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/lkml/20250619131232.69208-1-benjamin.gaignard@collabora.com/) |
 
 Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
  * https://gitlab.collabora.com/hardware-enablement/rockchip-3588/linux
