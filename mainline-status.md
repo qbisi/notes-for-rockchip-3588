@@ -86,7 +86,7 @@ review or blocked by a missing feature.
 | ISP                          | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-| HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
+| HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.17-rc1 +} |       |
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
