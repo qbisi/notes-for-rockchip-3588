@@ -82,7 +82,7 @@ review or blocked by a missing feature.
 | Thermal ADC                  | {+ 6.4-rc1 +}  | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.16-rc1 +} | {+ 6.11-rc1 +} | DONE  |
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
-| NPU                          | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv7](https://lore.kernel.org/linux-rockchip/20250606-6-10-rocket-v7-0-dc16cfe6fe4e@tomeuvizoso.net/) |
+| NPU                          | sent           | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250713-6-10-rocket-v8-0-64fa3115e910@tomeuvizoso.net/) |
 | ISP                          | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
