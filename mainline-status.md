@@ -125,7 +125,6 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
- * HDMI YUV420 support infrastructure: [PATCHv4](https://lore.kernel.org/dri-devel/20250425-hdmi-conn-yuv-v4-0-5e55e2aaa3fa@collabora.com/)
  * HDMI DDC drive strength: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250522020537.1884771-1-andyshrk@163.com/)
  * PCIe System PM support: [PATCHv2](https://lore.kernel.org/linux-rockchip/1744352048-178994-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe ASPM L0S capability: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744594051-209255-1-git-send-email-shawn.lin@rock-chips.com/)
@@ -137,6 +136,7 @@ RK3588 Improvements (pending)
 RK3588 Improvements (merged)
 ============================
 
+ * HDMI YUV420 support infrastructure: [PATCHv5](https://lore.kernel.org/dri-devel/20250527-hdmi-conn-yuv-v5-0-74c9c4a8ac0c@collabora.com/)
  * HDMI PHY color depth management: [PATCHv6](https://lore.kernel.org/linux-rockchip/20250318-phy-sam-hdptx-bpc-v6-0-8cb1678e7663@collabora.com/)
  * GPU Power Domain fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/20241211143044.9550-1-sebastian.reichel@collabora.com/)
  * eMMC command queuing engine support (6.11-rc1): [PATCHv1 CQE](https://lore.kernel.org/all/20240530215547.2192457-1-heiko@sntech.de/)
