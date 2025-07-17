@@ -129,12 +129,12 @@ RK3588 Improvements (pending)
  * PCIe ASPM L0S capability: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744594051-209255-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv3](https://lore.kernel.org/all/20250509-b4-pci_dwc_reset_support-v3-1-37e96b4692e7@wdc.com/)
  * Improved USB-C Orientation handling: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250226103810.3746018-1-heiko@sntech.de/)
- * AV1 4K support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250217-b4-hantro-av1-clock-rate-v2-1-e179fad52641@collabora.com/)
  * VOP VP clock reset support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20241108185212.198603-1-detlev.casanova@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
 
+ * AV1 4K support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250217-b4-hantro-av1-clock-rate-v2-1-e179fad52641@collabora.com/)
  * HDMI DDC drive strength: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250522020537.1884771-1-andyshrk@163.com/)
  * HDMI YUV420 support infrastructure: [PATCHv5](https://lore.kernel.org/dri-devel/20250527-hdmi-conn-yuv-v5-0-74c9c4a8ac0c@collabora.com/)
  * HDMI PHY color depth management: [PATCHv6](https://lore.kernel.org/linux-rockchip/20250318-phy-sam-hdptx-bpc-v6-0-8cb1678e7663@collabora.com/)
