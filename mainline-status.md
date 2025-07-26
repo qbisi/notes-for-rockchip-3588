@@ -109,8 +109,8 @@ review or blocked by a missing feature.
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv4](https://lore.kernel.org/linux-rockchip/20250325213303.826925-1-detlev.casanova@collabora.com/) |
-|   -- H.265                   | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | WIP by Detlev Casanova |
+|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v1](https://lore.kernel.org/linux-rockchip/20250708151946.374349-1-detlev.casanova@collabora.com/) |
+|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v1](https://lore.kernel.org/linux-rockchip/20250708151946.374349-1-detlev.casanova@collabora.com/) |
 |   -- VP9                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
