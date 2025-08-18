@@ -47,7 +47,7 @@ review or blocked by a missing feature.
 |  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
-|  -- HDMI CEC                 | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v1](https://lore.kernel.org/lkml/20250704-rk3588-hdmi-cec-v1-0-2bd8de8700cd@collabora.com/) |
+|  -- HDMI CEC                 | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v2](https://lore.kernel.org/lkml/20250710-rk3588-hdmi-cec-v2-0-f5884be34bc1@collabora.com/) |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | - eDP                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250310104114.2608063-1-damon.ding@rock-chips.com/) |
