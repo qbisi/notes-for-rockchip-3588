@@ -130,6 +130,7 @@ RK3588 Improvements (pending)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * Improved USB-C Orientation handling: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250226103810.3746018-1-heiko@sntech.de/)
  * VOP VP clock reset support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20241108185212.198603-1-detlev.casanova@collabora.com/)
+ * Fix Thermal GRF warning: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250818-thermal-rockchip-grf-warning-v1-1-134152c97097@kernel.org/)
 
 RK3588 Improvements (merged)
 ============================
