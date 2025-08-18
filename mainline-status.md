@@ -30,7 +30,7 @@ review or blocked by a missing feature.
 | USB 2                        | {+ 6.5-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.6-rc1 +}  | DONE  |
 | USB 3 DRD                    | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | USB 3 Host                   | {+ 6.7-rc1 +}  | {+ 6.8-rc1 +}  | {+ 6.8-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
-| USB-C (fusb302)              | `n/a`          | `n/a`          | sent           | sent           | {+ 6.10-rc1 +} | [PATCHv1](https://lore.kernel.org/linux-rockchip/20241210163615.120594-1-sebastian.reichel@collabora.com/) |
+| USB-C (fusb302)              | `n/a`          | `n/a`          | sent           | sent           | {+ 6.10-rc1 +} | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250818-rock5bp-for-upstream-v3-1-d13f3cdec86c@kernel.org/) |
 | eMMC                         | {+ 6.0-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.3-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.3-rc1 +}  | DONE  |
 | SD Card                      | {+ 6.4-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
 | SDIO                         | {+ 6.5-rc1 +}  | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
