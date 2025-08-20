@@ -54,9 +54,9 @@ review or blocked by a missing feature.
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | - eDP                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv8](https://lore.kernel.org/linux-rockchip/20250310104114.2608063-1-damon.ding@rock-chips.com/) |
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| - DSI                        | {+ 6.16-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
-|  -- DSI PHY                  | {+ 6.15-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
-|  -- DSI Bridge               | {+ 6.14-rc1 +} | {- TODO -}     | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
+| - DSI                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
+|  -- DSI PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
+|  -- DSI Bridge               | {+ 6.14-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
 | - DP1.4 USB-C AltMode        | {- TODO -}     | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     |       |
 |  -- DP Bridge                | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv6](https://lore.kernel.org/all/20250728082846.3811429-1-andyshrk@163.com/) |
 | M2 E                         | `n/a`          | {+ 6.12-rc1 +} | {+ 6.7-rc1 +}  | `n/a`          | `n/a`          | DONE  |
