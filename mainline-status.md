@@ -137,6 +137,7 @@ RK3588 Improvements (pending)
  * VOP VP clock reset support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20241108185212.198603-1-detlev.casanova@collabora.com/)
  * Fix Thermal GRF warning: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250820-thermal-rockchip-grf-warning-v2-0-c7e2d35017b8@kernel.org/)
  * Limit HDMI infoframes: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250816-drm-limit-infoframes-v1-0-6dc17d5f07e9@oss.qualcomm.com/)
+ * Unified `HIWORD_UPDATE` macros: [PATCHv3](https://lore.kernel.org/linux-rockchip/20250825-byeword-update-v3-0-947b841cdb29@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
