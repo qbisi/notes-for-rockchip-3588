@@ -131,6 +131,7 @@ RK3588 Improvements (pending)
 =============================
 
  * HDMI PHY FRL support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20250818-phy-hdptx-frl-v3-0-c79997d8bb2b@collabora.com/)
+ * HDMI high color depth support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250825-rk3588-10bpc-v2-0-955622d16985@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * Improved USB-C Orientation handling: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250226103810.3746018-1-heiko@sntech.de/)
