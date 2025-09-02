@@ -130,6 +130,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
+ * Background color support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250902-rk3588-bgcolor-v1-0-fd97df91d89f@collabora.com/)
  * HDMI PHY FRL support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20250818-phy-hdptx-frl-v3-0-c79997d8bb2b@collabora.com/)
  * HDMI high color depth support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250825-rk3588-10bpc-v2-0-955622d16985@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
