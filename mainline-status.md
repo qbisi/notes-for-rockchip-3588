@@ -46,7 +46,7 @@ review or blocked by a missing feature.
 |  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.15-rc1 +} |       |
 |  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI 4K60 support        | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | needs scrambling support |
-|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | PHY part has been sent |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
 |  -- HDMI CEC                 | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v3](https://lore.kernel.org/linux-rockchip/20250825-rk3588-hdmi-cec-v3-0-95324fb22592@collabora.com/) |
@@ -131,7 +131,8 @@ RK3588 Improvements (pending)
 =============================
 
  * Background color support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250902-rk3588-bgcolor-v1-0-fd97df91d89f@collabora.com/)
- * HDMI PHY FRL support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20250818-phy-hdptx-frl-v3-0-c79997d8bb2b@collabora.com/)
+ * HDMI PHY fixes: [PATCH](https://lore.kernel.org/linux-rockchip/20250902-phy-hdptx-fixes-v1-0-e8d9ef9748d6@collabora.com/)
+ * HDMI PHY FRL support: [PATCHv4](https://lore.kernel.org/linux-rockchip/20250902-phy-hdptx-frl-v4-0-7d69176373ce@collabora.com/)
  * HDMI high color depth support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250825-rk3588-10bpc-v2-0-955622d16985@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
