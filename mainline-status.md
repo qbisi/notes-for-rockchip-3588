@@ -21,7 +21,7 @@ review or blocked by a missing feature.
 | PHY SNPS PCIe3               | {+ 6.6-rc1 +}  | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.7-rc1 +}  | DONE  |
 | PHY inno usb2                | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.6-rc1 +}  | DONE  |
 | PHY usbdp                    | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
-| PHY MIPI CSI DPHY (inno)     | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250616-rk3588-csi-dphy-v3-0-a5ccd5f1f438@collabora.com/) |
+| PHY MIPI CSI DPHY (inno)     | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv4](https://lore.kernel.org/linux-rockchip/20250616-rk3588-csi-dphy-v4-0-a4f340a7f0cf@collabora.com/) |
 | PHY MIPI CSI DCPHY (samsung) | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Note: only available on certain HW (e.g., the EVB1)     |
 | PMIC (rk806)                 | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.5-rc1 +}  | DONE  |
 | I2C Regulator (rk8602)       | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
