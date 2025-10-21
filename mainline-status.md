@@ -113,7 +113,7 @@ review or blocked by a missing feature.
 |   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1 for DTS](https://lore.kernel.org/linux-rockchip/20251020212009.8852-2-detlev.casanova@collabora.com/) |
 |   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v2](https://lore.kernel.org/linux-rockchip/20250808200340.156393-1-detlev.casanova@collabora.com/) |
 |   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v2](https://lore.kernel.org/linux-rockchip/20250808200340.156393-1-detlev.casanova@collabora.com/) |
 |   -- VP9                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
