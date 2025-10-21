@@ -130,7 +130,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
- * Background color support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250902-rk3588-bgcolor-v1-0-fd97df91d89f@collabora.com/)
+ * Background color support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20251013-rk3588-bgcolor-v2-0-25cc3810ba8c@collabora.com/)
  * HDMI PHY fixes: [PATCH](https://lore.kernel.org/linux-rockchip/20250902-phy-hdptx-fixes-v1-0-e8d9ef9748d6@collabora.com/)
  * HDMI PHY FRL support: [PATCHv4](https://lore.kernel.org/linux-rockchip/20250902-phy-hdptx-frl-v4-0-7d69176373ce@collabora.com/)
  * HDMI high color depth support: [PATCHv3](https://lore.kernel.org/linux-rockchip/20251021-rk3588-10bpc-v3-0-3d3eed00a6db@collabora.com/)
