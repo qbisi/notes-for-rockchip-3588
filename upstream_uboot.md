@@ -198,10 +198,26 @@ at the correct offsets so it can be written in one go, dedicated for eMMC device
 ***u-boot-rockchip-spi.bin*** is a similar file for SPI flash.
 
 ## Step 3
-Hold the maskrom button pressed, then power up the board using USB type C \
-cable connected to your laptop, and release the maskrom only after the board \
-powered up. \
-More information about how to enter maskrom mode is available [here](rock5b-maskrom-automation.md)
+Where the maskrom button is located, and which port to use as the download port,
+depends on your specific board.
+
+### Radxa ROCK 5B
+On the ROCK 5B, the power- and download connector are one and the same.
+
+![ROCK 5B Maskrom Download Location](img/rock5b-maskrom-download.svg "Location of the maskrom button and download port on the ROCK 5B")
+
+### Radxa ROCK 5B+
+On the ROCK 5B+, the download port is in a different location. It may be used to
+power the board as well, but it can also be powered from the other USB-C port.
+
+![ROCK 5B+ Maskrom Download Location](img/rock5bp-maskrom-download.svg "Location of the maskrom button and download port on the ROCK 5B+")
+
+### Entering Maskrom Mode
+Hold the maskrom button pressed, then power up the board using a USB type C
+cable connected to your computer. Then, let go of the maskrom button only after
+the board has powered up. Usually waiting a second or two is enough.
+
+More information about how to enter maskrom mode is available [here](rock5b-maskrom-automation.md).
 
 ## Step 4
 This will download the dedicated flashing tool to the board itself:
