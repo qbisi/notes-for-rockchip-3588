@@ -92,9 +92,9 @@ review or blocked by a missing feature.
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-| **Video Capture (VICAP)**    | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv14 for RK3568](https://lore.kernel.org/linux-rockchip/20240220-rk3568-vicap-v14-0-b38b6da0fc80@collabora.com/) |
+| **Video Capture (VICAP)**    | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [RK3568 in v6.19](https://lore.kernel.org/all/aResANF6CFNo9C4w@valkosipuli.retiisi.eu/) |
 |  - Digital Video Port (DVP)  | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Note: is there HW that exposes that? |
-|  - MIPI CSI Hosts            | WIP            | `n/a`          | `n/a`          |`n/a`           | `n/a`          | [PATCHv14 for RK3568](https://lore.kernel.org/linux-rockchip/20240220-rk3568-vicap-v14-0-b38b6da0fc80@collabora.com/) provides the driver |
+|  - MIPI CSI Hosts            | WIP            | `n/a`          | `n/a`          |`n/a`           | `n/a`          | [RK3568 in v6.19](https://lore.kernel.org/all/aResANF6CFNo9C4w@valkosipuli.retiisi.eu/) provides the driver |
 |  - MUX/TOISP                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - SCALER                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
