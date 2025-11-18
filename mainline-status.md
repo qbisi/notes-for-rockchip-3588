@@ -94,7 +94,7 @@ review or blocked by a missing feature.
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | **Video Capture (VICAP)**    | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [RK3568 in v6.19](https://lore.kernel.org/all/aResANF6CFNo9C4w@valkosipuli.retiisi.eu/) |
 |  - Digital Video Port (DVP)  | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Note: is there HW that exposes that? |
-|  - MIPI CSI Hosts            | WIP            | `n/a`          | `n/a`          |`n/a`           | `n/a`          | [PATCHv1](https://lore.kernel.org/linux-rockchip/20251114-rockchip-mipi-receiver-v1-0-d13086e810dd@collabora.com/) |
+|  - MIPI CSI Hosts            | WIP            | `n/a`          | `n/a`          |`n/a`           | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20251114-rockchip-mipi-receiver-v2-0-eb9b43377fc4@collabora.com/) |
 |  - MUX/TOISP                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - SCALER                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
