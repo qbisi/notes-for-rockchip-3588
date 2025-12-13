@@ -140,6 +140,7 @@ RK3588 Improvements (pending)
  * Limit HDMI infoframes: [PATCHv1](https://lore.kernel.org/linux-rockchip/20250816-drm-limit-infoframes-v1-0-6dc17d5f07e9@oss.qualcomm.com/)
  * AV1 CDEF computation fix: [PATCHv2](https://lore.kernel.org/linux-rockchip/20251209103401.21943-1-benjamin.gaignard@collabora.com/)
  * AV1 tx mode bit fix: [PATCHv2](https://lore.kernel.org/linux-rockchip/20251209103417.21966-1-benjamin.gaignard@collabora.com/)
+ * HDMI-RX TF-A detection: [PATCHv3](https://lore.kernel.org/linux-rockchip/20251210160006.528997-1-dmitry.osipenko@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
