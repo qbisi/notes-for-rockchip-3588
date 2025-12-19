@@ -114,9 +114,9 @@ review or blocked by a missing feature.
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1 for DTS](https://lore.kernel.org/linux-rockchip/20251020212009.8852-2-detlev.casanova@collabora.com/) |
-|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v6](https://lore.kernel.org/linux-rockchip/20251217174059.1341784-1-detlev.casanova@collabora.com/) |
-|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v6](https://lore.kernel.org/linux-rockchip/20251217174059.1341784-1-detlev.casanova@collabora.com/) |
-|   -- VP9                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
+|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v7](https://lore.kernel.org/linux-rockchip/20251218232829.337811-1-detlev.casanova@collabora.com/) |
+|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v7](https://lore.kernel.org/linux-rockchip/20251218232829.337811-1-detlev.casanova@collabora.com/) |
+|   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | WIP by Venkata Atchuta Bheemeswara Sarma Darbha |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
