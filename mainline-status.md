@@ -143,6 +143,7 @@ RK3588 Improvements (pending)
  * HDMI-RX TF-A detection: [PATCHv3](https://lore.kernel.org/linux-rockchip/20251210160006.528997-1-dmitry.osipenko@collabora.com/)
  * VOP2 atomic uAPI cleanup: [PATCHv5](https://lore.kernel.org/linux-rockchip/20251215-vop2-atomic-fixups-v5-0-83463c075a8d@collabora.com/)
  * PCIe LTSSM tracepoint support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1768180800-63364-1-git-send-email-shawn.lin@rock-chips.com/)
+ * VOP Mode Filtering: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260116005953.286225-1-andyshrk@163.com/)
 
 RK3588 Improvements (merged)
 ============================
