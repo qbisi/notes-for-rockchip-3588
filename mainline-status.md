@@ -113,9 +113,9 @@ review or blocked by a missing feature.
 |   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1 for DTS](https://lore.kernel.org/linux-rockchip/20251020212009.8852-2-detlev.casanova@collabora.com/) |
-|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v7](https://lore.kernel.org/linux-rockchip/20251218232829.337811-1-detlev.casanova@collabora.com/) |
-|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v7](https://lore.kernel.org/linux-rockchip/20251218232829.337811-1-detlev.casanova@collabora.com/) |
+|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [DT support in v6.20](https://lore.kernel.org/linux-rockchip/176798895637.3449720.6051032825613833368.b4-ty@sntech.de/) |
+|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v8](https://lore.kernel.org/linux-rockchip/20260109161538.1294449-1-detlev.casanova@collabora.com/) |
+|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCH v8](https://lore.kernel.org/linux-rockchip/20260109161538.1294449-1-detlev.casanova@collabora.com/) |
 |   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | WIP by Venkata Atchuta Bheemeswara Sarma Darbha |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
