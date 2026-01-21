@@ -131,6 +131,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
+ * Force color format support: [PATCHv7](https://lore.kernel.org/linux-rockchip/20260121-color-format-v7-0-ef790dae780c@collabora.com/)
  * Background color support: [PATCHv4](https://lore.kernel.org/linux-rockchip/20251219-rk3588-bgcolor-v4-0-2ff1127ea757@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
