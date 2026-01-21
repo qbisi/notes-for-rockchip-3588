@@ -46,7 +46,7 @@ review or blocked by a missing feature.
 |  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.15-rc1 +} |       |
 |  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI 4K60 support        | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20260119-dw-hdmi-qp-scramb-v3-0-bd8611730fc1@collabora.com/) |
-|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | PHY part has been sent |
+|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Fixed Rate Link is needed for resolutions above 4K60 (HDMI 2.1); PHY side has been merged for 6.20-rc1 |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
 |  -- HDMI CEC                 | {+ 6.19-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
@@ -132,7 +132,6 @@ RK3588 Improvements (pending)
 =============================
 
  * Background color support: [PATCHv4](https://lore.kernel.org/linux-rockchip/20251219-rk3588-bgcolor-v4-0-2ff1127ea757@collabora.com/)
- * HDMI PHY FRL support: [PATCHv6](https://lore.kernel.org/linux-rockchip/20260113-phy-hdptx-frl-v6-0-8d5f97419c0b@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * Improved USB-C Orientation handling: [PATCHv2](https://lore.kernel.org/linux-rockchip/20250226103810.3746018-1-heiko@sntech.de/)
@@ -164,3 +163,4 @@ RK3588 Improvements (merged)
  * HDMI PHY fixes (6.19-rc1): [PATCH](https://lore.kernel.org/linux-rockchip/20251028-phy-hdptx-fixes-v1-0-ecc642a59d94@collabora.com/)
  * HDMI high color depth support (6.19-rc1): [PATCHv3](https://lore.kernel.org/linux-rockchip/20251021-rk3588-10bpc-v3-0-3d3eed00a6db@collabora.com/)
  * HDMI PHY 461.10125 MHz fix (6.20-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20251221-phy-hdptx-pll-fix-v2-0-ae4abf7f75a1@collabora.com/)
+ * HDMI PHY FRL support (6.20-rc1): [PATCHv6](https://lore.kernel.org/linux-rockchip/20260113-phy-hdptx-frl-v6-0-8d5f97419c0b@collabora.com/)
