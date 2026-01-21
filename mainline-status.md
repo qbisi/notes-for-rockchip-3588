@@ -115,8 +115,8 @@ review or blocked by a missing feature.
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [DT support in v6.20](https://lore.kernel.org/linux-rockchip/176798895637.3449720.6051032825613833368.b4-ty@sntech.de/) |
-|   -- H.264                   | {+ 6.20-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PR for 6.20](https://lore.kernel.org/linux-media/78bfd01051ef84ef7e6ccbd0a72301a939869476.camel@collabora.com/) |
-|   -- H.265                   | {+ 6.20-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PR for 6.20](https://lore.kernel.org/linux-media/78bfd01051ef84ef7e6ccbd0a72301a939869476.camel@collabora.com/) |
+|   -- H.264                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv9](https://lore.kernel.org/linux-media/20260120222018.404741-1-detlev.casanova@collabora.com/) |
+|   -- H.265                   | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv9](https://lore.kernel.org/linux-media/20260120222018.404741-1-detlev.casanova@collabora.com/) |
 |   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | WIP by Venkata Atchuta Bheemeswara Sarma Darbha |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
