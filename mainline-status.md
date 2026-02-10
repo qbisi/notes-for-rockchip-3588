@@ -46,7 +46,7 @@ review or blocked by a missing feature.
 |  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.15-rc1 +} |       |
 |  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI 4K60 support        | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20260119-dw-hdmi-qp-scramb-v3-0-bd8611730fc1@collabora.com/) |
-|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Fixed Rate Link is needed for resolutions above 4K60 (HDMI 2.1); PHY side has been merged for 6.20-rc1 |
+|  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Fixed Rate Link is needed for resolutions above 4K60 (HDMI 2.1); PHY side has been merged for 7.0-rc1 |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
 |  -- HDMI CEC                 | {+ 6.19-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
@@ -95,7 +95,7 @@ review or blocked by a missing feature.
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | **Video Capture (VICAP)**    | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [RK3568 in v6.19](https://lore.kernel.org/all/aResANF6CFNo9C4w@valkosipuli.retiisi.eu/) |
 |  - Digital Video Port (DVP)  | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Note: is there HW that exposes that? |
-|  - MIPI CSI Hosts            | {+ 6.20-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PR for 6.20](https://lore.kernel.org/linux-media/aXCOTYy9xh6h5DX9@valkosipuli.retiisi.eu/) |
+|  - MIPI CSI Hosts            | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PR for 7.0](https://lore.kernel.org/linux-media/aXCOTYy9xh6h5DX9@valkosipuli.retiisi.eu/) |
 |  - MUX/TOISP                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - SCALER                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | **Media Encoder**            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
@@ -114,9 +114,9 @@ review or blocked by a missing feature.
 |   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [DT support in v6.20](https://lore.kernel.org/linux-rockchip/176798895637.3449720.6051032825613833368.b4-ty@sntech.de/) |
-|   -- H.264                   | {+ 6.20-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 6.20](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
-|   -- H.265                   | {+ 6.20-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 6.20](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
+|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [DT support in v7.0](https://lore.kernel.org/linux-rockchip/176798895637.3449720.6051032825613833368.b4-ty@sntech.de/) |
+|   -- H.264                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 7.0](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
+|   -- H.265                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 7.0](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
 |   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | WIP by Venkata Atchuta Bheemeswara Sarma Darbha |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
@@ -166,5 +166,5 @@ RK3588 Improvements (merged)
  * Fix Thermal GRF warning (6.18-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20250820-thermal-rockchip-grf-warning-v2-0-c7e2d35017b8@kernel.org/)
  * HDMI PHY fixes (6.19-rc1): [PATCH](https://lore.kernel.org/linux-rockchip/20251028-phy-hdptx-fixes-v1-0-ecc642a59d94@collabora.com/)
  * HDMI high color depth support (6.19-rc1): [PATCHv3](https://lore.kernel.org/linux-rockchip/20251021-rk3588-10bpc-v3-0-3d3eed00a6db@collabora.com/)
- * HDMI PHY 461.10125 MHz fix (6.20-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20251221-phy-hdptx-pll-fix-v2-0-ae4abf7f75a1@collabora.com/)
- * HDMI PHY FRL support (6.20-rc1): [PATCHv6](https://lore.kernel.org/linux-rockchip/20260113-phy-hdptx-frl-v6-0-8d5f97419c0b@collabora.com/)
+ * HDMI PHY 461.10125 MHz fix (7.0-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20251221-phy-hdptx-pll-fix-v2-0-ae4abf7f75a1@collabora.com/)
+ * HDMI PHY FRL support (7.0-rc1): [PATCHv6](https://lore.kernel.org/linux-rockchip/20260113-phy-hdptx-frl-v6-0-8d5f97419c0b@collabora.com/)
