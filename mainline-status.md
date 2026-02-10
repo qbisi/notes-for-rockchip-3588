@@ -147,7 +147,6 @@ RK3588 Improvements (pending)
  * VOP2 atomic uAPI cleanup: [PATCHv5](https://lore.kernel.org/linux-rockchip/20251215-vop2-atomic-fixups-v5-0-83463c075a8d@collabora.com/)
  * PCIe LTSSM tracepoint support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1768180800-63364-1-git-send-email-shawn.lin@rock-chips.com/)
  * VOP Mode Filtering: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260116005953.286225-1-andyshrk@163.com/)
- * Expand S/PDIF Features (needed for DP audio): [PATCHv1](https://lore.kernel.org/linux-rockchip/20260127-rockchip-spdif-cleanup-and-bsp-sync-v1-0-a7c547072bbb@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
@@ -168,3 +167,4 @@ RK3588 Improvements (merged)
  * HDMI high color depth support (6.19-rc1): [PATCHv3](https://lore.kernel.org/linux-rockchip/20251021-rk3588-10bpc-v3-0-3d3eed00a6db@collabora.com/)
  * HDMI PHY 461.10125 MHz fix (7.0-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20251221-phy-hdptx-pll-fix-v2-0-ae4abf7f75a1@collabora.com/)
  * HDMI PHY FRL support (7.0-rc1): [PATCHv6](https://lore.kernel.org/linux-rockchip/20260113-phy-hdptx-frl-v6-0-8d5f97419c0b@collabora.com/)
+ * Expand S/PDIF Features needed for DP audio (7.0-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/177033773886.236064.14543193521688333504.b4-ty@kernel.org/)
