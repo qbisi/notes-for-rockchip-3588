@@ -145,6 +145,7 @@ RK3588 Improvements (pending)
  * Improve handling missing short/long term RPS in rkvdec: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260123192244.1441637-1-detlev.casanova@collabora.com/)
  * VOP2 atomic uAPI cleanup: [PATCHv5](https://lore.kernel.org/linux-rockchip/20251215-vop2-atomic-fixups-v5-0-83463c075a8d@collabora.com/)
  * PCIe LTSSM tracepoint support: [PATCHv4](https://lore.kernel.org/linux-rockchip/1769047340-113287-1-git-send-email-shawn.lin@rock-chips.com/)
+ * V4L2 stateless codec tracepoint support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260212162328.192217-1-detlev.casanova@collabora.com/)
  * VOP Mode Filtering: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260116005953.286225-1-andyshrk@163.com/)
 
 RK3588 Improvements (merged)
