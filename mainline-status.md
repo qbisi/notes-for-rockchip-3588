@@ -148,6 +148,9 @@ RK3588 Improvements (pending)
  * V4L2 stateless codec tracepoint support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260212162328.192217-1-detlev.casanova@collabora.com/)
  * VOP Mode Filtering: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260116005953.286225-1-andyshrk@163.com/)
  * HDMI-RX EDID fix: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260209061654.54757-1-ross@r-sc.ca/)
+ * USBDP PHY fixes for DisplayPort usage: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260213-rockchip-usbdp-cleanup-v2-0-b67ec225f96e@collabora.com/)
+ * USB-C mux fixes for Rockchip USBDP: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260213-typec-mux-duplication-fix-v1-0-70076a7c5691@collabora.com/)
+ * TCPM fix for some USB-C DP adapters: [PATCHv1](https://lore.kernel.org/linux-usb/20260213-tcpm-discover-modes-nak-fix-v1-0-9bcb5adb4ef6@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
