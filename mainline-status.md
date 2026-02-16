@@ -131,7 +131,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
- * Force color format support: [PATCHv7](https://lore.kernel.org/linux-rockchip/20260121-color-format-v7-0-ef790dae780c@collabora.com/)
+ * Force color format support: [PATCHv8](https://lore.kernel.org/linux-rockchip/20260216-color-format-v8-0-5722ce175dd5@collabora.com/)
  * Background color support: [PATCHv7](https://lore.kernel.org/linux-rockchip/20260204-rk3588-bgcolor-v7-0-78d1d01c5ca1@collabora.com/)
  * HDMI VSI & SPD InfoFrames: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260129-dw-hdmi-qp-iframe-v2-0-0157ad05232c@collabora.com/)
  * PCIe System PM support: [PATCHv3](https://lore.kernel.org/linux-rockchip/1744940759-23823-1-git-send-email-shawn.lin@rock-chips.com/)
