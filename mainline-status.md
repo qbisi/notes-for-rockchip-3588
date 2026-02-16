@@ -151,6 +151,8 @@ RK3588 Improvements (pending)
  * USBDP PHY fixes for DisplayPort usage: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260213-rockchip-usbdp-cleanup-v2-0-b67ec225f96e@collabora.com/)
  * USB-C mux fixes for Rockchip USBDP: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260213-typec-mux-duplication-fix-v1-0-70076a7c5691@collabora.com/)
  * TCPM fix for some USB-C DP adapters: [PATCHv1](https://lore.kernel.org/linux-usb/20260213-tcpm-discover-modes-nak-fix-v1-0-9bcb5adb4ef6@collabora.com/)
+ * Rockchip Camera Interface fixes: [PATCHv1](https://lore.kernel.org/linux-media/20260216-rkcif-fixes-v1-0-b16db20b6d68@collabora.com/)
+ * Rockchip CSI2 fixes: [PATCHv1](https://lore.kernel.org/linux-media/20260216-snps-csi2rx-v1-0-747bc7408f87@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
