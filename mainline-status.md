@@ -131,6 +131,7 @@ Git branch with basic rk3588 hardware enablement (**WILL BE REBASED!**):
 RK3588 Improvements (pending)
 =============================
 
+ * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
  * Force color format support: [PATCHv8](https://lore.kernel.org/linux-rockchip/20260216-color-format-v8-0-5722ce175dd5@collabora.com/)
  * Background color support: [PATCHv7](https://lore.kernel.org/linux-rockchip/20260204-rk3588-bgcolor-v7-0-78d1d01c5ca1@collabora.com/)
  * HDMI VSI & SPD InfoFrames: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260129-dw-hdmi-qp-iframe-v2-0-0157ad05232c@collabora.com/)
