@@ -155,6 +155,7 @@ RK3588 Improvements (pending)
  * TCPM fix for some USB-C DP adapters: [PATCHv3](https://lore.kernel.org/linux-usb/20260309-tcpm-discover-modes-nak-fix-v3-1-a4447f5c1c61@collabora.com/)
  * Rockchip Camera Interface fixes: [PATCHv2](https://lore.kernel.org/linux-media/20260216-rkcif-fixes-v2-0-ee40931fe0ff@collabora.com/)
  * Rockchip CSI2 fixes: [PATCHv1](https://lore.kernel.org/linux-media/20260216-snps-csi2rx-v1-0-747bc7408f87@collabora.com/)
+ * Hynetek HUSB311 support: [PATCHv4](https://lore.kernel.org/lkml/20260318-husb311-v4-0-69e029255430@flipper.net/)
 
 RK3588 Improvements (merged)
 ============================
