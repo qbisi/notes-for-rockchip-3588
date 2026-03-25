@@ -133,7 +133,7 @@ RK3588 Improvements (pending)
 =============================
 
  * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
- * Force color format support: [PATCHv9](https://lore.kernel.org/linux-rockchip/20260227-color-format-v9-0-658c3b9db7ef@collabora.com/)
+ * Force color format support: [PATCHv11](https://lore.kernel.org/linux-rockchip/20260324-color-format-v11-0-605559af4fb4@collabora.com/)
  * HDMI VSI & SPD InfoFrames: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260129-dw-hdmi-qp-iframe-v2-0-0157ad05232c@collabora.com/)
  * PCIe System PM support: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260316-rockchip-pcie-system-suspend-v5-0-5bb5ad37d643@collabora.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
