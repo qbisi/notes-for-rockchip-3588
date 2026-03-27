@@ -149,6 +149,7 @@ RK3588 Improvements (pending)
  * Hynetek HUSB311 support: [PATCHv4](https://lore.kernel.org/lkml/20260318-husb311-v4-0-69e029255430@flipper.net/)
  * I2C SCL Debounce support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260321105146.7419-1-linux.amoon@gmail.com/)
  * eMMC driver platform data refactoring: [PATCHv2](https://lore.kernel.org/linux-rockchip/1774620875-18258-1-git-send-email-shawn.lin@rock-chips.com/)
+ * Move rkvdec from bitfield to bitwriter: [PATCHv2](lore.kernel.org/linux-rockchip/20260327-rkvdec-use-bitwriter-v2-0-a5a4754b0518@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
