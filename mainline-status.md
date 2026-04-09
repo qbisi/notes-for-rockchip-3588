@@ -152,6 +152,7 @@ RK3588 Improvements (pending)
  * eMMC driver DLL clock quirk: [PATCHv3](https://lore.kernel.org/linux-rockchip/1775632729-22841-1-git-send-email-shawn.lin@rock-chips.com/)
  * Move rkvdec from bitfield to bitwriter: [PATCHv3](lore.kernel.org/linux-rockchip/20260402-rkvdec-use-bitwriter-v3-0-2072474ceaf4@collabora.com/)
  * SAI slot width fix: [PATCHv1](https://lore.kernel.org/linux-rockchip/5445638.31r3eYUQgx@workhorse/)
+ * Add support for I2S MCLK output gate clocks: [PATCHv3](https://lore.kernel.org/linux-rockchip/20260320-rk3588-mclk-gate-grf-v3-0-980338eacd2c@superkali.me/)
 
 RK3588 Improvements (merged)
 ============================
