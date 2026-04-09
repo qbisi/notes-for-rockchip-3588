@@ -115,9 +115,9 @@ review or blocked by a missing feature.
 |   -- MPEG-4                  | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.263                   | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [DT support in v7.0](https://lore.kernel.org/linux-rockchip/176798895637.3449720.6051032825613833368.b4-ty@sntech.de/) |
-|   -- H.264                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 7.0](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
-|   -- H.265                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PRv2 for 7.0](https://lore.kernel.org/linux-media/379e2cfb0ac6640936446b5e76dd24f854e7800c.camel@collabora.com/) |
+|  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
+|   -- H.264                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE, missing multi-core support (see improvements section) |
+|   -- H.265                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE, missing multi-core support (see improvements section) |
 |   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [WIP by Venkata Atchuta Bheemeswara Sarma Darbha](https://github.com/dvab-sarma/android_kernel_rk_opi/commit/aa00b89b6bbfd7570e459172417e2e72921689f4) |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
@@ -153,6 +153,7 @@ RK3588 Improvements (pending)
  * Move rkvdec from bitfield to bitwriter: [PATCHv3](lore.kernel.org/linux-rockchip/20260402-rkvdec-use-bitwriter-v3-0-2072474ceaf4@collabora.com/)
  * SAI slot width fix: [PATCHv1](https://lore.kernel.org/linux-rockchip/5445638.31r3eYUQgx@workhorse/)
  * Add support for I2S MCLK output gate clocks: [PATCHv3](https://lore.kernel.org/linux-rockchip/20260320-rk3588-mclk-gate-grf-v3-0-980338eacd2c@superkali.me/)
+ * VDPU381 multi-core support for H.264/H.265: [PATCHv1](https://lore.kernel.org/linux-media/20260409-rkvdec-multicore-v1-0-62b316abf0f7@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
