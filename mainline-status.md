@@ -87,7 +87,7 @@ review or blocked by a missing feature.
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | {- TODO -}     | DONE  |
-| ISP                          | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [stripped down simplified driver](https://github.com/rockchip-community/linux/tree/rkisp30-driver) |
+| ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [RFCv1](https://lore.kernel.org/linux-media/20260424175853.638202-1-paul.elder@ideasonboard.com/) |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv4](https://lore.kernel.org/linux-rockchip/20260325-spu-rga3-v4-0-e90ec1c61354@pengutronix.de/) |
 | HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.17-rc1 +} |       |
