@@ -133,7 +133,7 @@ RK3588 Improvements (pending)
 =============================
 
  * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
- * Force color format support: [PATCHv12](https://lore.kernel.org/linux-rockchip/20260409-color-format-v12-0-ce84e1817a27@collabora.com/)
+ * Force color format support: [PATCHv14](https://lore.kernel.org/linux-rockchip/20260423-color-format-v14-0-449a419ccbd4@collabora.com/)
  * PCIe System PM support: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260316-rockchip-pcie-system-suspend-v5-0-5bb5ad37d643@collabora.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * PCIe SSC tuning cleanup in naneng combphy: [PATCHv2](https://lore.kernel.org/linux-rockchip/1772696450-139583-1-git-send-email-shawn.lin@rock-chips.com/)
