@@ -57,9 +57,9 @@ review or blocked by a missing feature.
 | - DSI                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
 |  -- DSI PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
 |  -- DSI Bridge               | {+ 6.14-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
-| - DP1.4 USB-C AltMode        | WIP            | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20260326-synopsys-dw-dp-improvements-v1-0-501849162290@collabora.com/) |
+| - DP1.4 USB-C AltMode        | WIP            | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv2](https://lore.kernel.org/linux-rockchip/20260501-synopsys-dw-dp-improvements-v2-0-d7e7f6bac77f@collabora.com/) |
 |  -- DP Bridge                | {+ 6.18-rc1 +} | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | DONE, some DT binding updates required for proper USB-C AltMode support |
-|    -- Audio                  | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv1](https://lore.kernel.org/linux-rockchip/20260326-synopsys-dw-dp-improvements-v1-0-501849162290@collabora.com/) |
+|    -- Audio                  | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv2](https://lore.kernel.org/linux-rockchip/20260501-synopsys-dw-dp-improvements-v2-0-d7e7f6bac77f@collabora.com/) |
 | M2 E                         | `n/a`          | {+ 6.12-rc1 +} | {+ 6.7-rc1 +}  | `n/a`          | `n/a`          | DONE  |
 | M2 M                         | `n/a`          | `n/a`          | {+ 6.7-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
 | Headphone Jack Playback      | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.8-rc1 +}  | DONE  |
