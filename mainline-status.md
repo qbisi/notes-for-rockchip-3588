@@ -94,7 +94,7 @@ review or blocked by a missing feature.
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - HDCP                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
-| **Video Capture (VICAP)**    | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-rockchip/20250430-rk3588-vicap-v3-0-e38e428868cc@collabora.com/) |
+| **Video Capture (VICAP)**    | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Digital Video Port (DVP)  | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Note: is there HW that exposes that? |
 |  - MIPI CSI Hosts            | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - MUX/TOISP                 | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
