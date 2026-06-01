@@ -155,6 +155,7 @@ RK3588 Improvements (pending)
  * VDPU381 H265 fixes: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260527194737.1999409-1-michael.bommarito@gmail.com/)
  * SCDC information to connector debugfs: [PATCHv4](https://lore.kernel.org/dri-devel/20260527-scdc-link-health-v4-0-622ea40a1f59@collabora.com/)
  * YUV support for background color: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260524-vop2-bg-yuv-v1-0-dcb6a52923f5@collabora.com/)
+ * Fix errors prints from HDMI audio on unconnected cable: [PATCHv1](https://lore.kernel.org/lkml/20260519-fix-hdmi-audio-warnings-v1-1-9608966c993f@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
