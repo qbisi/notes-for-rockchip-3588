@@ -45,7 +45,7 @@ review or blocked by a missing feature.
 |  -- HDMI Bridge              | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.13-rc1 +} | {+ 6.16-rc1 +} | {+ 6.13-rc1 +} | DONE  |
 |  -- HDMI Second Port         | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.15-rc1 +} |       |
 |  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-|  -- HDMI 4K60 support        | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv6](https://lore.kernel.org/linux-rockchip/20260520-dw-hdmi-qp-scramb-v6-0-24b74603b782@collabora.com/) |
+|  -- HDMI 4K60 support        | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv7](https://lore.kernel.org/linux-rockchip/20260602-dw-hdmi-qp-scramb-v7-0-445eb54ee1ed@collabora.com/) |
 |  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Fixed Rate Link is needed for resolutions above 4K60 (HDMI 2.1); PHY side has been merged for 7.0-rc1 |
 |  -- HDMI 8K support          | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
