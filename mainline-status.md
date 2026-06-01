@@ -156,6 +156,7 @@ RK3588 Improvements (pending)
  * SCDC information to connector debugfs: [PATCHv4](https://lore.kernel.org/dri-devel/20260527-scdc-link-health-v4-0-622ea40a1f59@collabora.com/)
  * YUV support for background color: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260524-vop2-bg-yuv-v1-0-dcb6a52923f5@collabora.com/)
  * Fix errors prints from HDMI audio on unconnected cable: [PATCHv1](https://lore.kernel.org/lkml/20260519-fix-hdmi-audio-warnings-v1-1-9608966c993f@collabora.com/)
+ * VOP2 fixes for multi-output setups: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260504-vop2-layer-cfg-tmout-v1-0-730226a7331e@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
