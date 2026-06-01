@@ -153,6 +153,7 @@ RK3588 Improvements (pending)
  * SAI slot width fix: [PATCHv1](https://lore.kernel.org/linux-rockchip/5445638.31r3eYUQgx@workhorse/)
  * VDPU381 multi-core support for H.264/H.265: [PATCHv1](https://lore.kernel.org/linux-media/20260409-rkvdec-multicore-v1-0-62b316abf0f7@collabora.com/)
  * VDPU381 H265 fixes: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260527194737.1999409-1-michael.bommarito@gmail.com/)
+ * SCDC information to connector debugfs: [PATCHv4](https://lore.kernel.org/dri-devel/20260527-scdc-link-health-v4-0-622ea40a1f59@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
