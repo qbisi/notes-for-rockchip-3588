@@ -157,7 +157,6 @@ RK3588 Improvements (pending)
  * YUV support for background color: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260601-vop2-bg-yuv-v2-0-e5aef1d16fec@collabora.com/)
  * Fix errors prints from HDMI audio on unconnected cable: [PATCHv1](https://lore.kernel.org/lkml/20260519-fix-hdmi-audio-warnings-v1-1-9608966c993f@collabora.com/)
  * VOP2 fixes for multi-output setups: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260504-vop2-layer-cfg-tmout-v1-0-730226a7331e@collabora.com/)
- * Disable fetch dte time limit in IOMMU: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260428-spu-iommudtefix-v2-1-f592f579e508@pengutronix.de/)
 
 RK3588 Improvements (merged)
 ============================
@@ -198,3 +197,4 @@ RK3588 Improvements (merged)
  * TCPM fix for some USB-C DP adapters (7.1-rc6): [PATCHv4](https://lore.kernel.org/linux-usb/20260429-tcpm-discover-modes-nak-fix-v4-1-75945d0ed30f@collabora.com/)
  * Add support for I2S MCLK output gate clocks (7.2-rc1): [PATCHv3](https://lore.kernel.org/linux-rockchip/20260320-rk3588-mclk-gate-grf-v3-0-980338eacd2c@superkali.me/)
  * HDMI data line voltage bias (7.2-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20260428-dts-rk-frl-enable-gpios-v2-0-924df9db884a@collabora.com/)
+ * Disable fetch dte time limit in IOMMU (7.2-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20260428-spu-iommudtefix-v2-1-f592f579e508@pengutronix.de/)
