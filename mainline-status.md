@@ -133,7 +133,6 @@ RK3588 Improvements (pending)
 =============================
 
  * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
- * Force color format support: [PATCHv17](https://lore.kernel.org/linux-rockchip/20260609-color-format-v17-0-35739b5782cc@collabora.com/)
  * PCIe System PM support: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260316-rockchip-pcie-system-suspend-v5-0-5bb5ad37d643@collabora.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * PCIe SSC tuning cleanup in naneng combphy: [PATCHv2](https://lore.kernel.org/linux-rockchip/1772696450-139583-1-git-send-email-shawn.lin@rock-chips.com/)
@@ -199,3 +198,4 @@ RK3588 Improvements (merged)
  * Disable fetch dte time limit in IOMMU (7.2-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20260428-spu-iommudtefix-v2-1-f592f579e508@pengutronix.de/)
  * VOP2 fixes for multi-output setups (7.3-rc1): [PATCHv1](https://lore.kernel.org/linux-rockchip/20260504-vop2-layer-cfg-tmout-v1-0-730226a7331e@collabora.com/)
  * YUV support for background color (7.3-rc1): [PATCHv2](https://lore.kernel.org/linux-rockchip/20260601-vop2-bg-yuv-v2-0-e5aef1d16fec@collabora.com/)
+ * Force color format support (7.3-rc1): [PATCHv17](https://lore.kernel.org/linux-rockchip/20260609-color-format-v17-0-35739b5782cc@collabora.com/)
