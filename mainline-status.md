@@ -156,6 +156,7 @@ RK3588 Improvements (pending)
  * Fix errors prints from HDMI audio on unconnected cable: [PATCHv1](https://lore.kernel.org/lkml/20260519-fix-hdmi-audio-warnings-v1-1-9608966c993f@collabora.com/)
  * Add support for HDMI overscan compensation: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260602-hdmi-overscan-v1-0-31f71b817c80@flipper.net/)
  * HDMI 10-bit YUV422 and YUV420 support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260617-dw-hdmi-qp-yuv-v1-0-a665cfd06d7d@collabora.com/)
+ * V4L2 HW usage stats for rkvdec and hantro: [PATCHv2](https://lore.kernel.org/linux-media/20260617-v4l2-add-fdinfo-v2-0-d298e98ce06a@collabora.com/)
 
 RK3588 Improvements (merged)
 ============================
