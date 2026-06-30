@@ -158,6 +158,7 @@ RK3588 Improvements (pending)
  * HDMI 10-bit YUV422 and YUV420 support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260617-dw-hdmi-qp-yuv-v1-0-a665cfd06d7d@collabora.com/)
  * V4L2 HW usage stats for rkvdec and hantro: [PATCHv2](https://lore.kernel.org/linux-media/20260617-v4l2-add-fdinfo-v2-0-d298e98ce06a@collabora.com/)
  * Race condition fix for DP AltMode negotiation: [PATCHv1](https://lore.kernel.org/all/20260615194923.4192117-2-rdbabiera@google.com/)
+ * CSI D-PHY 2500 Mbps support: [PATCHv3](https://lore.kernel.org/linux-phy/20260630-feature-mipi-csi-dphy-4k60-v3-0-176792ab71fa@wolfvision.net/)
 
 RK3588 Improvements (merged)
 ============================
