@@ -1,0 +1,54 @@
+name: Sync Collabora upstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours, offset from the top of the hour.
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/sync-upstream.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-collabora-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Fetch upstream and update mirror branch
+        env:
+          UPSTREAM_URL: https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588.git
+          TARGET_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          upstream_branch="$({
+            git ls-remote --symref "$UPSTREAM_URL" HEAD
+          } | awk '/^ref:/ { sub("refs/heads/", "", $2); print $2; exit }')"
+
+          if [[ -z "$upstream_branch" ]]; then
+            upstream_branch=main
+          fi
+
+          echo "Upstream default branch: $upstream_branch"
+
+          git clone --mirror "$UPSTREAM_URL" upstream.git
+
+          upstream_head="$(git --git-dir=upstream.git rev-parse "refs/heads/$upstream_branch")"
+          echo "Upstream HEAD: $upstream_head"
+
+          # Keep this repository's main branch (and README) untouched.
+          # The upstream repository is reproduced verbatim on the unrelated
+          # `upstream` branch, preserving upstream commit history.
+          git --git-dir=upstream.git push --force "$TARGET_URL" \
+            "refs/heads/$upstream_branch:refs/heads/upstream"
