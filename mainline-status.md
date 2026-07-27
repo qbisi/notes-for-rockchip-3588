@@ -119,7 +119,7 @@ review or blocked by a missing feature.
 |  - **VDPU381**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |   -- H.264                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE, missing multi-core support (see improvements section) |
 |   -- H.265                   | {+ 7.0-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE, missing multi-core support (see improvements section) |
-|   -- VP9                     | wip            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [WIP by Venkata Atchuta Bheemeswara Sarma Darbha](https://github.com/dvab-sarma/android_kernel_rk_opi/commit/aa00b89b6bbfd7570e459172417e2e72921689f4) |
+|   -- VP9                     | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/linux-media/20260726-b4-add-rkvdec2-vp9-vdpu381-v1-0-180fb2d1f10c@gmail.com/) |
 |   -- AVS2                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  - **VDPU720**               | `n/a`          | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |   -- JPEG                    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
