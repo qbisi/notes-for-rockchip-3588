@@ -161,6 +161,7 @@ RK3588 Improvements (pending)
  * Race condition fix for DP AltMode negotiation: [PATCHv1](https://lore.kernel.org/all/20260615194923.4192117-2-rdbabiera@google.com/)
  * CSI D-PHY 2500 Mbps support: [PATCHv3](https://lore.kernel.org/linux-phy/20260630-feature-mipi-csi-dphy-4k60-v3-0-176792ab71fa@wolfvision.net/)
  * HDMI QP audio N/CTS cleanup and fix: [PATCHv3](https://lore.kernel.org/linux-rockchip/86fcf349-0a7a-4618-9001-612371b0f71b@symple.nz/)
+ * Support for GPIO based HPD in ePD controller: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260730032744.381566-1-damon.ding@rock-chips.com/)
 
 RK3588 Improvements (merged)
 ============================
