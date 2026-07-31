@@ -22,7 +22,7 @@ review or blocked by a missing feature.
 | PHY inno usb2                | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.6-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.6-rc1 +}  | DONE  |
 | PHY usbdp                    | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | PHY MIPI CSI DPHY (inno)     | {+ 6.18-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| PHY MIPI CSI DCPHY (samsung) | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/linux-rockchip/20260721-dcphy-rx-v1-v1-0-4fc83c0ccac9@gmail.com/) |
+| PHY MIPI CSI DCPHY (samsung) | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-rockchip/20260726-dcphy-rx-v1-v2-0-cf9cc34a412a@gmail.com/) |
 | PMIC (rk806)                 | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.5-rc1 +}  | {+ 6.16-rc1 +} | {+ 6.5-rc1 +}  | DONE  |
 | I2C Regulator (rk8602)       | `n/a`          | {+ 6.6-rc1 +}  | {+ 6.4-rc1 +}  | {+ 6.16-rc1 +} | `n/a`          | DONE  |
 | cpufreq                      | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.11-rc1 +} | {+ 6.16-rc1 +} | {+ 6.11-rc1 +} | DONE  |
