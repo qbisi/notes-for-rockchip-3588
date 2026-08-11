@@ -162,7 +162,7 @@ RK3588 Improvements (pending)
  * CSI D-PHY 2500 Mbps support: [PATCHv3](https://lore.kernel.org/linux-phy/20260630-feature-mipi-csi-dphy-4k60-v3-0-176792ab71fa@wolfvision.net/)
  * HDMI QP audio N/CTS cleanup and fix: [PATCHv3](https://lore.kernel.org/linux-rockchip/86fcf349-0a7a-4618-9001-612371b0f71b@symple.nz/)
  * Support for GPIO based HPD in ePD controller: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260730032744.381566-1-damon.ding@rock-chips.com/)
- * CAN TX stall fix: [PATCHv4](https://lore.kernel.org/linux-rockchip/tencent_BFFE7E8E4D7E349F32F509B7233D01FB8808@qq.com/)
+ * CAN TX stall fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/tencent_C82C09E7235101CC88A97E154D2534183208@qq.com/)
 
 RK3588 Improvements (merged)
 ============================
