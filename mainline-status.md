@@ -163,6 +163,7 @@ RK3588 Improvements (pending)
  * HDMI QP audio N/CTS cleanup and fix: [PATCHv3](https://lore.kernel.org/linux-rockchip/86fcf349-0a7a-4618-9001-612371b0f71b@symple.nz/)
  * Support for GPIO based HPD in ePD controller: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260730032744.381566-1-damon.ding@rock-chips.com/)
  * CAN TX stall fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/tencent_C82C09E7235101CC88A97E154D2534183208@qq.com/)
+ * Designware DisplayPort HDR support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260808095749.9428-1-royalnet026@gmail.com/)
 
 RK3588 Improvements (merged)
 ============================
