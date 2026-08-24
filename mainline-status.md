@@ -87,7 +87,7 @@ review or blocked by a missing feature.
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | {- TODO -}     | DONE  |
-| ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [RFCv1](https://lore.kernel.org/linux-media/20260424175853.638202-1-paul.elder@ideasonboard.com/) |
+| ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2](https://lore.kernel.org/linux-media/20260824090406.3695880-1-paul.elder@ideasonboard.com/) |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1 for multi-core support](https://lore.kernel.org/linux-media/20260606-spu-rga3multicore-v1-0-3ec2b15675f7@pengutronix.de/) |
 | Image Enhancement Processor (IEP2) | {- TODO -} | `n/a`        | `n/a`          | `n/a`          | `n/a`          | used for deinterlacing; downstream handles it via MPP |
