@@ -134,6 +134,7 @@ RK3588 Improvements (pending)
 =============================
 
  * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
+ * NPU: DVFS support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260904130858.27803-1-royalnet026@gmail.com/)
  * PCIe System PM support: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260316-rockchip-pcie-system-suspend-v5-0-5bb5ad37d643@collabora.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * TX detect RX termination errata fix in naneng combphy: [PATCHv1](https://lore.kernel.org/linux-rockchip/1788158204-161347-1-git-send-email-shawn.lin@rock-chips.com/)
