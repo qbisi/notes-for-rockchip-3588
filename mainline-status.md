@@ -151,6 +151,7 @@ RK3588 Improvements (pending)
  * CAN TX stall fix: [PATCHv5](https://lore.kernel.org/linux-rockchip/tencent_C82C09E7235101CC88A97E154D2534183208@qq.com/)
  * Designware DisplayPort HDR support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260808095749.9428-1-royalnet026@gmail.com/)
  * HDMI PHY FRL TxFFE level control: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260901-hdptx-ffe-v2-0-3a5922c76fc5@collabora.com/)
+ * ARM SMMU v3 power management: [PATCHv9](https://lore.kernel.org/linux-arm-kernel/20260728210928.1050849-1-praan@google.com/)
 
 RK3588 Improvements (merged)
 ============================
