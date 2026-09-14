@@ -154,6 +154,7 @@ RK3588 Improvements (pending)
  * ARM SMMU v3 power management: [PATCHv9](https://lore.kernel.org/linux-arm-kernel/20260728210928.1050849-1-praan@google.com/)
  * RK3588 EVB1 WLAN suspend fix: [PATCHv1](https://lore.kernel.org/linux-wireless/20260908-brcmfmac-bcm43752-suspend-fix-v1-1-32585639d763@collabora.com/)
  * USB2 SError fix for resume after system suspend: [PATCHv1](https://lore.kernel.org/linux-phy/20260908-phy-rockchip-inno-usb2-clock-fix-v1-1-f7d59c31b908@collabora.com/)
+ * DSI Controller improvements: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260914013331.108-1-kernel@airkyi.com/)
 
 RK3588 Improvements (merged)
 ============================
