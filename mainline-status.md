@@ -89,7 +89,7 @@ review or blocked by a missing feature.
 | NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | {- TODO -}     | DONE  |
 | ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-media/20260827-rkisp2-v3-0-e91ff0a604d6@ideasonboard.com/) |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| RGA3                         | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv1 for multi-core support](https://lore.kernel.org/linux-media/20260606-spu-rga3multicore-v1-0-3ec2b15675f7@pengutronix.de/) |
+| RGA3                         | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2 for multi-core support](https://lore.kernel.org/linux-media/20260916-spu-rga3multicore-v2-0-23aa2cb74e61@pengutronix.de/) |
 | Image Enhancement Processor (IEP2) | {- TODO -} | `n/a`        | `n/a`          | `n/a`          | `n/a`          | used for deinterlacing; downstream handles it via MPP |
 | HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.17-rc1 +} |       |
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
