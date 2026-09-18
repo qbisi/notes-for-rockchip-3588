@@ -156,6 +156,7 @@ RK3588 Improvements (pending)
  * USB2 SError fix for resume after system suspend: [PATCHv1](https://lore.kernel.org/linux-phy/20260908-phy-rockchip-inno-usb2-clock-fix-v1-1-f7d59c31b908@collabora.com/)
  * DSI Controller improvements: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260914013331.108-1-kernel@airkyi.com/)
  * DFI clocks: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260917-rockchip-dfi-cleanup-v1-0-4f00a97a69a6@collabora.com/)
+ * Rockchip Power Domain fixes: [PATCHv1](https://lore.kernel.org/linux-rockchip/1789733258-10133-1-git-send-email-shawn.lin@rock-chips.com/)
 
 RK3588 Improvements (merged)
 ============================
