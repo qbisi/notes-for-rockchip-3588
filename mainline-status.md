@@ -158,7 +158,7 @@ RK3588 Improvements (pending)
  * DFI clocks: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260917-rockchip-dfi-cleanup-v1-0-4f00a97a69a6@collabora.com/)
  * Rockchip Power Domain fixes: [PATCHv1](https://lore.kernel.org/linux-rockchip/1789733258-10133-1-git-send-email-shawn.lin@rock-chips.com/)
  * HDMI-RX pixelclock fix and input status reporting: [PATCHv1](https://lore.kernel.org/linux-media/20260921-hdmirx-fixes-v1-0-495be0beaf93@pengutronix.de/)
- * HDMI-RX bridge support: [PATCHv1](https://lore.kernel.org/linux-media/20260923-hdmirx-media-v1-0-ea3d77d4a5f3@pengutronix.de/)
+ * HDMI-RX bridge support: [PATCHv2](https://lore.kernel.org/linux-media/20260924-hdmirx-media-v2-0-c12f641d8b0f@pengutronix.de/)
 
 RK3588 Improvements (merged)
 ============================
