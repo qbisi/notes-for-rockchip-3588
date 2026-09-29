@@ -88,6 +88,7 @@ review or blocked by a missing feature.
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
 | NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | {- TODO -}     | DONE  |
 | ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-media/20260827-rkisp2-v3-0-e91ff0a604d6@ideasonboard.com/) |
+| Fish Eye Correction (FEC)    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2 for multi-core support](https://lore.kernel.org/linux-media/20260916-spu-rga3multicore-v2-0-23aa2cb74e61@pengutronix.de/) |
 | Image Enhancement Processor (IEP2) | {- TODO -} | `n/a`        | `n/a`          | `n/a`          | `n/a`          | used for deinterlacing; downstream handles it via MPP |
