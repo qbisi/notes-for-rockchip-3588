@@ -162,6 +162,7 @@ RK3588 Improvements (pending)
  * Rockchip Power Domain fixes: [PATCHv1](https://lore.kernel.org/linux-rockchip/1789733258-10133-1-git-send-email-shawn.lin@rock-chips.com/)
  * HDMI-RX pixelclock fix and input status reporting: [PATCHv1](https://lore.kernel.org/linux-media/20260921-hdmirx-fixes-v1-0-495be0beaf93@pengutronix.de/)
  * HDMI-RX bridge support: [PATCHv2](https://lore.kernel.org/linux-media/20260924-hdmirx-media-v2-0-c12f641d8b0f@pengutronix.de/)
+ * VICAP and CSI pixel format support for Y8/Y10: [PATCHv1](https://lore.kernel.org/linux-media/20261016-v4l-y8-y10-csi-vicap-v1-0-27bb87aa745d@cherry.de/)
 
 RK3588 Improvements (merged)
 ============================
