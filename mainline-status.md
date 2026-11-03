@@ -159,7 +159,7 @@ RK3588 Improvements (pending)
  * DSI Controller improvements: [PATCHv5](https://lore.kernel.org/linux-rockchip/20260914013331.108-1-kernel@airkyi.com/)
  * DFI clocks: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260917-rockchip-dfi-cleanup-v1-0-4f00a97a69a6@collabora.com/)
  * HDMI-RX pixelclock fix and input status reporting: [PATCHv1](https://lore.kernel.org/linux-media/20260921-hdmirx-fixes-v1-0-495be0beaf93@pengutronix.de/)
- * HDMI-RX bridge support: [PATCHv2](https://lore.kernel.org/linux-media/20260924-hdmirx-media-v2-0-c12f641d8b0f@pengutronix.de/)
+ * HDMI-RX bridge support: [PATCHv3](https://lore.kernel.org/linux-media/20261005-hdmirx-media-v3-0-71a11a2e3e76@pengutronix.de/)
  * VICAP and CSI pixel format support for Y8/Y10: [PATCHv2](https://lore.kernel.org/linux-media/20261102-v4l-y8-y10-csi-vicap-v2-0-0a4149d96dae@cherry.de/)
 
 RK3588 Improvements (merged)
