@@ -137,7 +137,7 @@ RK3588 Improvements (pending)
 
  * NPU: Support standalone DPU/PPU tasks and pipelined workloads: [PATCHv1](https://lore.kernel.org/linux-kernel/20260217-accel-rocket-clean-base-v1-0-d72354325a25@r-sc.ca/)
  * NPU: DVFS support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20260922080114.44662-1-royalnet026@gmail.com/)
- * PCIe System PM support: [PATCHv6](https://lore.kernel.org/linux-rockchip/20260908-rockchip-pcie-system-suspend-v6-0-fbabcca9921b@collabora.com/)
+ * PCIe System PM support: [PATCHv7](https://lore.kernel.org/linux-rockchip/20261104-rockchip-pcie-system-suspend-v7-0-6ae6875939a2@collabora.com/)
  * PCIe slot reset on link down: [PATCHv6](https://lore.kernel.org/linux-pci/20250715-pci-port-reset-v6-0-6f9cce94e7bb@oss.qualcomm.com/)
  * V4L2 stateless codec tracepoint support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20260212162328.192217-1-detlev.casanova@collabora.com/)
  * USBDP PHY fixes for DisplayPort usage - part 3: [PATCHv18](https://lore.kernel.org/linux-phy/20261021-b4-rockchip-dwc3-rockchip-glue-v18-0-60000d03fca2@collabora.com/)
