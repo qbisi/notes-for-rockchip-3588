@@ -48,15 +48,15 @@ review or blocked by a missing feature.
 |  -- HDMI 4K30 support        | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI 4K60 support        | {+ 7.5-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI FRL support         | WIP            | `n/a`          | `n/a`          | `n/a`          | `n/a`          | Fixed Rate Link is needed for resolutions above 4K60 (HDMI 2.1); PHY side has been merged for 7.0-rc1 |
-|  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {- TODO -}     |       |
+|  -- HDMI Audio               | {+ 6.15-rc1 +} | {- TODO -}     | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | sent           | [PATCHv1 for EVB1 DT](https://lore.kernel.org/linux-rockchip/20261106-rk3588-evb1-dt-updates-v1-3-bdbe16223589@collabora.com/) |
 |  -- HDMI CEC                 | {+ 6.19-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- HDMI ARC                 | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 |  -- HDCP                     | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | - eDP                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  -- eDP PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
-| - DSI                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
-|  -- DSI PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
-|  -- DSI Bridge               | {+ 6.14-rc1 +} | `n/a`          | `n/a`          | `n/a`          | {- TODO -}     |       |
+| - DSI                        | {+ 6.16-rc1 +} | `n/a`          | `n/a`          | `n/a`          | sent           | [PATCHv1 for EVB1 DT](https://lore.kernel.org/linux-rockchip/20261106-rk3588-evb1-dt-updates-v1-4-bdbe16223589@collabora.com/) |
+|  -- DSI PHY                  | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | sent           | [PATCHv1 for EVB1 DT](https://lore.kernel.org/linux-rockchip/20261106-rk3588-evb1-dt-updates-v1-4-bdbe16223589@collabora.com/) |
+|  -- DSI Bridge               | {+ 6.14-rc1 +} | `n/a`          | `n/a`          | `n/a`          | sent           | [PATCHv1 for EVB1 DT](https://lore.kernel.org/linux-rockchip/20261106-rk3588-evb1-dt-updates-v1-4-bdbe16223589@collabora.com/) |
 | - DP1.4 USB-C AltMode        | WIP            | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv11](https://lore.kernel.org/linux-rockchip/20260806-synopsys-dw-dp-improvements-v11-0-0d508505f383@collabora.com/) |
 |  -- DP Bridge                | {+ 6.18-rc1 +} | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | DONE, some DT binding updates required for proper USB-C AltMode support |
 |    -- Audio                  | sent           | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv11](https://lore.kernel.org/linux-rockchip/20260806-synopsys-dw-dp-improvements-v11-0-0d508505f383@collabora.com/) |
@@ -87,7 +87,7 @@ review or blocked by a missing feature.
 | Watchdog                     | {+ 6.4-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | Mailbox                      | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          | compatible driver since v4.6-rc1, but missing DT binding for RK3588 |
 | GPU                          | {+ 6.10-rc1 +} | {+ 6.13-rc1 +} | {+ 6.10-rc1 +} | {+ 6.16-rc1 +} | {+ 6.10-rc1 +} | DONE  |
-| NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | {- TODO -}     | DONE  |
+| NPU                          | {+ 6.18-rc1 +} | {- TODO -}     | {+ 6.18-rc1 +} | {+ 6.18-rc1 +} | sent           | [PATCHv1 for EVB1 DT](https://lore.kernel.org/linux-rockchip/20261106-rk3588-evb1-dt-updates-v1-2-bdbe16223589@collabora.com/)  |
 | ISP                          | sent           | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv3](https://lore.kernel.org/linux-media/20260827-rkisp2-v3-0-e91ff0a604d6@ideasonboard.com/) |
 | Fish Eye Correction (FEC)    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
