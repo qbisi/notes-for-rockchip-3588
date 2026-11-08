@@ -161,6 +161,7 @@ RK3588 Improvements (pending)
  * HDMI-RX bridge support: [PATCHv3](https://lore.kernel.org/linux-media/20261005-hdmirx-media-v3-0-71a11a2e3e76@pengutronix.de/)
  * VICAP and CSI pixel format support for Y8/Y10: [PATCHv2](https://lore.kernel.org/linux-media/20261102-v4l-y8-y10-csi-vicap-v2-0-0a4149d96dae@cherry.de/)
  * SPI atomic transfer support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20261106181824.1361235-1-heiko@sntech.de/)
+ * GPIO hibernation restore fix: [PATCHv2](https://lore.kernel.org/linux-rockchip/20261108-b4-gpio-rockchip-hib-v2-1-27d3d510cb73@iav.lv/)
 
 RK3588 Improvements (merged)
 ============================
