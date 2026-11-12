@@ -163,6 +163,8 @@ RK3588 Improvements (pending)
  * SPI atomic transfer support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20261106181824.1361235-1-heiko@sntech.de/)
  * GPIO hibernation restore fix: [PATCHv2](https://lore.kernel.org/linux-rockchip/20261108-b4-gpio-rockchip-hib-v2-1-27d3d510cb73@iav.lv/)
  * Generic USB-C DP-AltMode Hotplug bridge: [PATCHv8](https://lore.kernel.org/linux-rockchip/20261020072816.180-1-kernel@airkyi.com/)
+ * PCIe IOMMU runtime PM support: [PATCHv11](https://lore.kernel.org/linux-pci/20260929034510.2023173-1-praan@google.com/)
+ * PCIe IOMMU clock support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20261112-smmu-v3-pcie-pd-v2-0-3a77bbb6b2c4@gmail.com/)
 
 RK3588 Improvements (merged)
 ============================
