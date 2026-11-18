@@ -92,7 +92,7 @@ review or blocked by a missing feature.
 | Fish Eye Correction (FEC)    | {- TODO -}     | `n/a`          | `n/a`          | `n/a`          | `n/a`          |       |
 | RGA2                         | {+ 6.12-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 | RGA3                         | {+ 7.2-rc1 +}  | `n/a`          | `n/a`          | `n/a`          | `n/a`          | [PATCHv2 for multi-core support](https://lore.kernel.org/linux-media/20260916-spu-rga3multicore-v2-0-23aa2cb74e61@pengutronix.de/) |
-| Image Enhancement Processor (IEP2) | {- TODO -} | `n/a`        | `n/a`          | `n/a`          | `n/a`          | used for deinterlacing; downstream handles it via MPP |
+| Image Enhancement Processor (IEP2) | sent     | `n/a`        | `n/a`          | `n/a`          | `n/a`          | [PATCHv1](https://lore.kernel.org/linux-media/20261114-iep2-v1-0-a8edde5a21e1@gmail.com/) |
 | HDMI Input                   | {+ 6.15-rc1 +} | `n/a`          | {+ 6.15-rc1 +} | {+ 6.16-rc1 +} | {+ 6.17-rc1 +} |       |
 |  - CEC                       | {+ 6.15-rc1 +} | `n/a`          | `n/a`          | `n/a`          | `n/a`          | DONE  |
 |  - Audio                     | {+ 7.4-rc1 +}  | `n/a`          | {- TODO -}     | {- TODO -}     | {- TODO -}     | [PATCHv4](https://lore.kernel.org/linux-media/20260721064115.64809-1-royalnet026@gmail.com/) (DT side still missing) |
