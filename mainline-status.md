@@ -163,6 +163,7 @@ RK3588 Improvements (pending)
  * PCIe IOMMU clock support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20261112-smmu-v3-pcie-pd-v2-0-3a77bbb6b2c4@gmail.com/)
  * VOP2 clocking, sync polarity and window fixes: [PATCHv4](https://lore.kernel.org/linux-rockchip/20261119-vop2-fixes-v4-0-4b8f5e7148c9@gmail.com/)
  * Pair different USB controllers for USB2 and USB3: [PATCHv6](https://lore.kernel.org/linux-usb/20261119-usb-port-pairing-v6-0-32bd7e36e426@gmail.com/)
+ * RK3588 HDMI interlaced support: [PATCHv1](https://lore.kernel.org/linux-rockchip/20261119-rk3588-interlace-v1-0-993212e389cd@gmail.com/)
 
 RK3588 Improvements (merged)
 ============================
