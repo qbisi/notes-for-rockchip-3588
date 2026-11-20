@@ -161,6 +161,7 @@ RK3588 Improvements (pending)
  * Generic USB-C DP-AltMode Hotplug bridge: [PATCHv8](https://lore.kernel.org/linux-rockchip/20261020072816.180-1-kernel@airkyi.com/)
  * PCIe IOMMU runtime PM support: [PATCHv11](https://lore.kernel.org/linux-pci/20260929034510.2023173-1-praan@google.com/)
  * PCIe IOMMU clock support: [PATCHv2](https://lore.kernel.org/linux-rockchip/20261112-smmu-v3-pcie-pd-v2-0-3a77bbb6b2c4@gmail.com/)
+ * VOP2 clocking, sync polarity and window fixes: [PATCHv4](https://lore.kernel.org/linux-rockchip/20261119-vop2-fixes-v4-0-4b8f5e7148c9@gmail.com/)
 
 RK3588 Improvements (merged)
 ============================
